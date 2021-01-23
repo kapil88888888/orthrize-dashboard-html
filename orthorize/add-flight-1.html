@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Search Flight</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-plane-departure"></i>
+                                    <span class="title">Flight</span>
+                                </a>
+                                <div class="sub-menu position-absolute">
+                                    <div class="sub-menu-list position-relative">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="javascript:void(0)">Search Flight</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-hotel"></i>
+                                    <span class="title">Hotel</span>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-train"></i>
+                                    <span class="title">Rail</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-car"></i>
+                                    <span class="title">Car</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-luggage-cart"></i>
+                                    <span class="title">Trips & Approval</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-award"></i>
+                                    <span class="title">Rewards</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span class="title">Reports</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                <div class="row mb_30">
+                    <div class="col-xl-12 col-lg-12 col-sm-12 col-md-12 col-12">
+                        <div class="quick-option">
+                            <div class="quick-option-grid raleway-font">
+                                <a href="#" class="quick-item text-center">
+                                    <div class="icon d-table">
+                                        <div class="d-table-cell">
+                                            <img src="img/flight-ico.png" alt="" title=""/>
+                                        </div>
+                                    </div>
+                                    <h3>Add Flight</h3>
+                                </a>
+
+                                <a href="#" class="quick-item text-center">
+                                    <div class="icon d-table">
+                                        <div class="d-table-cell">
+                                            <img src="img/hotel-ico.png" alt="" title=""/>
+                                        </div>
+                                    </div>
+                                    <h3>Add Hotel</h3>
+                                </a>
+
+                                <a href="#" class="quick-item text-center">
+                                    <div class="icon d-table">
+                                        <div class="d-table-cell">
+                                            <img src="img/rail-ico.png" alt="" title=""/>
+                                        </div>
+                                    </div>
+                                    <h3>Add Rail</h3>
+                                </a>
+
+                                <a href="#" class="quick-item text-center">
+                                    <div class="icon d-table">
+                                        <div class="d-table-cell">
+                                            <img src="img/taxi-ico.png" alt="" title=""/>
+                                        </div>
+                                    </div>
+                                    <h3>Add Car Hire</h3>
+                                </a>
+
+                                <a href="#" class="quick-item text-center">
+                                    <div class="icon d-table">
+                                        <div class="d-table-cell">
+                                            <img src="img/currency-ico.png" alt="" title=""/>
+                                        </div>
+                                    </div>
+                                    <h3>Add Currency</h3>
+                                </a>
+
+                                <a href="#" class="quick-item text-center">
+                                    <div class="icon d-table">
+                                        <div class="d-table-cell">
+                                            <img src="img/visa-ico.png" alt="" title=""/>
+                                        </div>
+                                    </div>
+                                    <h3>Add Visa</h3>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-stretch mb_20">
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="white-wrapper wrapper-shadow br-5">
+                            <div class="p_15">
+                                <div class="wrapper-title raleway-font">
+                                    <h2 class="mb_15">Add Flight</h2>
+                                </div>
+                                <form class="roboto-font custom-form">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="">Policy</label>
+                                                <select class="form-control">
+                                                    <option>Select Policy</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="">Journey Type</label>
+                                                <select class="form-control">
+                                                    <option>Journey Type</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="">Origin</label>
+                                                <div class="">
+                                                    <input type="text" id="" class="form-control" placeholder="Enter Origin"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="">Destination</label>
+                                                <div class="">
+                                                    <input type="text" id="" class="form-control" placeholder="Enter Destination"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="d_date">Departure Date</label>
+                                                <div class="c-icon position-relative">
+                                                    <input type="text" id="to" class="form-control" placeholder="Select Date"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group select-traveller">
+                                                <label for="d_date">Select Traveller</label>
+                                                <span class="d-block" id="select-traveller-toggle">1 Adults, 1 Child,</span>
+                                                <div class="traveller-select-menu">
+                                                    <a href="javascript:void(0)" class="close">&times;</a>
+                                                    <div class="traveller-select-menu-inner">
+                                                        <div class="adult-wrapper mb_10">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <div>
+                                                                    <h4>Adults</h4>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="add-minus d-flex align-items-center justify-content-between">
+                                                                        <div class="mr-2">
+                                                                            <a href="#" class="decrement">
+                                                                                <i class="fas fa-minus"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="mr-2"><span class="total-traveller">2</span></div>
+                                                                        <div>
+                                                                            <a href="#" class="increment">
+                                                                                <i class="fas fa-plus"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                        </div><!--adult wrapper ends here-->
+    
+                                                        <div class="child-wrapper mb_10">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <div>
+                                                                    <h4>Children</h4>
+                                                                    <small>Age(2-17)</small>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="add-minus d-flex align-items-center justify-content-between">
+                                                                        <div class="mr-2">
+                                                                            <a href="#" class="decrement">
+                                                                                <i class="fas fa-minus"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="mr-2"><span class="total-traveller">0</span></div>
+                                                                        <div>
+                                                                            <a href="#" class="increment">
+                                                                                <i class="fas fa-plus"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- <div class="row select-traveller-more">
+                                                                <div class="col-md-6">
+                                                                    <label>Child 1 Age</label>
+                                                                    <select class="form-control">
+                                                                        <option>Age</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div> -->
+                                                        </div><!--child wrapper ends here-->
+    
+                                                        <div class="infant-wrapper">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <div>
+                                                                    <h4>Infants</h4>
+                                                                    <small>Age under 2</small>
+                                                                </div>
+                                                                <div>
+                                                                    <div class="add-minus d-flex align-items-center justify-content-between">
+                                                                        <div class="mr-2">
+                                                                            <a href="#" class="decrement">
+                                                                                <i class="fas fa-minus"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="mr-2"><span class="total-traveller">0</span></div>
+                                                                        <div>
+                                                                            <a href="#" class="increment">
+                                                                                <i class="fas fa-plus"></i>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- <div class="row select-traveller-more">
+                                                                <div class="col-md-6">
+                                                                    <label>Infant 1 Age</label>
+                                                                    <select class="form-control">
+                                                                        <option>Age</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div> -->
+                                                        </div><!--infants wrapper ends here-->
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="">Class of Travel</label>
+                                                <select class="form-control">
+                                                    <option>Select Class of Travel</option>
+                                                </select>
+                                            </div>
+                                        </div> -->
+                                        
+                                    </div><!--row ends here-->
+                                    <div class="row mb_20">
+                                        <div class="col-md-6 offset-md-6">
+                                            <div class="show-direct-flight">
+                                                <input type="checkbox" id="direct-flight" name="show-direct-flight">
+                                                <label for="direct-flight">Show Direct Flight</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb10">
+                                        <div class="col-12">
+                                           <div class="additional-search">
+                                            <a href="#" class=""><i class="fas fa-plus-circle mr-1"></i> Additional Search Option</a>
+                                           </div>
+                                        </div>
+                                      </div>
+                                </form>
+
+                                
+                            </div>
+
+                            <div class="bg-light-gray mb_10">
+                                <div class="p_15">
+                                    <form class="custom-form">
+                                        <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                <div class="form-group">
+                                                    <label for="currency">Currency</label>
+                                                    <select class="form-control">
+                                                        <option>Select Currency</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                <div class="form-group">
+                                                    <label for="currency">Country</label>
+                                                    <select class="form-control">
+                                                        <option>Select Country</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                <div class="form-group">
+                                                    <label for="currency">Preferred Airline</label>
+                                                    <input type="text" class="form-control" placeholder="Enter Preferred Airline">
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                <div class="form-group">
+                                                    <label for="currency">Class</label>
+                                                    <select class="form-control">
+                                                        <option>Select Class</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div><!--row ends here-->
+                                        
+                                    </form>
+                                </div>
+                                
+                            </div>
+
+                            <div class="">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="custom-checkbox">
+                                        <div class="show-direct-flight">
+                                            <input type="checkbox" id="send_traveller_arranger" name="Send to traveller arranger">
+                                            <label for="send_traveller_arranger">Send To Travel Arranger</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="search-button-wrapper mt_20 mb_20 text-center">
+                                        <button type="button" class="btn-orange raleway-font text-uppercase">Search Flight</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="white-wrapper wrapper-shadow br-5">
+                            <div class="p_15">
+                                <div class="wrapper-title raleway-font">
+                                    <h2 class="mb_15">Trip Detail</h2>
+                                </div>
+
+                                <div class="trip-detail-wrapper roboto-font">
+                                    <div class="row align-items-center mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div><h3 class="trip-detail-label">Employee Name</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">Gaurav Thakur</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                    <div class="row align-items-center mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div><h3 class="trip-detail-label">Trip Period</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">28 Jan 2019 To 14 Feb 2019</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                    <div class="row align-items-center mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div><h3 class="trip-detail-label">Trip Type</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">Official</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                    <div class="row align-items-center mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div><h3 class="trip-detail-label">Destination</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">Bali</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                    <div class="row align-items-center mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div><h3 class="trip-detail-label">Traveller</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">2</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                    <div class="row mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-start justify-content-between">
+                                                <div><h3 class="trip-detail-label">Remarks</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum est omnis possimus mollitia maxime harum, quae facere tempore illo adipisci, dolore quasi doloremque vitae quaerat iste? At minus dolores rerum.</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div><!--row ends here-->
+
+                <div class="row justify-content-center">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="search-button-wrapper mt_20 mb_20 text-center">
+                            <button type="button" class="btn-blue raleway-font text-uppercase mr-2">Send for Approval</button>
+                        </div>
+                    </div>
+                </div><!--row ends here-->
+
+            </div>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Admin Dashboard</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <a href="#" class="toggle-sidebar d-block d-sm-block d-md-none">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Flight
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-hotel"></i></span>
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-train"></i></span>
+                                    Rail
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-car"></i></span>
+                                    Car
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Trip
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt font-18"></i>
+                                    <span class="title">Dashboard</span>
+                                </a>
+                              
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <img class="normal-icon" src="img/user-manager.png" />
+                                    <img class="active-icon" src="img/user-manager-active.png" />
+                                    <span class="title">User Manager</span>
+                                </a>
+                              
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/trip.png" />
+                                    <img class="active-icon" src="img/trip-active.png" />
+                                    <span class="title">Trips</span>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/customer.png" />
+                                    <img class="active-icon" src="img/customer-active.png" />
+                                    <span class="title">Customer Notes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/reward.png" />
+                                    <img class="active-icon" src="img/reward-active.png" />
+                                    <span class="title">Manage Rewards</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/travel-policy.png" />
+                                    <img class="active-icon" src="img/travel-policy-active.png" />
+                                    <span class="title">Travel Policy </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/master.png" />
+                                    <img class="active-icon" src="img/master-active.png" />
+                                    <span class="title">Masters</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/content-manager.png" />
+                                    <img class="active-icon" src="img/content-manager-active.png" />
+                                    <span class="title">Content Manager</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-cogs font-18"></i>
+                                    <span class="title">General Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/contact-form.png" />
+                                    <img class="active-icon" src="img/contact-form-active.png" />
+                                    <span class="title">Contact Form</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                <div class="row align-items-stretch mb_20">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20 custom-form">
+                            <div class="p_15">
+                                <div class="row mb_20">
+                                    <div class="col-md-12">
+                                        <div class="wrapper-title raleway-font">
+                                            <h2 class="mb_0">Travel Policy Setting For Professional Accounts</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h5 class="head-main mb-2">Travel Policy/Approved Travel</h5>
+                                        <p class="font-w500 op7 mb-1 mt-3">Which of the Following types of travel are your team able to Book/View </p>
+                                    </div>
+                                </div>
+                              <div class="row mt-1">
+                                  <div class="col-md-12">
+                                    <div class="table-responsive">
+                                        <table class="table custom-table roboto-font mb_0 border">
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center">Travel Services</th>
+                                                    <th>Viewable</th>
+                                                    <th>Bookable</th>
+                                               
+    
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center">Flight</td>
+                                                    <td>
+                                                        <div class="custom-checkbox">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="viwer1" name="Send to traveller arranger" checked="">
+                                                                
+                                                                <label for="viwer1">&nbsp;</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="bookable" name="Send to traveller arranger" checked="">
+                                                                
+                                                                <label for="bookable">&nbsp;</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center">Flight</td>
+                                                    <td>
+                                                        <div class="custom-checkbox">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="viwer2" name="Send to traveller arranger" checked="">
+                                                                
+                                                                <label for="viwer2">&nbsp;</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="bookable1" name="Send to traveller arranger" checked="">
+                                                                
+                                                                <label for="bookable1">&nbsp;</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                          
+                                        
+                                               
+                                               
+                                              
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="row mt-4">
+                                <div class="col-sm-12">
+                                    <h5 class="head-main mb-2">Travel Policy/Set Notifications Limit</h5>
+                                    <p class="font-w500 op7 mb-2 mt-3">Would you like staff to add a note to their manager if they spend over a given amount, to explain why this was necessary?</p>
+                                    <div class="book-as-option d-flex align-items-center mt-2 mb-3">
+                                        <div class="option self">
+                                            <input type="radio" id="yes" name="radio-group" checked="">
+                                            <label for="yes">Yes</label>
+                                        </div>
+                                        <div class="option other_user">
+                                            <input type="radio" id="no" name="radio-group">
+                                            <label for="no">No</label>
+                                        </div>
+                                    </div>
+                                    <p class="font-w500 op7 mb-1 mt-2">Please set the maximum amount a colleague can spend on each of the following before they must add a note explaining the price to their 
+                                        manager</p>
+                                </div>
+                              </div>
+                              <div class="row mt-1">
+                                <div class="col-md-12">
+                                  <div class="table-responsive">
+                                      <table class="table custom-table roboto-font mb_0 border">
+                                          <thead>
+                                              <tr>
+                                                  <th class="text-center">Travel Services</th>
+                                                  <th>Viewable</th>
+                                                  <th >Bookable</th>
+                                             
+  
+                                              </tr>
+                                          </thead>
+                                          <tbody>
+                                              <tr>
+                                                  <td class="text-center">Flights (Long Haul)</td>
+                                                  <td>10,000 </td>
+                                                  <td>14,000 </td>
+                                              </tr>
+                                              <tr>
+                                                <td class="text-center">Flights (Short Haul)</td>
+                                                <td>10,000 </td>
+                                                <td>14,000 </td>
+                                             </tr>
+                                             <tr>
+                                                <td class="text-center">Rail (Per Ticket)</td>
+                                                <td>10,000 </td>
+                                                <td>20,000 </td>
+                                             </tr>
+                                             <tr>
+                                                <td class="text-center">Car Hire (Per Day)</td>
+                                                <td>10,000 </td>
+                                                <td>20,000 </td>
+                                             </tr>
+                                           
+                                          </tbody>
+                                      </table>
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 align-items-center">
+                                
+                                <div class="col-md-3">
+                                    <div class="form-group custom-form">
+                                        <label>Set Flights Long Haul Limit(In Hours)</label>
+                                        <select class="form-control">
+                                            <option>Select House</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="row mt-4 mb-4">
+                                <div class="col-sm-12">
+                                    <h5 class="head-main mb-2">Travel Policy/Set Restrictions on Country</h5>
+                                    <p class="font-w500 op7 mb-1 mt-3">Would you like restrict travel to certain Countries?</p>
+                                    <div class="book-as-option mt-2 mb-3">
+                                        <div class="custom-checkbox mt-3">
+                                            <div class="show-direct-flight ">
+                                                <input type="checkbox" id="tno" name="Send to traveller arranger" checked="">
+                                                
+                                                <label for="tno">No</label>
+                                            </div>
+                                        </div>
+                                        <div class="custom-checkbox mt-3">
+                                            <div class="show-direct-flight ">
+                                                <input type="checkbox" id="tny" name="Send to traveller arranger" checked="">
+                                                
+                                                <label for="tny">Yes</label>
+                                            </div>
+                                        </div>
+                                        <div class="custom-checkbox mt-3">
+                                            <div class="show-direct-flight ">
+                                                <input type="checkbox" id="tnl" name="Send to traveller arranger" checked="">
+                                                
+                                                <label for="tnl">I would like to permit travel to all countries but automatically  triger a note to the user’s manger if they travel to named countries. </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="font-w500 op7 mb-1 mt-4">Please add the countries that should be restricted.</p>
+                                    <div class="d-md-flex country-list mt-3">
+                                        <div class="forrm-control">
+                                            <input type="text" class="form-control" placeholder="Write A Country Name"/>
+                                        </div>
+                                          <a href="#" class="theme_anchor"><i class="fas fa-plus-circle mr-1"></i></a>
+                                          <div>
+                                            <ul class="list-group">
+                                                <li class="list-group-item">India <a href="#" class="d-inline float-right fas fa-minus-circle red"></a></li>
+                                                <li class="list-group-item">Srilanka</li>
+                                                <li class="list-group-item">United States</li>
+                                                <li class="list-group-item">United States</li>
+                                                <li class="list-group-item">United States</li>
+                                                <li class="list-group-item">United States</li>
+                                              </ul>
+                                          </div>
+                                      </div>
+                               </div>
+                            </div>
+                             <hr/>
+                             <div class="row mt-4">
+                                <div class="col-sm-12">
+                                    <h5 class="head-main mb-2">Travel Policy/Set note if within X days of travel</h5>
+                                    <p class="font-w500 op7 mb-2 mt-3">Would you like to automatically trigger a note to a line manager if fewer than x days remain before a booking takes place?</p>
+                                    <div class="book-as-option d-flex align-items-center mt-2 mb-3">
+                                        <div class="option self">
+                                            <input type="radio" id="yes1" name="radio-group" checked="">
+                                            <label for="yes1">Yes</label>
+                                        </div>
+                                        <div class="option other_user">
+                                            <input type="radio" id="no1" name="radio-group">
+                                            <label for="no1">No</label>
+                                        </div>
+                                    </div>
+                                    <p class="font-w500 op7 mb-1 mt-3">Please specify the number of days, below which a note should be sent to the user’s line manager?</p>
+                                    <div class="row mt-2">
+                                        <div class="col-md-2">
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>Select No. of Days</option>
+                                                </select>
+                                             </div>
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+                              </div>
+                              <hr/>
+                              <div class="row mt-4">
+                                <div class="col-sm-12">
+                                    <h5 class="head-main mb-2">Travel Policy/Block no refundable rates</h5>
+                                    <p class="font-w500 op7 mb-2 mt-3">Would you like to block non refundable rates?</p>
+                                    <div class="book-as-option d-flex align-items-center mt-2 mb-1">
+                                        <div class="option self">
+                                            <input type="radio" id="yesk" name="radio-group" checked="">
+                                            <label for="yesk">Yes</label>
+                                        </div>
+                                        <div class="option other_user">
+                                            <input type="radio" id="nok" name="radio-group">
+                                            <label for="nok">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <hr/>
+                              <div class="row mt-4">
+                                <div class="col-sm-12">
+                                    <h5 class="head-main mb-2">Travel Policy/Car hire Category restrictions</h5>
+                                    <p class="font-w500 op7 mb-2 mt-3">Please select which of the following categories of car hire are permitted.</p>
+                                    <div class="row">
+                                        <div class="col-md-2">
+                                            <div class="book-as-option mt-2 mb-1">
+                                                <div class="custom-checkbox mt-3">
+                                                    <div class="show-direct-flight ">
+                                                        <input type="checkbox" id="policy1" name="Send to traveller arranger" checked="">
+                                                        
+                                                        <label for="policy1">Mini</label>
+                                                    </div>
+                                                </div>
+                                                <div class="custom-checkbox mt-3">
+                                                    <div class="show-direct-flight ">
+                                                        <input type="checkbox" id="policy2" name="Send to traveller arranger" checked="">
+                                                        
+                                                        <label for="policy2">Economy</label>
+                                                    </div>
+                                                </div>
+                                                <div class="custom-checkbox mt-3">
+                                                    <div class="show-direct-flight ">
+                                                        <input type="checkbox" id="policy3" name="Send to traveller arranger" checked="">
+                                                        <label for="policy3">Compact</label>
+                                                    </div>
+                                                </div>
+                                                <div class="custom-checkbox mt-3">
+                                                    <div class="show-direct-flight ">
+                                                        <input type="checkbox" id="policy4" name="Send to traveller arranger" checked="">
+                                                        <label for="policy4">Intermediate</label>
+                                                    </div>
+                                                </div>
+                                                <div class="custom-checkbox mt-3">
+                                                    <div class="show-direct-flight ">
+                                                        <input type="checkbox" id="policy5" name="Send to traveller arranger" checked="">
+                                                        <label for="policy5">Standard</label>
+                                                    </div>
+                                                </div>
+                                                <div class="custom-checkbox mt-3">
+                                                    <div class="show-direct-flight ">
+                                                        <input type="checkbox" id="policy6" name="Send to traveller arranger" checked="">
+                                                        <label for="policy6">Premium</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="book-as-option mt-2 mb-1">
+                                                <div class="custom-checkbox mt-3">
+                                                    <div class="show-direct-flight ">
+                                                        <input type="checkbox" id="policy7" name="Send to traveller arranger" checked="">
+                                                        
+                                                        <label for="policy7">Intermediate VAN</label>
+                                                    </div>
+                                                </div>
+                                                <div class="custom-checkbox mt-3">
+                                                    <div class="show-direct-flight ">
+                                                        <input type="checkbox" id="policy8" name="Send to traveller arranger" checked="">
+                                                        
+                                                        <label for="policy8">Intermediate SUV</label>
+                                                    </div>
+                                                </div>
+                                                <div class="custom-checkbox mt-3">
+                                                    <div class="show-direct-flight ">
+                                                        <input type="checkbox" id="policy9" name="Send to traveller arranger" checked="">
+                                                        <label for="policy9">Standard SUV</label>
+                                                    </div>
+                                                </div>
+                                                <div class="custom-checkbox mt-3">
+                                                    <div class="show-direct-flight ">
+                                                        <input type="checkbox" id="policy10" name="Send to traveller arranger" checked="">
+                                                        <label for="policy10">Full Size SUV</label>
+                                                    </div>
+                                                </div>
+                                                <div class="custom-checkbox mt-3">
+                                                    <div class="show-direct-flight ">
+                                                        <input type="checkbox" id="policy11" name="Send to traveller arranger" checked="">
+                                                        <label for="policy11">Special</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <hr/>
+                              <div class="row mt-4">
+                                <div class="col-sm-12">
+                                    <h5 class="head-main mb-2">Travel Policy/Rail Class Restrictions</h5>
+                                    <p class="font-w500 op7 mb-2 mt-3">Please select whether first class rail travel is permitted?</p>
+                                    <div class="book-as-option d-flex align-items-center mt-2 mb-1">
+                                        <div class="option self">
+                                            <input type="radio" id="yes2" name="radio-group" checked="">
+                                            <label for="yes2">Yes</label>
+                                        </div>
+                                        <div class="option other_user">
+                                            <input type="radio" id="no2" name="radio-group">
+                                            <label for="no2">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <hr/>
+                              <div class="row mt-4">
+                                <div class="col-sm-12">
+                                    <h5 class="head-main mb-2">Travel Policy/Display non qualifying inventory?</h5>
+                                    <p class="font-w500 op7 mb-2 mt-3">Would you like to display travel options which are blocked by your policy?</p>
+                                    <div class="book-as-option d-flex align-items-center mt-2 mb-1">
+                                        <div class="option self">
+                                            <input type="radio" id="yes3" name="radio-group" checked="">
+                                            <label for="yes3">Yes</label>
+                                        </div>
+                                        <div class="option other_user">
+                                            <input type="radio" id="no3" name="radio-group">
+                                            <label for="no3">No</label>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <hr/>
+                              <div class="row mt-4">
+                                <div class="col-sm-12">
+                                    <h5 class="head-main mb-2">Travel Policy/Restrict flight cabin options</h5>
+                                    <p class="font-w500 op7 mb-2 mt-3">Please select whether you permit each of the following cabin options and add a minimum flight time if you wish to restrict it to flights over this duration.</p>
+                                    <div class="row align-items-center mt-4">
+                                        <div class="col-md-6">
+                                            <div class="custom-checkbox">
+                                                <div class="show-direct-flight ">
+                                                    <input type="checkbox" id="travelPolicy1" name="Send to traveller arranger" checked="">
+                                                    <label for="travelPolicy1">We permit premium economy. Restricted to flights over </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group1">
+                                                <select class="form-control">
+                                                    <option>Select Restricted Hours </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col-md-6">
+                                            <div class="custom-checkbox">
+                                                <div class="show-direct-flight ">
+                                                    <input type="checkbox" id="travelPolicy1" name="Send to traveller arranger" checked="">
+                                                    <label for="travelPolicy1">We permit business class. Restricted to flights over </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group1">
+                                                <select class="form-control">
+                                                    <option>Select Restricted Hours </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row align-items-center mt-3">
+                                        <div class="col-md-6">
+                                            <div class="custom-checkbox">
+                                                <div class="show-direct-flight ">
+                                                    <input type="checkbox" id="travelPolicy1" name="Send to traveller arranger" checked="">
+                                                    <label for="travelPolicy1">We permit First class. Restricted to flights over </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3">
+                                            <div class="form-group1">
+                                                <select class="form-control">
+                                                    <option>Select Restricted Hours </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="row mt-3">
+                                  <div class="col-md-12">
+                                      <a href="#" class="default-anchor"><i class="fas fa-info-circle mr-1 theme-text"></i> Help</a>
+                                  </div>
+                              </div>
+
+
+                                
+                              
+                             
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <div class="search-button-wrapper mt_20 mb_20 text-center">
+                                    <button type="button" class="btn-orange raleway-font text-uppercase mr-1 ml-1">Save</button>
+                                   
+                                    <button type="button mr-1 ml-1" class="btn-custom-outline raleway-font text-uppercase">REJECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--row ends here-->
+
+             
+
+            </div>
+        
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

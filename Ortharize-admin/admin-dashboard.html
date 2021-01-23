@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Admin | Dashboard</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <a href="#" class="toggle-sidebar d-block d-sm-block d-md-none">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Flight
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-hotel"></i></span>
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-train"></i></span>
+                                    Rail
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-car"></i></span>
+                                    Car
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Trip
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="position-relative">
+                <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                    <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                        <div class="wraplist">
+                            <ul class="list-unstyled">
+                                <li class="sidebar-list position-relative">
+                                    <a href="#">
+                                        <i class="fas fa-tachometer-alt font-18"></i>
+                                        <span class="title">Dashboard</span>
+                                    </a>
+                                  
+                                </li>
+                                <li class="sidebar-list position-relative">
+                                    <a href="#">
+                                        <img class="normal-icon" src="img/user-manager.png">
+                                        <img class="active-icon" src="img/user-manager-active.png">
+                                        <span class="title">User Management</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-list position-relative">
+                                    <a href="#">
+                                        <img class="normal-icon" src="img/subscription-manager.png">
+                                        <img class="active-icon" src="img/subscription-manager-active.png">
+                                        <span class="title">Subscription Manager</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-list position-relative">
+                                    <a href="#">
+                                        <img class="normal-icon" src="img/content-manager.png">
+                                        <img class="active-icon" src="img/content-manager-active.png">
+                                        <span class="title">Content Manager</span>
+                                    </a>
+                                </li>
+                                <li class="sidebar-list position-relative">
+                                    <a href="#">
+                                        <i class="fas fa-cogs font-18"></i>
+                                        <span class="title">Admin Settings</span>
+                                    </a>
+                                </li>
+    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                <div class="row mb_20">
+                    <div class="col-12 col-lg-6 col-xl-4">
+                        <div class="card card-purple-gradient card-bg">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center card-heading">
+                                    <div class="card-icon mr-3">
+                                        <img src="img/total-revenue-icon.png" alt="" title=""/>
+                                    </div>
+                                    <div>
+                                        <h6 class="raleway-font">Revenue MTD</h6>
+                                        <h2>21364</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-4">
+                        <div class="card card-blue-gradient card-bg">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center card-heading">
+                                    <div class="card-icon mr-3">
+                                        <i class="fas fa-building text-white fa-2x mt-3"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="raleway-font">Total Companies</h6>
+                                        <h2>728176</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-4">
+                        <div class="card card-light-blue-gradient card-bg">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center card-heading">
+                                    <div class="card-icon mr-3">
+                                        <i class="fas fa-users text-white fa-2x mt-3"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="raleway-font">Total Customers</h6>
+                                        <h2>984720</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-4">
+                        <div class="card card-light-orange-gradient card-bg">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center card-heading">
+                                    <div class="card-icon mr-3">
+                                        <img src="img/total-revenue-last-icon.png" alt="" title=""/>
+                                    </div>
+                                    <div>
+                                        <h6 class="raleway-font">Revenue Last Month</h6>
+                                        <h2>82650</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-4">
+                        <div class="card card-light-green-gradient card-bg">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center card-heading">
+                                    <div class="card-icon mr-3">
+                                        <img src="img/total-new-companies-icon.png" alt="" title=""/>
+                                    </div>
+                                    <div>
+                                        <h6 class="raleway-font">New Company MTD</h6>
+                                        <h2>680235</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 col-xl-4">
+                        <div class="card card-light-yellow-gradient card-bg">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center card-heading">
+                                    <div class="card-icon mr-3">
+                                        <i class="fas fa-user-plus text-white fa-2x mt-3"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="raleway-font">New Users MTD</h6>
+                                        <h2>6410938</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div><!--row ends here-->
+
+                <div class="row mb_20">
+                    <div class="col-12 col-xl-8 col-lg-6 col-md-6 col-sm-6">
+                        <div class="white-wrapper wrapper-shadow br-5">
+                            <div class="dashboard-heading border-bottom p_15">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <h3 class="mb_0">Booking Performance</h3>
+                                    </div>
+                                    <div>
+                                        <div class="custom-form">
+                                            <div class="mb_0">
+                                                <div class="c-icon position-relative">
+                                                    <input type="text" class="form-control" placeholder="Select Month"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-content p_15">
+                                <div class="chart-container" style="position: relative;">
+                                    <canvas id="lineChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                        <div class="white-wrapper wrapper-shadow br-5">
+                            <div class="dashboard-heading border-bottom p_15">
+                                <div class="d-flex aling-items-center justify-content-between">
+                                    <div>
+                                        <h3>Notes</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-content p_15">
+                                <div class="notes-wrapper">
+                                    <ul class="list-unstyled">
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </li>
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </li>
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </li>
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </li>
+                                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div><!--row ends here-->
+
+                <div class="row mb_20">
+                    <div class="col-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <div class="white-wrapper wrapper-shadow br-5">
+                            <div class="dashboard-heading border-bottom p_15">
+                                <div class="d-flex aling-items-center justify-content-between">
+                                    <div>
+                                        <h3>Top Performers</h3>
+                                    </div>
+                                    <div>
+                                        <a href="#"><i class="fas fa-cog"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-content">
+                                <div class="table-responsive">
+                                    <table class="table custom-table roboto-font mb_0">
+                                        <thead>
+                                            <tr>
+                                                <th>organization name <span class="sort position-relative active"></span></th>
+                                                <th>Bookings made MTD <span class="sort position-relative"></span></th>
+                                                <th>Bookings made last month <span class="sort position-relative"></span></th>
+                                                <th>Revenue MTD <span class="sort position-relative"></span></th>
+                                                <th>Revenue last Month <span class="sort position-relative"></span></th>
+                                                <th>Action</th>
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Enuke Software</td>
+                                                <td>187237</td>
+                                                <td>982517</td>
+                                                <td>902718</td>
+                                                <td>528190</td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#"><i class="fas green fa-eye"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Sidedriver</td>
+                                                <td>187237</td>
+                                                <td>982517</td>
+                                                <td>902718</td>
+                                                <td>528190</td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#"><i class="fas green fa-eye"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Travel Delight</td>
+                                                <td>187237</td>
+                                                <td>982517</td>
+                                                <td>902718</td>
+                                                <td>528190</td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#"><i class="fas green fa-eye"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Spreadingtrips</td>
+                                                <td>187237</td>
+                                                <td>982517</td>
+                                                <td>902718</td>
+                                                <td>528190</td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#"><i class="fas green fa-eye"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Alcabana</td>
+                                                <td>187237</td>
+                                                <td>982517</td>
+                                                <td>902718</td>
+                                                <td>528190</td>
+                                                <td>
+                                                    <div class="d-flex justify-content-center">
+                                                        <a href="#"><i class="fas green fa-eye"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!--row ends here-->
+
+                <div class="row mb_20">
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="white-wrapper wrapper-shadow br-5">
+                            <div class="dashboard-heading border-bottom p_15">
+                                <div class="d-flex align-items-center justify-content-between">
+                                    <div>
+                                        <h3 class="mb_0">Top Destinations</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="destination-wrapper">
+                                <div class="top-dest-list">
+                                    <ul class="list-unstyled">
+                                        <li class="border-bottom-dashed p_15">
+                                            <div class="d-flex align-items-center">
+                                                <div class="dest-ico mr-3">
+                                                    <img src="img/dest-icon.png" alt="" title=""/>
+                                                </div>
+                                                <div class="dest-content">
+                                                    <h3>London, United Kingdom</h3>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom-dashed p_15">
+                                            <div class="d-flex align-items-center">
+                                                <div class="dest-ico mr-3">
+                                                    <img src="img/dest-icon.png" alt="" title=""/>
+                                                </div>
+                                                <div class="dest-content">
+                                                    <h3>New York, United States of America</h3>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom-dashed p_15">
+                                            <div class="d-flex align-items-center">
+                                                <div class="dest-ico mr-3">
+                                                    <img src="img/dest-icon.png" alt="" title=""/>
+                                                </div>
+                                                <div class="dest-content">
+                                                    <h3>Capetown, South Africa</h3>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom-dashed p_15">
+                                            <div class="d-flex align-items-center">
+                                                <div class="dest-ico mr-3">
+                                                    <img src="img/dest-icon.png" alt="" title=""/>
+                                                </div>
+                                                <div class="dest-content">
+                                                    <h3>New Delhi, India</h3>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="border-bottom-dashed p_15">
+                                            <div class="d-flex align-items-center">
+                                                <div class="dest-ico mr-3">
+                                                    <img src="img/dest-icon.png" alt="" title=""/>
+                                                </div>
+                                                <div class="dest-content">
+                                                    <h3>Paris, France</h3>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="p_15">
+                                            <div class="d-flex align-items-center">
+                                                <div class="dest-ico mr-3">
+                                                    <img src="img/dest-icon.png" alt="" title=""/>
+                                                </div>
+                                                <div class="dest-content">
+                                                    <h3>Moscow, Russia</h3>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                        <div class="white-wrapper wrapper-shadow br-5">
+                            <div class="dashboard-heading border-bottom p_15">
+                                <div class="d-flex aling-items-center justify-content-between">
+                                    <div>
+                                        <h3>Top Subscriptions Used</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dashboard-content p_15">
+                                <div class="subscription-chart">
+                                    <div class="chart-container" style="position: relative;">
+                                        <canvas id="DonughtChart"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div><!--row ends here-->
+                
+
+
+            </div>
+        
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

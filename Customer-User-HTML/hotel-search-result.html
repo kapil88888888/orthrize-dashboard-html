@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Hotel Search Result</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="result-container">
+                <div class="flight-filter-wrapper roboto-font">
+                    <div class="filter-toggle d-lg-none">
+                        <a href="#"><i class="fas fa-angle-double-right text-white"></i></a>
+                    </div>
+                    <div class="f_f_c_p">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h3 class="f_f_heading">Hotel Filter</h3>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-all">Reset All</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Price Range</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+
+                        <div class="price-range-between">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="d-block border-bottom mb_10">
+                                        <input type="radio" id="1" name="meal-radio">
+                                        <label for="1">less than 1000</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-block border-bottom mb_10">
+                                        <input type="radio" id="2" name="meal-radio">
+                                        <label for="2">1001 - 2000</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-block border-bottom mb_10">
+                                        <input type="radio" id="3" name="meal-radio">
+                                        <label for="3">2001 - 3000</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-block border-bottom mb_10">
+                                        <input type="radio" id="4" name="meal-radio">
+                                        <label for="4">3001 - 4000</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-block border-bottom mb_10">
+                                        <input type="radio" id="5" name="meal-radio">
+                                        <label for="5">4001 - 5000</label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="d-block border-bottom mb_10">
+                                        <input type="radio" id="6" name="meal-radio">
+                                        <label for="6">More than 5001</label>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Rating</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="f_f_c_p">
+
+                        <div class="hotel-rating-check">
+                            <div class="d-flex align-items-center justify-content-between mb_10">
+                                <div class="hotel-star-check">
+                                    <input type="checkbox" id="check-5" name="meal-radio">
+                                    <label for="check-5">5 Star</label>
+                                </div>
+                                <div>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb_10">
+                                <div class="hotel-star-check">
+                                    <input type="checkbox" id="check-4" name="meal-radio">
+                                    <label for="check-4">4 Star</label>
+                                </div>
+                                <div>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb_10">
+                                <div class="hotel-star-check">
+                                    <input type="checkbox" id="check-3" name="meal-radio">
+                                    <label for="check-3">3 Star</label>
+                                </div>
+                                <div>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb_10">
+                                <div class="hotel-star-check">
+                                    <input type="checkbox" id="check-2" name="meal-radio">
+                                    <label for="check-2">2 Star</label>
+                                </div>
+                                <div>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-between mb_10">
+                                <div class="hotel-star-check">
+                                    <input type="checkbox" id="check-1" name="meal-radio">
+                                    <label for="check-1">1 Star</label>
+                                </div>
+                                <div>
+                                    <span><i class="fas fa-star color-orange font-12"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Search By Hotel Name</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="f_f_c_p">
+                        <div class="s_h_b_n_form">
+                            <form class="custom-form">
+                                <input type="text" class="form-control" placeholder="Enter Hotel Name"/>
+                                <div class="flex-btn d-flex raleway-font mt-2">
+                                    <button type="button" class="btn-modal btn-orange">Search</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="flighr-result-wrapper" id="flight-wrapper-content">
+                    <div class="row mb_20">
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-end">
+                                <div class="back">
+                                    <a href="#"><i class="fas fa-arrow-left"></i>Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb_20">
+                        <div class="col-md-12">
+                            <div class="flight-detail-wrapper">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <div class="d-flex align-items-center from-to">
+                                            <span class="from">New Delhi, India</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="flight-details">
+                                            <ul class="list-inline mb_0">
+                                                <li class="list-inline-item">
+                                                    <span>Fri, 20 march 2020</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="modify-search-btn">
+                                            <button tpye="button" class="btn btn-orange text-uppercase text-white">Modify Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="total-result">Showing 168 Hotels in 44.7 Seconds</span>
+                        </div>
+                    </div><!--row ends here-->
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="white-wrapper wrapper-shadow br-5 mb_20">
+                                <div class="hotel-filter-by">
+                                    <div class="d-flex align-items-center">
+                                        <div class="first">
+                                            <h3>Name</h3>
+                                        </div>
+                                        <div class="second text-center">
+                                            <h3>Rating</h3>
+                                        </div>
+                                        <div class="third text-center">
+                                            <h3>Price</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="white-wrapper wrapper-shadow br-5 mb_20 overflow-hidden mb_20">
+                                <di class="single-hotel-result">
+                                    <div class="d-flex align-items-center">
+                                        <div class="hotel-img first">
+                                            <img src="img/hotel-img.jpg" alt="" title=""/>
+                                        </div>
+                                        <div class="second">
+                                            <div class="hotel-detail-middle p_15 border-right">
+                                                <h3 class="hotel_name mb_10">Roseate House New Delhi</h3>
+                                                <span class="hotel_review d-block mb_10">
+                                                    <i class="fas fa-star color-orange"></i>
+                                                    <i class="fas fa-star color-orange"></i>
+                                                    <i class="fas fa-star color-orange"></i>
+                                                    <i class="fas fa-star color-orange"></i>
+                                                    <i class="fas fa-star-half color-orange"></i>
+                                                </span>
+                                                <p class="hotel_address mb_10">Plot No 10, GMR Hospitality District, Indira Gandhi International Airport, Aerocity</p>
+                                                <div class="hotel_amenities_list">
+                                                    <ul class="list-inline mb_0">
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Breakfast
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Parking
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Wifi
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Swimming Pool
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Room Service
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Spa
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Air Conditioner
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="hotel-note">
+                                                    <p class="mb_0"><span class="mr-2"><i class="fa fa-info-circle color-orange"></i></span>Free cancellation available till 12 Aug'20.T&C Apply</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="third text-center">
+                                            <div class="selected-hotel-price">
+                                                <h2><span class=""><i class="fas fa-rupee-sign color-orange"></i></span>12520</h2>
+                                                <p class="total_days">1 Room Price For 1 Night</p>
+                                                <div class="search-button-wrapper text-center">
+                                                    <button type="button" class="btn-orange raleway-font text-uppercase">Select Room</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </di>
+                            </div>
+
+                            <div class="white-wrapper wrapper-shadow br-5 mb_20 overflow-hidden mb_20">
+                                <di class="single-hotel-result">
+                                    <div class="d-flex align-items-center">
+                                        <div class="hotel-img first">
+                                            <img src="img/hotel-img.jpg" alt="" title=""/>
+                                        </div>
+                                        <div class="second">
+                                            <div class="hotel-detail-middle p_15 border-right">
+                                                <h3 class="hotel_name mb_10">Roseate House New Delhi</h3>
+                                                <span class="hotel_review d-block mb_10">
+                                                    <i class="fas fa-star color-orange"></i>
+                                                    <i class="fas fa-star color-orange"></i>
+                                                    <i class="fas fa-star color-orange"></i>
+                                                    <i class="fas fa-star color-orange"></i>
+                                                    <i class="fas fa-star-half color-orange"></i>
+                                                </span>
+                                                <p class="hotel_address mb_10">Plot No 10, GMR Hospitality District, Indira Gandhi International Airport, Aerocity</p>
+                                                <div class="hotel_amenities_list">
+                                                    <ul class="list-inline mb_0">
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Breakfast
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Parking
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Wifi
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Swimming Pool
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Room Service
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Spa
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Air Conditioner
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="hotel-note">
+                                                    <p class="mb_0"><span class="mr-2"><i class="fa fa-info-circle color-orange"></i></span>Free cancellation available till 12 Aug'20.T&C Apply</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="third text-center">
+                                            <div class="selected-hotel-price">
+                                                <h2><span class=""><i class="fas fa-rupee-sign color-orange"></i></span>12520</h2>
+                                                <p class="total_days">1 Room Price For 1 Night</p>
+                                                <div class="search-button-wrapper text-center">
+                                                    <button type="button" class="btn-orange raleway-font text-uppercase">Select Room</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </di>
+                            </div>
+
+                            <div class="white-wrapper wrapper-shadow br-5 mb_20 overflow-hidden mb_20">
+                                <di class="single-hotel-result">
+                                    <div class="d-flex align-items-center">
+                                        <div class="hotel-img first">
+                                            <img src="img/hotel-img.jpg" alt="" title=""/>
+                                        </div>
+                                        <div class="second">
+                                            <div class="hotel-detail-middle p_15 border-right">
+                                                <h3 class="hotel_name mb_10">Roseate House New Delhi</h3>
+                                                <span class="hotel_review d-block mb_10">
+                                                    <i class="fas fa-star color-orange"></i>
+                                                    <i class="fas fa-star color-orange"></i>
+                                                    <i class="fas fa-star color-orange"></i>
+                                                    <i class="fas fa-star color-orange"></i>
+                                                    <i class="fas fa-star-half color-orange"></i>
+                                                </span>
+                                                <p class="hotel_address mb_10">Plot No 10, GMR Hospitality District, Indira Gandhi International Airport, Aerocity</p>
+                                                <div class="hotel_amenities_list">
+                                                    <ul class="list-inline mb_0">
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Breakfast
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Parking
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Wifi
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Swimming Pool
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Room Service
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Spa
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span class="mr-1"><i class="fas fa-hotel"></i></span> Air Conditioner
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="hotel-note">
+                                                    <p class="mb_0"><span class="mr-2"><i class="fa fa-info-circle color-orange"></i></span>Free cancellation available till 12 Aug'20.T&C Apply</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="third text-center">
+                                            <div class="selected-hotel-price">
+                                                <h2><span class=""><i class="fas fa-rupee-sign color-orange"></i></span>12520</h2>
+                                                <p class="total_days">1 Room Price For 1 Night</p>
+                                                <div class="search-button-wrapper text-center">
+                                                    <button type="button" class="btn-orange raleway-font text-uppercase">Select Room</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </di>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="modal fade" id="ModifySearch" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-dialog-centered custom-modal-dialog" role="document">
+                    <div class="modal-content custom-modal">
+                        <div class="custom-modal-header">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div><h4 class="custom-modal-title raleway-font">Modify Search</h4></div>
+                                <div>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="custom-modal-content">
+                            <div class="modify-search-form">
+                                <div class="trip-tabs text-center raleway-font mb_20">
+                                    <ul class="nav nav-tabs justify-content-center">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#one_way">One Way</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#round_trip">Round Trip</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content trips-tabs-content">
+                                    <div class="tab-pane fade show active" id="one_way">
+                                        <form class="roboto-font custom-form">
+                                            <div class="row">
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="from">From</label>
+                                                        <input type="text" id="from" class="form-control" placeholder="Delhi(DEL)"/>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="">To</label>
+                                                        <input type="text" id="" class="form-control" placeholder="Mumbai(BOM)"/>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Departure Date</label>
+                                                        <div class="c-icon position-relative">
+                                                            <input type="text" id="" class="form-control" placeholder="20 Mar 2019"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Return Date</label>
+                                                        <div class="c-icon position-relative">
+                                                            <input type="text" id="" class="form-control" placeholder="20 Mar 2019"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="a_date">Class</label>
+                                                        <select class="form-control">
+                                                            <option>Economy</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Adult<small>(Above 12 Years)</small></label>
+                                                        <div class="custom-select-box">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <div><i class="fas fa-minus"></i></div>
+                                                                <div><span>1</span> Adult</div>
+                                                                <div><i class="fas fa-plus"></i></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--row ends here-->
+                                            <div class="row mb_20">
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="show-direct-flight">
+                                                        <input type="checkbox" id="book-for-child" name="book-for-infant-child" checked/>
+                                                        <label for="book-for-child">Book for Infant/Child</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Children<small> (2 to 12 Years)</small></label>
+                                                        <div class="custom-select-box">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <div><i class="fas fa-minus"></i></div>
+                                                                <div><span>0</span> Children</div>
+                                                                <div><i class="fas fa-plus"></i></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Infant<small> (Below 12 Years)</small></label>
+                                                        <div class="custom-select-box">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <div><i class="fas fa-minus"></i></div>
+                                                                <div><span>0</span> Infant</div>
+                                                                <div><i class="fas fa-plus"></i></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="show-direct-flight">
+                                                        <input type="checkbox" id="non-stop" name="non stop flights"/>
+                                                        <label for="non-stop">Non Stop Flights Only</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="flex-btn d-flex justify-content-center raleway-font">
+                                                <button type="button" class="btn-modal btn-orange">Search</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="round_trip">
+
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

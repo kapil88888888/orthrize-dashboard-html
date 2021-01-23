@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Admin Dashboard</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <a href="#" class="toggle-sidebar d-block d-sm-block d-md-none">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Flight
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-hotel"></i></span>
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-train"></i></span>
+                                    Rail
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-car"></i></span>
+                                    Car
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Trip
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt font-18"></i>
+                                    <span class="title">Dashboard</span>
+                                </a>
+                              
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <img class="normal-icon" src="img/user-manager.png" />
+                                    <img class="active-icon" src="img/user-manager-active.png" />
+                                    <span class="title">User Manager</span>
+                                </a>
+                              
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/trip.png" />
+                                    <img class="active-icon" src="img/trip-active.png" />
+                                    <span class="title">Trips</span>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/customer.png" />
+                                    <img class="active-icon" src="img/customer-active.png" />
+                                    <span class="title">Customer Notes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/reward.png" />
+                                    <img class="active-icon" src="img/reward-active.png" />
+                                    <span class="title">Manage Rewards</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/travel-policy.png" />
+                                    <img class="active-icon" src="img/travel-policy-active.png" />
+                                    <span class="title">Travel Policy </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/master.png" />
+                                    <img class="active-icon" src="img/master-active.png" />
+                                    <span class="title">Masters</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/content-manager.png" />
+                                    <img class="active-icon" src="img/content-manager-active.png" />
+                                    <span class="title">Content Manager</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-cogs font-18"></i>
+                                    <span class="title">General Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/contact-form.png" />
+                                    <img class="active-icon" src="img/contact-form-active.png" />
+                                    <span class="title">Contact Form</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                <div class="row align-items-stretch mb_20">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20 custom-form">
+                            <div class="p_15">
+                                <div class="row mb_20">
+                                    <div class="col-md-12">
+                                        <div class="wrapper-title raleway-font">
+                                            <h2 class="mb_0">User Permission</h2>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            <!--permission table-->
+
+                              <div class="row mt-1">
+                                  <div class="col-md-12">
+                                    <div class="">
+                                        <table class="table table-striped custom-table roboto-font mb_0 border">
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">Permission</th>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-agent" name="" checked="">
+                                                                <label for="manage-agent">Manage Agent</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-agent" name="" checked="">
+                                                                <label for="manage-agent">Manage Agent</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Search</th>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="hotel" name="" checked="">
+                                                                <label for="hotel">Hotel</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="flight" name="" checked="">
+                                                                <label for="flight">Flight</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Book</th>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="book-hotel" name="" checked="">
+                                                                <label for="book-hotel">Hotel</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="book-flight" name="" checked="">
+                                                                <label for="book-flight">Flight</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Account Balance</th>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="create" name="" checked="">
+                                                                <label for="create">Create</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="view" name="" checked="">
+                                                                <label for="view">View</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Manage User</th>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="message" name="" checked="">
+                                                                <label for="message">Message</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="block" name="" checked="">
+                                                                <label for="block">Block</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="view" name="" checked="">
+                                                                <label for="view">View</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="create" name="" checked="">
+                                                                <label for="create">Create</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="update" name="" checked="">
+                                                                <label for="update">Update</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="delete" name="" checked="">
+                                                                <label for="delete">Delete</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Manage Agent</th>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-agent-message" name="" checked="">
+                                                                <label for="manage-agent-message">Message</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-agent-block" name="" checked="">
+                                                                <label for="manage-agent-block">Block</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-agent-view" name="" checked="">
+                                                                <label for="manage-agent-view">View</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-agent-create" name="" checked="">
+                                                                <label for="manage-agent-create">Create</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-agent-update" name="" checked="">
+                                                                <label for="manage-agent-update">Update</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-agent-delete" name="" checked="">
+                                                                <label for="manage-agent-delete">Delete</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Manage Customer</th>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-customer-message" name="" checked="">
+                                                                <label for="manage-customer-message">Message</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-customer-block" name="" checked="">
+                                                                <label for="manage-customer-block">Block</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-customer-view" name="" checked="">
+                                                                <label for="manage-customer-view">View</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-customer-create" name="" checked="">
+                                                                <label for="manage-customer-create">Create</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-customer-update" name="" checked="">
+                                                                <label for="manage-customer-update">Update</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="manage-customer-delete" name="" checked="">
+                                                                <label for="manage-customer-delete">Delete</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Cancellation</th>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="cancel-hotel" name="" checked="">
+                                                                <label for="cancel-hotel">Hotel</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="cancel-flight" name="" checked="">
+                                                                <label for="cancel-flight">Flight</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Booking History</th>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="booking-history-hotel" name="" checked="">
+                                                                <label for="booking-history-hotel">Hotel</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="booking-history-flight" name="" checked="">
+                                                                <label for="booking-history-flight">Flight</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Setting</th>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="setting-modify" name="" checked="">
+                                                                <label for="setting-modify">Modify</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Mark Up</th>
+                                                    <td>
+                                                        <div class="custom-checkbox text-left">
+                                                            <div class="show-direct-flight ">
+                                                                <input type="checkbox" id="markup-modify" name="" checked="">
+                                                                <label for="markup-modify">Modify</label>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+
+                                            </tbody>
+                                            
+                                        </table>
+                                    </div>
+                                  </div>
+                              </div>   
+                              
+                            <!--permission table ends here-->  
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <div class="search-button-wrapper mt_20 mb_20 text-center">
+                                    <button type="button" class="btn-orange raleway-font text-uppercase mr-1 ml-1">Save</button>
+                                   
+                                    <button type="button mr-1 ml-1" class="btn-custom-outline raleway-font text-uppercase">REJECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--row ends here-->
+
+             
+
+            </div>
+        
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

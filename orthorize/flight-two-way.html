@@ -1,0 +1,1007 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Flight Result</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="result-container">
+                <div class="flight-filter-wrapper roboto-font">
+                    <div class="filter-toggle d-lg-none">
+                        <a href="#"><i class="fas fa-angle-double-right text-white"></i></a>
+                    </div>
+                    <div class="f_f_c_p">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h3 class="f_f_heading">Flight Filter</h3>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-all">Reset All</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Price Range</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Flight Timing</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+                        <!--flight timing grid-->
+                        <div class="f_t_grid">
+                            <div>
+                                <span class="d-block f_e_m">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                                <span class="d-block f_e_m_t">00-06</span>
+                            </div>
+                            <div>
+                                <span class="d-block f_e_m">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                                <span class="d-block f_e_m_t">06-12</span>
+                            </div>
+                            <div>
+                                <span class="d-block f_e_m">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                                <span class="d-block f_e_m_t">12-18</span>
+                            </div>
+                            <div>
+                                <span class="d-block f_e_m">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                                <span class="d-block f_e_m_t">18-24</span>
+                            </div>
+                        </div>
+                        <!--flight timing grid ends-->
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Stops</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+                        <!--total stops grid-->
+                        <div class="f_s_grid">
+                            <div>
+                                <span class="s_c d-block">0</span>
+                                <h5>Stops</h5>
+                            </div>
+                            <div>
+                                <span class="s_c d-block">1</span>
+                                <h5>Stops</h5>
+                            </div>
+                            <div>
+                                <span class="s_c d-block">1+</span>
+                                <h5>Stops</h5>
+                            </div>
+                        </div>
+                        <!--total stops grid ends-->
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Meal Required</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+                        <!--meal required wrapper-->
+                        <div class="meal-req-check">
+                            <ul class="list-inline mb_0">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <input type="radio" id="yes" name="meal-radio"/>
+                                        <label for="yes">Yes</label>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <input type="radio" id="no" name="meal-radio"/>
+                                        <label for="no">No</label>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--meal required wrapper ends-->
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Preferred Airlines</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+                        <!--preferred Airlines wrapper-->
+                        <div class="p_a_w">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between align-items-center">
+                                        <span class="f_name">
+                                            <img src="img/flight-logo" alt="" title=""/> Indigo
+                                        </span>
+                                        <span class="f_c_r d-block position-relative">
+                                            <input type="checkbox" id="p_flight" name="p_f_name">
+                                            <label for="p_flight"></label>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--preferred Airlines wrapper ends-->
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Refundable Flights</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+                        <!--refulnd flight wrapper-->
+                        <div class="refund_flight_wrapper">
+                            <div class="refund-flight-check">
+                                <ul class="list-unstyled mb_0">
+                                    <li>
+                                        <a href="#" class="d-flex justify-content-between">
+                                            <span>Refun Flight Only</span>
+                                            <span class="f_c_r position-relative">
+                                                <input type="checkbox" id="refund_flight" name="p_f_name">
+                                                <label for="refund_flight"></label>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--preferred Airlines wrapper ends-->
+                    </div>
+                </div>
+                <div class="flighr-result-wrapper" id="flight-wrapper-content">
+                    <div class="row mb_20">
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-end">
+                                <div class="back">
+                                    <a href="#"><i class="fas fa-arrow-left"></i>Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb_20">
+                        <div class="col-md-12">
+                            <div class="flight-detail-wrapper">
+                                <div class="d-md-flex justify-content-between align-items-center">
+                                    <div>
+                                        <div class="d-flex align-items-center from-to">
+                                            <span class="from">Delhi</span>
+                                            <span class=""><i class="fas fa-long-arrow-alt-right"></i></span>
+                                            <span class="to">Delhi</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="flight-details">
+                                            <ul class="list-inline mb_0">
+                                                <li class="list-inline-item">
+                                                    <span>Fri, 20 march 2020</span>
+                                                </li>
+                                                <li class="list-inline-item">
+                                                    <span>Economy</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="modify-search-btn">
+                                            <button tpye="button" class="btn btn-orange text-uppercase text-white" data-toggle="modal" data-target="#ModifySearch">Modify Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="total-result">Showing 20 Flights of 225 Flights</span>
+                        </div>
+                    </div><!--row ends here-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="flight-result-wrapper">
+                                <div class="flight-filter-header p_5">
+                                    <div class="two-way-repeat-wrapper d-flex align-items-center">
+                                        <div class="one">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                            <h4 class="two-way-header text-uppercase">Airline</h4>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                            <h4 class="two-way-header text-uppercase">Depart</h4>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                            <h4 class="two-way-header text-uppercase">Duration</h4>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                            <h4 class="two-way-header text-uppercase">Arrival</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                                                    <div class="row">
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                            <h4 class="two-way-header text-uppercase">Airline</h4>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                            <h4 class="two-way-header text-uppercase">Depart</h4>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                            <h4 class="two-way-header text-uppercase">Duration</h4>
+                                                        </div>
+                                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                            <h4 class="two-way-header text-uppercase">Arrival</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="two text-ceter d-lg-block d-md-none d-sm-none d-none">&nbsp;</div>
+                                        <div class="three text-center">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="row">
+                                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                            <h4 class="two-way-header text-uppercase text-center">Price</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+
+                                <div class="all-flights-wraper">
+                                    <div class="two-way-flight bg-white">
+
+                                        <div class="two-way-repeat-wrapper d-flex align-items-stretch border-bottom">
+                                            <div class="one">
+                                                <div class="row align-items-stretch">
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="row align-items-center border-right mt-2 pl-1">
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="two-way-flight-logo"></div>
+                                                                <span class="fs-10">AIR - 4576</span>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="fs-10">03:05</div>
+                                                                <div class="fs-10 f-w-m">DEL</div>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 text-center">
+                                                                <div class="fs-10">8h 30m</div>
+                                                                <div class="fs-10">
+                                                                    <i class="fas fa-plane color-orange"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="fs-10">08:05</div>
+                                                                <div class="fs-10 f-w-m">FCO</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="layover-wrapper two-way-flight-layover text-center">
+                                                            <h6 class="flight-layover position-relative">Layover 2 Hour</h6>
+                                                        </div>
+                                                    </div> 
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="row align-items-center mt-2 pl-1">
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="two-way-flight-logo"></div>
+                                                                <span class="fs-10">AIR - 4576</span>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="fs-10">03:05</div>
+                                                                <div class="fs-10">DEL</div>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 text-center">
+                                                                <div class="fs-10">8h 30m</div>
+                                                                <div class="fs-10">
+                                                                    <i class="fas fa-plane color-orange"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="fs-10">08:05</div>
+                                                                <div class="fs-10">FCO</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="layover-wrapper two-way-flight-layover text-center pl-2">
+                                                            <h6 class="flight-layover position-relative">Layover 2 Hour</h6>
+                                                        </div>
+                                                    </div> 
+                                                </div><!--two way flight ends here-->
+
+                                                <div class="row align-items-stretch mb_10">
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="row align-items-center border-right mt-2 pl-1">
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="two-way-flight-logo"></div>
+                                                                <span class="fs-10">AIR - 4576</span>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="fs-10">03:05</div>
+                                                                <div class="fs-10 f-w-m">DEL</div>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 text-center">
+                                                                <div class="fs-10">8h 30m</div>
+                                                                <div class="fs-10">
+                                                                    <i class="fas fa-plane color-orange"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="fs-10">08:05</div>
+                                                                <div class="fs-10 f-w-m">FCO</div>
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="row align-items-center mt-2 pl-1">
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="two-way-flight-logo"></div>
+                                                                <span class="fs-10">AIR - 4576</span>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="fs-10">03:05</div>
+                                                                <div class="fs-10">DEL</div>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 text-center">
+                                                                <div class="fs-10">8h 30m</div>
+                                                                <div class="fs-10">
+                                                                    <i class="fas fa-plane color-orange"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="fs-10">08:05</div>
+                                                                <div class="fs-10">FCO</div>
+                                                            </div>
+                                                        </div>
+                                                    </div> 
+                                                </div><!--two way flight ends here-->
+                                            </div>
+                                            <div class="two bg-light-gray text-center d-flex align-items-center justify-content-center">
+                                                <div class="row align-items-stretch">
+                                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                <div class="two-way-flight-detail text-center">
+                                                                    <div class="two-way-flight-list">
+                                                                        <h5 class="non-refundable">Non-Refundable</h5>
+                                                                        <ul class="list-inline mb_0">
+                                                                            <li class="list-inline-item">1</li>
+                                                                            <li class="list-inline-item">2</li>
+                                                                            <li class="list-inline-item">3</li>
+                                                                            <li class="list-inline-item">4</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="three text-center d-flex align-items-center justify-content-center">
+                                                <div class="row align-items-stretch">
+                                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="two-way-book-wrapper text-center">
+                                                            <h3><i class="fas fa-rupee-sign"></i>63622</h3>
+                                                            <div class="search-button-wrapper">
+                                                                <button type="button" class="btn-orange" data-toggle="modal" data-target="#FlightDetail">Book</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> <!--two way repeat here-->
+
+                                        <div class="two-way-repeat-wrapper d-flex align-items-stretch border-bottom">
+                                            <div class="one">
+                                                <div class="row align-items-stretch">
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="row align-items-center border-right mt-2 pl-1">
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="two-way-flight-logo"></div>
+                                                                <span class="fs-10">AIR - 4576</span>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="fs-10">03:05</div>
+                                                                <div class="fs-10 f-w-m">DEL</div>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 text-center">
+                                                                <div class="fs-10">8h 30m</div>
+                                                                <div class="fs-10">
+                                                                    <i class="fas fa-plane color-orange"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="fs-10">08:05</div>
+                                                                <div class="fs-10 f-w-m">FCO</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="layover-wrapper two-way-flight-layover text-center">
+                                                            <h6 class="flight-layover position-relative">Layover 2 Hour</h6>
+                                                        </div>
+                                                    </div> 
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="row align-items-center mt-2 pl-1">
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="two-way-flight-logo"></div>
+                                                                <span class="fs-10">AIR - 4576</span>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="fs-10">03:05</div>
+                                                                <div class="fs-10">DEL</div>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 text-center">
+                                                                <div class="fs-10">8h 30m</div>
+                                                                <div class="fs-10">
+                                                                    <i class="fas fa-plane color-orange"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3">
+                                                                <div class="fs-10">08:05</div>
+                                                                <div class="fs-10">FCO</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="layover-wrapper two-way-flight-layover text-center pl-2">
+                                                            <h6 class="flight-layover position-relative">Layover 2 Hour</h6>
+                                                        </div>
+                                                    </div> 
+                                                </div>
+                                            </div>
+                                            <div class="two bg-light-gray text-center d-flex align-items-center justify-content-center">
+                                                <div class="row align-items-stretch">
+                                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                                <div class="two-way-flight-detail text-center">
+                                                                    <div class="two-way-flight-list">
+                                                                        <h5 class="non-refundable">Non-Refundable</h5>
+                                                                        <ul class="list-inline mb_0">
+                                                                            <li class="list-inline-item">1</li>
+                                                                            <li class="list-inline-item">2</li>
+                                                                            <li class="list-inline-item">3</li>
+                                                                            <li class="list-inline-item">4</li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="three text-center d-flex align-items-center justify-content-center">
+                                                <div class="row align-items-stretch">
+                                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="two-way-book-wrapper text-center">
+                                                            <h3><i class="fas fa-rupee-sign"></i>63622</h3>
+                                                            <div class="search-button-wrapper">
+                                                                <button type="button" class="btn-orange">Book</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> <!--two way repeat ends here-->
+
+                                        
+                                        
+                                    </div>
+                                    <!--two way flight wrapper round ends here-->  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="ModifySearch" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-dialog-centered custom-modal-dialog" role="document">
+                    <div class="modal-content custom-modal">
+                        <div class="custom-modal-header">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div><h4 class="custom-modal-title raleway-font">Modify Search</h4></div>
+                                <div>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="custom-modal-content">
+                            <div class="modify-search-form">
+                                <div class="trip-tabs text-center raleway-font mb_20">
+                                    <ul class="nav nav-tabs justify-content-center">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#one_way">One Way</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#round_trip">Round Trip</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content trips-tabs-content">
+                                    <div class="tab-pane fade show active" id="one_way">
+                                        <form class="roboto-font custom-form">
+                                            <div class="row">
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="from">From</label>
+                                                        <input type="text" id="from" class="form-control" placeholder="Delhi(DEL)"/>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="">To</label>
+                                                        <input type="text" id="" class="form-control" placeholder="Mumbai(BOM)"/>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Departure Date</label>
+                                                        <div class="c-icon position-relative">
+                                                            <input type="text" id="" class="form-control" placeholder="20 Mar 2019"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Return Date</label>
+                                                        <div class="c-icon position-relative">
+                                                            <input type="text" id="" class="form-control" placeholder="20 Mar 2019"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="a_date">Class</label>
+                                                        <select class="form-control">
+                                                            <option>Economy</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Adult<small>(Above 12 Years)</small></label>
+                                                        <div class="custom-select-box">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <div><i class="fas fa-minus"></i></div>
+                                                                <div><span>1</span> Adult</div>
+                                                                <div><i class="fas fa-plus"></i></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--row ends here-->
+                                            <div class="row mb_20">
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="show-direct-flight">
+                                                        <input type="checkbox" id="book-for-child" name="book-for-infant-child" checked/>
+                                                        <label for="book-for-child">Book for Infant/Child</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Children<small> (2 to 12 Years)</small></label>
+                                                        <div class="custom-select-box">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <div><i class="fas fa-minus"></i></div>
+                                                                <div><span>0</span> Children</div>
+                                                                <div><i class="fas fa-plus"></i></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                    <div class="form-group">
+                                                        <label for="">Infant<small> (Below 12 Years)</small></label>
+                                                        <div class="custom-select-box">
+                                                            <div class="d-flex align-items-center justify-content-between">
+                                                                <div><i class="fas fa-minus"></i></div>
+                                                                <div><span>0</span> Infant</div>
+                                                                <div><i class="fas fa-plus"></i></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="show-direct-flight">
+                                                        <input type="checkbox" id="non-stop" name="non stop flights"/>
+                                                        <label for="non-stop">Non Stop Flights Only</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="flex-btn d-flex justify-content-center raleway-font">
+                                                <button type="button" class="btn-modal btn-orange">Search</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="round_trip">
+
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal fade" id="FlightDetail" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+                    <div class="modal-content custom-modal">
+                        <div class="custom-modal-header">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div><h4 class="custom-modal-title raleway-font">View Detail</h4></div>
+                                <div>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="custom-modal-content">
+                            <div class="container-fluid">
+                                <div class="row align-items-center mb_60">
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                        <div class="text-right">
+                                            <p class="mb_0 font-12">Sep 2nd 2020 11:05</p>
+                                            <h4 class="mb_0 font-18">Delhi</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                        <div class="text-center">
+                                            <h5 class="mb_0 flight-arrow"><i class="fas fa-plane color-orange"></i></h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                                        <div class="text-left">
+                                            <p class="mb_0 font-12">Sep 3rd 2020 09:25</p>
+                                            <h4 class="mb_0 font-18">BOM</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="flight-details-tabs">
+                                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                                <li class="nav-item" role="presentation">
+                                                    <a class="nav-link active" data-toggle="pill" href="#departure" role="tab">Departure</a>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <a class="nav-link" data-toggle="pill" href="#return" role="tab">Return</a>
+                                                </li>
+                                                <li class="nav-item" role="presentation">
+                                                    <a class="nav-link" data-toggle="pill" href="#price" role="tab">Price</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="departure" role="tabpanel">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div class="">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="mr-3">
+                                                                    <div class="flight-detail-logo"></div>
+                                                                </div>
+                                                                <div><span style="max-width: 100px;" class="text-truncate overflow-hidden">Lot Polish</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Heathrow</h5>
+                                                            <p class="mb_0 font-12">Sep 3rd 2020 09:25</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <div><i class="fas fa-arrow-right"></i></div>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Heathrow</h5>
+                                                            <p class="mb_0 font-12">Sep 3rd 2020 09:25</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Passenger Type</h5>
+                                                            <p class="mb_0 font-12">1 Adult(s) 0 child 0 Inf</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Duration</h5>
+                                                            <p class="mb_0 font-12">2h 35m</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Baggage Details</h5>
+                                                            <p class="mb_0 font-12">Cabin Baggage = 0 KG</p>
+                                                            <p class="mb_0 font-12">Baggage = 1 PC</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb_10">
+                                                        <div class="col-md-12">
+                                                            <div class="layover-wrapper two-way-flight-layover text-center">
+                                                                <h6 class="flight-layover position-relative">Layover 2 Hour</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div class="">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="mr-3">
+                                                                    <div class="flight-detail-logo"></div>
+                                                                </div>
+                                                                <div><span style="max-width: 100px;" class="text-truncate overflow-hidden">Lot Polish</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Heathrow</h5>
+                                                            <p class="mb_0 font-12">Sep 3rd 2020 09:25</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <div><i class="fas fa-arrow-right"></i></div>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Heathrow</h5>
+                                                            <p class="mb_0 font-12">Sep 3rd 2020 09:25</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Passenger Type</h5>
+                                                            <p class="mb_0 font-12">1 Adult(s) 0 child 0 Inf</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Duration</h5>
+                                                            <p class="mb_0 font-12">2h 35m</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Baggage Details</h5>
+                                                            <p class="mb_0 font-12">Cabin Baggage = 0 KG</p>
+                                                            <p class="mb_0 font-12">Baggage = 1 PC</p>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="tab-pane fade" id="return" role="tabpanel">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div class="">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="mr-3">
+                                                                    <div class="flight-detail-logo"></div>
+                                                                </div>
+                                                                <div><span style="max-width: 100px;" class="text-truncate overflow-hidden">Lot Polish</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Heathrow</h5>
+                                                            <p class="mb_0 font-12">Sep 3rd 2020 09:25</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <div><i class="fas fa-arrow-right"></i></div>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Heathrow</h5>
+                                                            <p class="mb_0 font-12">Sep 3rd 2020 09:25</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Passenger Type</h5>
+                                                            <p class="mb_0 font-12">1 Adult(s) 0 child 0 Inf</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Duration</h5>
+                                                            <p class="mb_0 font-12">2h 35m</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Baggage Details</h5>
+                                                            <p class="mb_0 font-12">Cabin Baggage = 0 KG</p>
+                                                            <p class="mb_0 font-12">Baggage = 1 PC</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb_10">
+                                                        <div class="col-md-12">
+                                                            <div class="layover-wrapper two-way-flight-layover text-center">
+                                                                <h6 class="flight-layover position-relative">Layover 2 Hour</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div class="">
+                                                            <div class="d-flex align-items-center">
+                                                                <div class="mr-3">
+                                                                    <div class="flight-detail-logo"></div>
+                                                                </div>
+                                                                <div><span style="max-width: 100px;" class="text-truncate overflow-hidden">Lot Polish</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Heathrow</h5>
+                                                            <p class="mb_0 font-12">Sep 3rd 2020 09:25</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <div><i class="fas fa-arrow-right"></i></div>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Heathrow</h5>
+                                                            <p class="mb_0 font-12">Sep 3rd 2020 09:25</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Passenger Type</h5>
+                                                            <p class="mb_0 font-12">1 Adult(s) 0 child 0 Inf</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Duration</h5>
+                                                            <p class="mb_0 font-12">2h 35m</p>
+                                                        </div>
+                                                        <div class="">
+                                                            <h5 class="font-16 mb_0">Baggage Details</h5>
+                                                            <p class="mb_0 font-12">Cabin Baggage = 0 KG</p>
+                                                            <p class="mb_0 font-12">Baggage = 1 PC</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="price" role="tabpanel">
+                                                    <div class="row">
+                                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                                            <div class="card">
+                                                                <h5 class="card-header font-16">Fare Summary</h5>
+                                                                <div class="card-body">
+                                                                    <div class="d-flex align-items-center justify-content-between mb_15">
+                                                                        <div>Base Fare</div>
+                                                                        <div><i class="fas fa-rupee-sign"></i> 2765</div>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center justify-content-between">
+                                                                        <div>Base Fare</div>
+                                                                        <div><i class="fas fa-rupee-sign"></i> 2765</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    <div class="d-flex align-items-center justify-content-between">
+                                                                        <div>Total Price</div>
+                                                                        <div><i class="fas fa-rupee-sign"></i> 34,566</div>
+                                                                    </div>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6">
+                                                            <div class="card">
+                                                                <h5 class="card-header font-16">Fare Rules</h5>
+                                                                <div class="card-body">
+                                                                    <div class="d-flex align-items-center justify-content-between mb_15">
+                                                                        <div>Base Fare</div>
+                                                                        <div><i class="fas fa-rupee-sign"></i> 2765</div>
+                                                                    </div>
+                                                                    <div class="d-flex align-items-center justify-content-between">
+                                                                        <div>Base Fare</div>
+                                                                        <div><i class="fas fa-rupee-sign"></i> 2765</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    <div class="d-flex align-items-center justify-content-between">
+                                                                        <div>Total Price</div>
+                                                                        <div><i class="fas fa-rupee-sign"></i> 34,566</div>
+                                                                    </div>
+                                                                </div>
+                                                              </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

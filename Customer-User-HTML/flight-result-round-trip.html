@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Dashboard</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="result-container">
+                <div class="flight-filter-wrapper roboto-font">
+                    <div class="filter-toggle d-lg-none">
+                        <a href="#"><i class="fas fa-angle-double-right text-white"></i></a>
+                    </div>
+                    <div class="f_f_c_p">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h3 class="f_f_heading">Flight Filter</h3>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-all">Reset All</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Price Range</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Delhi to Banglore</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+                        <!--flight timing grid-->
+                        <div class="f_t_grid">
+                            <div>
+                                <span class="d-block f_e_m">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                                <span class="d-block f_e_m_t">00-06</span>
+                            </div>
+                            <div>
+                                <span class="d-block f_e_m">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                                <span class="d-block f_e_m_t">06-12</span>
+                            </div>
+                            <div>
+                                <span class="d-block f_e_m">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                                <span class="d-block f_e_m_t">12-18</span>
+                            </div>
+                            <div>
+                                <span class="d-block f_e_m">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                                <span class="d-block f_e_m_t">18-24</span>
+                            </div>
+                        </div>
+                        <!--flight timing grid ends-->
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Banglore to Delhi</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+                        <!--flight timing grid-->
+                        <div class="f_t_grid">
+                            <div>
+                                <span class="d-block f_e_m">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                                <span class="d-block f_e_m_t">00-06</span>
+                            </div>
+                            <div>
+                                <span class="d-block f_e_m">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                                <span class="d-block f_e_m_t">06-12</span>
+                            </div>
+                            <div>
+                                <span class="d-block f_e_m">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                                <span class="d-block f_e_m_t">12-18</span>
+                            </div>
+                            <div>
+                                <span class="d-block f_e_m">
+                                    <i class="fas fa-sun"></i>
+                                </span>
+                                <span class="d-block f_e_m_t">18-24</span>
+                            </div>
+                        </div>
+                        <!--flight timing grid ends-->
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Stops</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+                        <!--total stops grid-->
+                        <div class="f_s_grid">
+                            <div>
+                                <span class="s_c d-block">0</span>
+                                <h5>Stops</h5>
+                            </div>
+                            <div>
+                                <span class="s_c d-block">1</span>
+                                <h5>Stops</h5>
+                            </div>
+                            <div>
+                                <span class="s_c d-block">1+</span>
+                                <h5>Stops</h5>
+                            </div>
+                        </div>
+                        <!--total stops grid ends-->
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Meal Required</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+                        <!--meal required wrapper-->
+                        <div class="meal-req-check">
+                            <ul class="list-inline mb_0">
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <input type="radio" id="yes" name="meal-radio"/>
+                                        <label for="yes">Yes</label>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <input type="radio" id="no" name="meal-radio"/>
+                                        <label for="no">No</label>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--meal required wrapper ends-->
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Preferred Airlines</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+                        <!--preferred Airlines wrapper-->
+                        <div class="p_a_w">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="d-flex justify-content-between align-items-center">
+                                        <span class="f_name">
+                                            <img src="img/flight-logo" alt="" title=""/> Indigo
+                                        </span>
+                                        <span class="f_c_r d-block position-relative">
+                                            <input type="checkbox" id="p_flight" name="p_f_name">
+                                            <label for="p_flight"></label>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--preferred Airlines wrapper ends-->
+                    </div>
+                    <div class="filter-heading filter-heading-bg filter-heading-padding">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <div>
+                                <h4>Refundable Flights</h4>
+                            </div>
+                            <div>
+                                <a href="#" class="reset-btn">Reset</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="f_f_c_p">
+                        <!--refulnd flight wrapper-->
+                        <div class="refund_flight_wrapper">
+                            <div class="refund-flight-check">
+                                <ul class="list-unstyled mb_0">
+                                    <li>
+                                        <a href="#" class="d-flex justify-content-between">
+                                            <span>Refun Flight Only</span>
+                                            <span class="f_c_r position-relative">
+                                                <input type="checkbox" id="refund_flight" name="p_f_name">
+                                                <label for="refund_flight"></label>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--preferred Airlines wrapper ends-->
+                    </div>
+                </div>
+                <div class="flighr-result-wrapper" id="flight-wrapper-content">
+
+                    <div class="row mb_20">
+                        <div class="col-md-12">
+                            <div class="d-flex justify-content-end">
+                                <div class="back">
+                                    <a href="#"><i class="fas fa-arrow-left"></i>Back</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row mb_20">
+                        <div class="col-md-12">
+                            <div class="flight-detail-wrapper flight-round-trip-wrapper">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <div class="d-flex align-items-center">
+                                            <div class="pr-5 border-right-orange">
+                                                <div class="d-flex align-items-center from-to">
+                                                    <span class="from">Delhi</span>
+                                                    <span class=""><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                    <span class="to">Banglore</span>
+                                                </div>
+                                                <div class="flight-details round-trip">
+                                                    <ul class="list-inline mb_0">
+                                                        <li class="list-inline-item pl-0">
+                                                            <span>Fri, 20 march 2020</span>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span>Economy</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="pl-5">
+                                                <div class="d-flex align-items-center from-to">
+                                                    <span class="from">Banglore</span>
+                                                    <span class=""><i class="fas fa-long-arrow-alt-right"></i></span>
+                                                    <span class="to">Delhi</span>
+                                                </div>
+                                                <div class="flight-details round-trip">
+                                                    <ul class="list-inline mb_0">
+                                                        <li class="list-inline-item pl-0">
+                                                            <span>Fri, 20 march 2020</span>
+                                                        </li>
+                                                        <li class="list-inline-item">
+                                                            <span>Economy</span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="modify-search-btn">
+                                            <button tpye="button" class="btn btn-orange text-uppercase text-white">Modify Search</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="total-result">Showing 20 Flights of 225 Flights</span>
+                        </div>
+                    </div><!--row ends here-->
+
+                    <div class="row mb_10">
+                        <div class="col-md-6">
+                            <div class="flight-result-wrapper mb_20">
+                                <div class="flight-filter-header bg-white">
+                                    <div class="d-flex align-items-center round-trip">
+                                        <div class="filter-title first">
+                                            <h3>Airline</h3>
+                                        </div>
+                                        <div class="filter-title second">
+                                            <h3>Depart</h3>
+                                        </div>
+                                        <div class="filter-title flight-overlay"></div>
+                                        <div class="filter-title third text-right">
+                                            <h3>Arrival</h3>
+                                        </div>
+                                        <div class="filter-title fifth text-center">
+                                            <h3 class="">Price</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="flight-result-wrapper mb_20">
+                                <div class="flight-filter-header bg-white">
+                                    <div class="d-flex align-items-center round-trip">
+                                        <div class="filter-title first">
+                                            <h3>Airline</h3>
+                                        </div>
+                                        <div class="filter-title second">
+                                            <h3>Depart</h3>
+                                        </div>
+                                        <div class="filter-title flight-overlay"></div>
+                                        <div class="filter-title third text-right">
+                                            <h3>Arrival</h3>
+                                        </div>
+                                        <div class="filter-title fifth text-center">
+                                            <h3 class="">Price</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="all-flights-wraper">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--row ends here-->
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            
+                            <div class="round-trip-flight mb_30">
+                                <div class="flight-result-wrapper">
+                                    <div class="flight-round-inner">
+                                        <div class="d-flex align-items-center round-trip">
+                                            <div class="first">
+                                                <div class="flight-logo flight-number">
+                                                    <div class="d-flex align-items-center">
+                                                        <span class="flight-logo mr-2"></span>
+                                                        <span class="flight-number d-inline-block text-truncate" style="max-width: 60px;">Indigo</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="second inner">
+                                                <div class="depart-time">
+                                                    <h4>20:15</h4>
+                                                    <span class="d-block">DEL</span>
+                                                </div>
+                                            </div>
+                                            <div class="flight-overlay text-center position-relative">
+                                                <span class="flight-time d-block">3h 15m</span>
+                                                <span class="flight-icon d-block"><i class="fas fa-plane"></i></span>
+                                            </div>
+                                            <div class="third inner">
+                                                <div class="arrival-time text-right">
+                                                    <h4>23:30</h4>
+                                                    <span class="d-block">BLR</span>
+                                                </div>
+                                            </div>
+                                            <div class="fifth inner">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="total-price mr-3">
+                                                        <h4><i class="fas fa-rupee-sign"></i> 8490</h4>
+                                                        <span class="d-block text-center">Refundable</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="border-top p_15">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <div class="flight-seat-detail-grid">
+                                                    <div class="mr-3"><img src="img/ami-ico-1.png" alt="" title=""/></div>
+                                                    <div class="mr-3"><img src="img/ami-ico-2.png" alt="" title=""/></div>
+                                                    <div class="mr-3"><img src="img/ami-ico-3.png" alt="" title=""/></div>
+                                                    <div class="">
+                                                        <span class="count">2</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="book-as-option custom-radio">
+                                                    <div class="option">
+                                                        <input type="radio" id="check" name="radio-group">
+                                                        <label for="check"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="round-trip-flight">
+                                <div class="flight-result-wrapper">
+                                    <div class="flight-round-inner">
+                                        <div class="d-flex align-items-center round-trip">
+                                            <div class="first">
+                                                <div class="flight-logo flight-number">
+                                                    <div class="d-flex align-items-center">
+                                                        <span class="flight-logo mr-2"></span>
+                                                        <span class="flight-number d-inline-block text-truncate" style="max-width: 60px;">Indigo</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="second inner">
+                                                <div class="depart-time">
+                                                    <h4>20:15</h4>
+                                                    <span class="d-block">DEL</span>
+                                                </div>
+                                            </div>
+                                            <div class="flight-overlay text-center position-relative">
+                                                <span class="flight-time d-block">3h 15m</span>
+                                                <span class="flight-icon d-block"><i class="fas fa-plane"></i></span>
+                                            </div>
+                                            <div class="third inner">
+                                                <div class="arrival-time text-right">
+                                                    <h4>23:30</h4>
+                                                    <span class="d-block">BLR</span>
+                                                </div>
+                                            </div>
+                                            <div class="fifth inner">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="total-price mr-3">
+                                                        <h4><i class="fas fa-rupee-sign"></i> 8490</h4>
+                                                        <span class="d-block text-center">Refundable</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-top p_15">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <div class="flight-seat-detail-grid">
+                                                    <div class="mr-3"><img src="img/ami-ico-1.png" alt="" title=""/></div>
+                                                    <div class="mr-3"><img src="img/ami-ico-2.png" alt="" title=""/></div>
+                                                    <div class="mr-3"><img src="img/ami-ico-3.png" alt="" title=""/></div>
+                                                    <div class="">
+                                                        <span class="count">2</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="book-as-option custom-radio">
+                                                    <div class="option">
+                                                        <input type="radio" id="check" name="radio-group">
+                                                        <label for="check"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="round-trip-flight">
+                                <div class="flight-result-wrapper">
+                                    <div class="flight-round-inner">
+                                        <div class="d-flex align-items-center round-trip">
+                                            <div class="first">
+                                                <div class="flight-logo flight-number">
+                                                    <div class="d-flex align-items-center">
+                                                        <span class="flight-logo mr-2"></span>
+                                                        <span class="flight-number d-inline-block text-truncate" style="max-width: 60px;">Indigo</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="second inner">
+                                                <div class="depart-time">
+                                                    <h4>20:15</h4>
+                                                    <span class="d-block">DEL</span>
+                                                </div>
+                                            </div>
+                                            <div class="flight-overlay text-center position-relative">
+                                                <span class="flight-time d-block">3h 15m</span>
+                                                <span class="flight-icon d-block"><i class="fas fa-plane"></i></span>
+                                            </div>
+                                            <div class="third inner">
+                                                <div class="arrival-time text-right">
+                                                    <h4>23:30</h4>
+                                                    <span class="d-block">BLR</span>
+                                                </div>
+                                            </div>
+                                            <div class="fifth inner">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="total-price mr-3">
+                                                        <h4><i class="fas fa-rupee-sign"></i> 8490</h4>
+                                                        <span class="d-block text-center">Refundable</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="layover-wrapper text-center">
+                                            <h6 class="flight-layover position-relative">Layover 2 Hour</h6>
+                                        </div>
+                                        <div class="d-flex align-items-center round-trip">
+                                            <div class="first">
+                                                <div class="flight-logo flight-number">
+                                                    <div class="d-flex align-items-center">
+                                                        <span class="flight-logo mr-2"></span>
+                                                        <span class="flight-number d-inline-block text-truncate" style="max-width: 60px;">Indigo</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="second inner">
+                                                <div class="depart-time">
+                                                    <h4>20:15</h4>
+                                                    <span class="d-block">DEL</span>
+                                                </div>
+                                            </div>
+                                            <div class="flight-overlay text-center position-relative">
+                                                <span class="flight-time d-block">3h 15m</span>
+                                                <span class="flight-icon d-block"><i class="fas fa-plane"></i></span>
+                                            </div>
+                                            <div class="third inner">
+                                                <div class="arrival-time text-right">
+                                                    <h4>23:30</h4>
+                                                    <span class="d-block">BLR</span>
+                                                </div>
+                                            </div>
+                                            <div class="fifth inner" style="visibility: hidden;">
+                                                <div class="d-flex align-items-center">
+                                                    <div class="total-price mr-3">
+                                                        <h4><i class="fas fa-rupee-sign"></i> 8490</h4>
+                                                        <span class="d-block text-center">Refundable</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-top p_15">
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <div class="flight-seat-detail-grid">
+                                                    <div class="mr-3"><img src="img/ami-ico-1.png" alt="" title=""/></div>
+                                                    <div class="mr-3"><img src="img/ami-ico-2.png" alt="" title=""/></div>
+                                                    <div class="mr-3"><img src="img/ami-ico-3.png" alt="" title=""/></div>
+                                                    <div class="">
+                                                        <span class="count">2</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="book-as-option custom-radio">
+                                                    <div class="option">
+                                                        <input type="radio" id="check" name="radio-group">
+                                                        <label for="check"></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

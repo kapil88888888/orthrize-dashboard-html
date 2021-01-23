@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | User Management Customer</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Flight
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-hotel"></i></span>
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-train"></i></span>
+                                    Rail
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-car"></i></span>
+                                    Car
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Trip
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt font-18"></i>
+                                    <span class="title">Dashboard</span>
+                                </a>
+                              
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <img class="normal-icon" src="img/user-manager.png" />
+                                    <img class="active-icon" src="img/user-manager-active.png" />
+                                    <span class="title">User Manager</span>
+                                </a>
+                              
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/trip.png" />
+                                    <img class="active-icon" src="img/trip-active.png" />
+                                    <span class="title">Trips</span>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/customer.png" />
+                                    <img class="active-icon" src="img/customer-active.png" />
+                                    <span class="title">Customer Notes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/reward.png" />
+                                    <img class="active-icon" src="img/reward-active.png" />
+                                    <span class="title">Manage Rewards</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/travel-policy.png" />
+                                    <img class="active-icon" src="img/travel-policy-active.png" />
+                                    <span class="title">Travel Policy </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/master.png" />
+                                    <img class="active-icon" src="img/master-active.png" />
+                                    <span class="title">Masters</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/content-manager.png" />
+                                    <img class="active-icon" src="img/content-manager-active.png" />
+                                    <span class="title">Content Manager</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-cogs font-18"></i>
+                                    <span class="title">General Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/contact-form.png" />
+                                    <img class="active-icon" src="img/contact-form-active.png" />
+                                    <span class="title">Contact Form</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                
+                <div class="row align-items-stretch mb_20">
+
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="wrapper-heading p_15 bg-white">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="wrapper-title raleway-font">
+                                        <h2 class="mb_0">User Manager</h2>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex">
+                                            <div class="search-button-wrapper text-center mr-2">
+                                                <button type="button" class="btn-orange raleway-font text-uppercase">Manage Cancellation Fee</button>
+                                            </div>
+                                            <div class="search-button-wrapper text-center mr-2">
+                                                <button type="button" class="btn-blue raleway-font text-uppercase">Add a New user</button>
+                                            </div>
+                                            <div class="search-input position-relative">
+                                                <input type="text" class="form-control mr-sm-2 booking-search" placeholder="Search via Email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="row align-items-center mb_20">
+                            <div class="col-md-12">
+                                <div class="d-flex justify-content-end">
+                                    <div class="search-button-wrapper bulk-upload">
+                                        <button type="button" class="btn-orange text-uppercase"><i class="fas fa-upload"></i> Bulk Upload</button>
+                                        <span class="d-block text-center"><small>Only .CSV file supported</small></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="custom-tabs-wrapper wrapper-shadow br-5 overflow-hidden">
+                            <div class="custom-tabs">
+                                <ul class="nav nav-tabs raleway-font" id="myTab" role="tablist">
+                                    
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="standard_users-tab" data-toggle="tab" href="#standard_users" role="tab" aria-controls="standard_users" aria-selected="true">Standard Users</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="travel_assistant-tab" data-toggle="tab" href="#travel_assistant" role="tab" aria-controls="travel_assistant" aria-selected="true">Travel Assistants</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="approval-manager-tab" data-toggle="tab" href="#approval-manager" role="tab" aria-controls="approval-manager" aria-selected="true">Approval Managers</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                        
+                                        <div class="tab-pane fade show active" id="standard_users" role="tabpanel" aria-labelledby="standard_users-tab">
+                                            <div class="table-responsive">
+                                                <table class="table custom-table roboto-font mb_0">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>ID</th>
+                                                            <th>Name</th>
+                                                            <th>Email ID</th>
+                                                            <th>Job Title</th>
+                                                            <th>Contact Number</th>
+                                                            <th>Emergency Contact</th>
+                                                            <th>Created On</th>
+                                                            <th>Status</th>
+                                                            <th>Action</th>
+            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>2345455555</td>
+                                                            <td>John Doe</td>
+                                                            <td>johndoe@gmail.com</td>
+                                                            <td>Manager</td>
+                                                            <td>556567868</td>
+                                                            <td>445433455</td>
+                                                            <td>14 Feb 2019</td>
+                                                            <td>
+                                                                <div class="custom-control custom-switch">
+                                                                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                                                    <label class="custom-control-label" for="customSwitch1"></label>
+                                                                  </div>
+                                                            </td>
+                                                            <td>
+                                                                <div class="d-flex justify-content-center">
+                                                                    <a href="#" class="mr-2 text-success"><i class="fas fa-pencil-alt"></i></a>
+                                                                    <a href="#" data-toggle="modal" data-target="#deleteUser" class="text-danger"><i class="fas fa-trash"></i></a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade show" id="travel_assistant" role="tabpanel" aria-labelledby="travel_assistant-tab">
+                                            <div class="table-responsive">
+                                                <table class="table custom-table roboto-font mb_0">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>ID</th>
+                                                            <th>Name</th>
+                                                            <th>Email ID</th>
+                                                            <th>Contact Number</th>
+                                                            <th>Created On</th>
+                                                            <th>Status</th>
+                                                            <th>Action</th>
+            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>2345455555</td>
+                                                            <td>John Doe</td>
+                                                            <td>johndoe@gmail.com</td>
+                                                            <td>556567868</td>
+                                                            <td>14 Feb 2019</td>
+                                                            <td><span class="text-danger">Inactive</span></td>
+                                                            <td>
+                                                                <div class="d-flex justify-content-center">
+                                                                    <a href="#" class="mr-2 text-success"><i class="fas fa-pencil-alt"></i></a>
+                                                                    <a href="#" class="text-danger"><i class="fas fa-trash"></i></a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="tab-pane fade show" id="approval-manager" role="tabpanel" aria-labelledby="approval-manager-tab">
+                                            <div class="table-responsive">
+                                                <table class="table custom-table roboto-font mb_0">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>ID</th>
+                                                            <th>Name</th>
+                                                            <th>Email ID</th>
+                                                            <th>Contact Number</th>
+                                                            <th>Created On</th>
+                                                            <th>Status</th>
+                                                            <th>Action</th>
+            
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>3498</td>
+                                                            <td>Doe John</td>
+                                                            <td>doejohn@gmail.com</td>
+                                                            <td>998876778</td>
+                                                            <td>02 Mar 2020</td>
+                                                            <td><span class="text-danger">Inactive</span></td>
+                                                            <td>
+                                                                <div class="d-flex justify-content-center">
+                                                                    <a href="#" class="mr-2 text-success"><i class="fas fa-pencil-alt"></i></a>
+                                                                    <a href="#" class="text-danger"><i class="fas fa-trash"></i></a>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div><!--row ends here-->
+
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="custom-pagination text-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="mr-3">
+                                    <div class="pagination-back">
+                                        <a href="#"><i class="fas fa-angle-double-left"></i></a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="move-to-pages wrapper-shadow br-5 overflow-hidden bg-white roboto-font">
+                                        <ul class="list-inline mb_0">
+                                            <li class="list-inline-item"><a href="#">1</a></li>
+                                            <li class="list-inline-item"><a href="#">2</a></li>
+                                            <li class="list-inline-item active"><a href="#">3</a></li>
+                                            <li class="list-inline-item"><a href="#">4</a></li>
+                                            <li class="list-inline-item"><a href="#">5</a></li>
+                                            <li class="list-inline-item"><a href="#">6</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="ml-3">
+                                    <div class="pagination-next">
+                                        <a href="#"><i class="fas fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        
+
+            <div class="modal fade" id="deleteUser" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content custom-modal">
+                        <div class="custom-modal-header">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <div><h4 class="custom-modal-title raleway-font">Delete User</h4></div>
+                                <div>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                      </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="custom-modal-content text-center">
+                            <h3>Are you sure want to delete the User?</h3>
+                            <div class="flex-btn d-flex justify-content-center raleway-font">
+                                <button type="button" class="btn-modal btn-orange mr-3">Yes, Delete</button>
+                                <button type="button" class="btn-modal btn-custom-outline">Cancel</button> 
+                            </div>
+                            
+                        </div>
+                    
+                    </div>
+                </div>
+            </div> 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

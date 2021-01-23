@@ -1,0 +1,697 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <!--animate css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.min.css"/>
+
+    <title>Ortharize | Search Hotel</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-plane-departure"></i>
+                                    <span class="title">Flight</span>
+                                </a>
+                                <div class="sub-menu position-absolute">
+                                    <div class="sub-menu-list position-relative">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="javascript:void(0)">Search Flight</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-hotel"></i>
+                                    <span class="title">Hotel</span>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-train"></i>
+                                    <span class="title">Rail</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-car"></i>
+                                    <span class="title">Car</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-luggage-cart"></i>
+                                    <span class="title">Trips & Approval</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-award"></i>
+                                    <span class="title">Rewards</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span class="title">Reports</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                <div class="row mb_30">
+                    <div class="col-xl-12 col-lg-12 col-sm-12 col-md-12 col-12">
+                        <div class="quick-option">
+                            <div class="quick-option-grid raleway-font">
+                                <a href="#" class="quick-item text-center">
+                                    <div class="icon d-table">
+                                        <div class="d-table-cell">
+                                            <img src="img/flight-ico.png" alt="" title=""/>
+                                        </div>
+                                    </div>
+                                    <h3>Add Flight</h3>
+                                    <div class="step step-complete">1</div>
+                                </a>
+
+                                <a href="#" class="quick-item text-center">
+                                    <div class="icon d-table">
+                                        <div class="d-table-cell">
+                                            <img src="img/hotel-ico.png" alt="" title=""/>
+                                        </div>
+                                    </div>
+                                    <h3>Add Hotel</h3>
+                                </a>
+
+                                <a href="#" class="quick-item text-center">
+                                    <div class="icon d-table">
+                                        <div class="d-table-cell">
+                                            <img src="img/rail-ico.png" alt="" title=""/>
+                                        </div>
+                                    </div>
+                                    <h3>Add Rail</h3>
+                                </a>
+
+                                <a href="#" class="quick-item text-center">
+                                    <div class="icon d-table">
+                                        <div class="d-table-cell">
+                                            <img src="img/taxi-ico.png" alt="" title=""/>
+                                        </div>
+                                    </div>
+                                    <h3>Add Car Hire</h3>
+                                </a>
+
+                                <a href="#" class="quick-item text-center">
+                                    <div class="icon d-table">
+                                        <div class="d-table-cell">
+                                            <img src="img/currency-ico.png" alt="" title=""/>
+                                        </div>
+                                    </div>
+                                    <h3>Add Currency</h3>
+                                </a>
+
+                                <a href="#" class="quick-item text-center">
+                                    <div class="icon d-table">
+                                        <div class="d-table-cell">
+                                            <img src="img/visa-ico.png" alt="" title=""/>
+                                        </div>
+                                    </div>
+                                    <h3>Add Visa</h3>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-stretch mb_20">
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="white-wrapper wrapper-shadow br-5">
+                            <div class="p_15">
+                                <div class="wrapper-title raleway-font">
+                                    <h2 class="mb_15">Add Hotel</h2>
+                                </div>
+                                <form class="roboto-font custom-form">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="">Policy</label>
+                                                <select class="form-control">
+                                                    <option>Select Policy</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="">Destination</label>
+                                                <div class="">
+                                                    <input type="text" id="" class="form-control" placeholder="Enter Destination"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="">Preferred Location</label>
+                                                <div class="">
+                                                    <input type="text" id="" class="form-control" placeholder="Enter Preferred Location"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="">Star Category</label>
+                                                <select class="form-control">
+                                                    <option>Select Star Category</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="d_date">Check In</label>
+                                                <div class="c-icon position-relative">
+                                                    <input type="text" id="to" class="form-control" placeholder="Select Check In"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="d_date">Check Out</label>
+                                                <div class="c-icon position-relative">
+                                                    <input type="text" id="to" class="form-control" placeholder="Select Check Out"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="a_date">Number of Rooms</label>
+                                                <select class="form-control">
+                                                    <option>Select No. of Number</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="">Number of Adults</label>
+                                                <select class="form-control">
+                                                    <option>Select No. of Adults</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                            <div class="form-group">
+                                                <label for="">Number of Child</label>
+                                                <select class="form-control">
+                                                    <option>Select No. of Childs</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+
+                                    <div class="row mb_20">
+                                        <div class="col-md-12">
+                                            <fieldset class="method-option">
+                                                <legend>Amenities</legend>
+                                                <div class="row">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="custom-checkbox">
+                                                            <div class="show-direct-flight">
+                                                                <input type="checkbox" id="extra_bed_child" name="extra bed for child">
+                                                                <label for="extra_bed_child">Extra Bed for child</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="custom-checkbox">
+                                                            <div class="show-direct-flight">
+                                                                <input type="checkbox" id="brkfst_icluded" name="Breakfast included">
+                                                                <label for="brkfst_icluded">Breakfast included</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="custom-checkbox">
+                                                            <div class="show-direct-flight">
+                                                                <input type="checkbox" id="meals_icluded" name="Meals Included">
+                                                                <label for="meals_icluded">Meals Included</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </fieldset>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                            <div class="custom-checkbox">
+                                                <div class="show-direct-flight">
+                                                    <input type="checkbox" id="send_traveller_arranger" name="Send to traveller arranger">
+                                                    <label for="send_traveller_arranger">Send To Travel Arranger</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                </form>
+
+                                
+                            </div>
+
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="search-button-wrapper mt_20 mb_20 text-center">
+                                        <button type="button" class="btn-orange raleway-font text-uppercase">Search Hotel</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div class="white-wrapper wrapper-shadow br-5 mb_15">
+                            <div class="p_15">
+                                <div class="wrapper-title raleway-font">
+                                    <h2 class="mb_0 dropdown toggle" id="toggle-heading">Trip Detail</h2>
+                                </div>
+
+                                <div class="trip-detail-wrapper roboto-font mt_20 toggle-content" style="display: none;">
+
+                                    
+                                    <div class="trip_detail_container br-5">
+                                        
+                                        <div class="trip_detail_header mb_10">
+                                            <div class="d-flex bg-light p_10 align-items-center">
+                                                <div class="flex-grow-1">
+                                                <h4 class="mb_0 fs-14">Section 1 <span class="float-right"><a href="#"><i class="fas fa-pencil-alt"></i></a></span>
+                                                </h4>
+                                                </div>
+                                            </div>
+
+                                            <div class="trip_detail_content p_10 d-none">
+
+                                                <div class="row align-items-center mb_10">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <div><h3 class="trip-detail-label">Employee Name</h3></div>
+                                                            <div><span>:-</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                        <div class="trip-detail-content">
+                                                            <h3 class="trip-content">Gaurav Thakur</h3>
+                                                        </div>
+                                                    </div>
+                                                </div><!--row ends here-->
+                                                <div class="row align-items-center mb_10">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <div><h3 class="trip-detail-label">Trip Period</h3></div>
+                                                            <div><span>:-</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                        <div class="trip-detail-content">
+                                                            <h3 class="trip-content">28 Jan 2019 To 14 Feb 2019</h3>
+                                                        </div>
+                                                    </div>
+                                                </div><!--row ends here-->
+                                                <div class="row align-items-center mb_10">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <div><h3 class="trip-detail-label">Trip Type</h3></div>
+                                                            <div><span>:-</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                        <div class="trip-detail-content">
+                                                            <h3 class="trip-content">Official</h3>
+                                                        </div>
+                                                    </div>
+                                                </div><!--row ends here-->
+                                                <div class="row align-items-center mb_10">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <div><h3 class="trip-detail-label">Destination</h3></div>
+                                                            <div><span>:-</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                        <div class="trip-detail-content">
+                                                            <h3 class="trip-content">Bali</h3>
+                                                        </div>
+                                                    </div>
+                                                </div><!--row ends here-->
+                                                <div class="row align-items-center mb_10">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <div><h3 class="trip-detail-label">Traveller</h3></div>
+                                                            <div><span>:-</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                        <div class="trip-detail-content">
+                                                            <h3 class="trip-content">2</h3>
+                                                        </div>
+                                                    </div>
+                                                </div><!--row ends here-->
+                                                <div class="row mb_10">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-start justify-content-between">
+                                                            <div><h3 class="trip-detail-label">Remarks</h3></div>
+                                                            <div><span>:-</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                        <div class="trip-detail-content">
+                                                            <h3 class="trip-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum est omnis possimus mollitia maxime harum, quae facere tempore illo adipisci, dolore quasi doloremque vitae quaerat iste? At minus dolores rerum.</h3>
+                                                        </div>
+                                                    </div>
+                                                </div><!--row ends here-->
+                                            </div>
+
+                                        </div><!--section ends here-->
+
+                                        <div class="trip_detail_header mb_10">
+                                            <div class="d-flex bg-light p_10 align-items-center">
+                                                <div class="flex-grow-1">
+                                                <h4 class="mb_0 fs-14">Section 1 <span class="float-right"><a href="#"><i class="fas fa-pencil-alt"></i></a></span>
+                                                </h4>
+                                                </div>
+                                            </div>
+
+                                            <div class="trip_detail_content p_10 d-none">
+
+                                                <div class="row align-items-center mb_10">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <div><h3 class="trip-detail-label">Employee Name</h3></div>
+                                                            <div><span>:-</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                        <div class="trip-detail-content">
+                                                            <h3 class="trip-content">Gaurav Thakur</h3>
+                                                        </div>
+                                                    </div>
+                                                </div><!--row ends here-->
+                                                <div class="row align-items-center mb_10">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <div><h3 class="trip-detail-label">Trip Period</h3></div>
+                                                            <div><span>:-</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                        <div class="trip-detail-content">
+                                                            <h3 class="trip-content">28 Jan 2019 To 14 Feb 2019</h3>
+                                                        </div>
+                                                    </div>
+                                                </div><!--row ends here-->
+                                                <div class="row align-items-center mb_10">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <div><h3 class="trip-detail-label">Trip Type</h3></div>
+                                                            <div><span>:-</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                        <div class="trip-detail-content">
+                                                            <h3 class="trip-content">Official</h3>
+                                                        </div>
+                                                    </div>
+                                                </div><!--row ends here-->
+                                                <div class="row align-items-center mb_10">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <div><h3 class="trip-detail-label">Destination</h3></div>
+                                                            <div><span>:-</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                        <div class="trip-detail-content">
+                                                            <h3 class="trip-content">Bali</h3>
+                                                        </div>
+                                                    </div>
+                                                </div><!--row ends here-->
+                                                <div class="row align-items-center mb_10">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-center justify-content-between">
+                                                            <div><h3 class="trip-detail-label">Traveller</h3></div>
+                                                            <div><span>:-</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                        <div class="trip-detail-content">
+                                                            <h3 class="trip-content">2</h3>
+                                                        </div>
+                                                    </div>
+                                                </div><!--row ends here-->
+                                                <div class="row mb_10">
+                                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                        <div class="d-flex align-items-start justify-content-between">
+                                                            <div><h3 class="trip-detail-label">Remarks</h3></div>
+                                                            <div><span>:-</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                        <div class="trip-detail-content">
+                                                            <h3 class="trip-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum est omnis possimus mollitia maxime harum, quae facere tempore illo adipisci, dolore quasi doloremque vitae quaerat iste? At minus dolores rerum.</h3>
+                                                        </div>
+                                                    </div>
+                                                </div><!--row ends here-->
+                                            </div>
+
+                                        </div><!--section ends here-->
+
+                                    </div>
+
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <div class="white-wrapper wrapper-shadow br-5 mb_15">
+                            <div class="p_15">
+                                <div class="wrapper-title raleway-font">
+                                    <h2 class="mb_0 dropdown">Flight Detail</h2>
+                                </div>
+
+                                <div class="trip-detail-wrapper roboto-font mt_20">
+                                    <div class="row align-items-center mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div><h3 class="trip-detail-label">Policy</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">Lorem Ispum</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                    <div class="row align-items-center mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div><h3 class="trip-detail-label">Journey Type</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">Official</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                    <div class="row align-items-center mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div><h3 class="trip-detail-label">Origin</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">Lorum Ispum</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                    <div class="row align-items-center mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div><h3 class="trip-detail-label">Destination</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">Bali</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                    <div class="row align-items-center mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div><h3 class="trip-detail-label">Departure Date</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">12 January 2019</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                    <div class="row align-items-center mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div><h3 class="trip-detail-label">No. of Passengers</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">5</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                    <div class="row align-items-center mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-center justify-content-between">
+                                                <div><h3 class="trip-detail-label">Class of Travel</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">Economy</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                    <div class="row mb_10">
+                                        <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                            <div class="d-flex align-items-start justify-content-between">
+                                                <div><h3 class="trip-detail-label">Remarks</h3></div>
+                                                <div><span>:-</span></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                            <div class="trip-detail-content">
+                                                <h3 class="trip-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum est omnis possimus mollitia maxime harum, quae facere tempore illo adipisci, dolore quasi doloremque vitae quaerat iste? At minus dolores rerum.</h3>
+                                            </div>
+                                        </div>
+                                    </div><!--row ends here-->
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!--row ends here-->
+
+                <div class="row justify-content-center">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="search-button-wrapper mt_20 mb_20 text-center">
+                            <button type="button" class="btn-blue raleway-font text-uppercase">Send for Approval</button>
+                        </div>
+                    </div>
+                </div><!--row ends here-->
+
+            </div>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

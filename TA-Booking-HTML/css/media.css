@@ -1,0 +1,691 @@
+@media (max-width:320.98px)
+{
+    .dashboard-topbar .navbar-toggler{margin-right: 20px;}
+    .ortharize-logo{background-size: 170px;}
+    .ortharize-logo-area{width:170px;}
+    .sidebar_shift .toggle-sidebar{padding-left: 0;}
+    .navbar-toggler{border:2px solid #e83437 !important;line-height:30px !important;color:#e83437 !important;}
+    .section-bg {background: none;}
+    .grid-container,.trip-detail-grid,.quick-option-grid{grid-template-columns: 1fr;}
+    .grid-container .login-via > div{width:33.3333%;float: left;padding:20px 0;}
+    .box-wrapper{width:100%;}
+    .grid-container .login-via-content{padding:30px 20px 20px 20px;}
+    .grid-container .login-via > div:last-child{border-bottom: 1px solid #d1d1d1;}
+    .grid-container .login-via{border-right: 0 none;}
+    .dashboard-container{padding:90px 20px;}
+    .navbar-toggler-icon::before{content: '\f0c9';font-family: "Font Awesome 5 Free"; font-weight: 900;color: #e83437;}
+    .search-input input,.sort-by-form .custom-width input{width:100%;}
+    .trip-detail-grid > div{border-right: 0 none;border-bottom:1px dashed #d1d1d1;}
+    .white-wrapper{margin-bottom: 15px;}
+    /* .d-flex > div{width:100%;margin-bottom: 5px;} */
+    .search-input input,.sort-by-form .custom-width input{width: 100%;}
+    .d-flex{flex-wrap: wrap;}
+    /* .d-flex > .mr-2{margin-right: 0 !important;} */
+    .custom-tabs ul.nav-tabs .nav-item{display: block;width:100%;margin-right: 0;margin-bottom: 5px;}
+    .custom-table thead tr th,.custom-table tbody tr td{font-size: 12px;}
+    .inner-wrapper{padding: 100px 0;}
+    .currency-dropdown .d-flex{flex-wrap: nowrap;}
+    .currency-dropdown .d-flex div{margin-right:.5rem!important}
+    .navbar-nav{align-items: flex-start !important;}
+    .country-dropdown-content{position: relative;top:0}
+    .country-dropdown-content .d-flex div{width: auto;}
+    #flight-wrapper-content{margin-left: 0;}
+    .custom-checkbox.position-absolute{left:auto;right:0}
+
+    .register-container .form-group.col{flex-basis: auto;}
+    .register-container{padding:10px 10px;}
+    .custom-form label{font-size: 12px;}
+    .custom-checkbox.position-absolute{right:4px;left:auto;}
+    .other-options{text-align: center;}
+    .other-options .d-inline-block{display: block !important;}
+    .other-options .float-right{float:none !important;}
+    .custom-tooltip{position: relative;display: inline-block;right:0;}
+
+    header.sticky .custom-menu ul li.country-dropdown > a{border:0 none;}
+
+    .custom-menu{background:#fff;border:1px solid #d1d1d1;border-radius: 3px;padding:0;box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important}
+    .custom-menu ul li a{color: #212121;padding:10px !important;border-bottom:1px solid #d1d1d1;display: block;}
+    .custom-menu ul li{padding-right:0;width:100%;}
+
+    .custom-form .form-row .col{flex-basis: auto;}
+    .flighr-result-wrapper{padding: 15px;}
+
+    /* Flight Result Round Trip Media */
+    .flight-round-trip-wrapper .d-flex div{width:100%;}
+    .flight-round-trip-wrapper .d-flex div.border-right-orange{border-bottom: 1px solid #d1d1d1;padding-bottom: 10px;margin-bottom: 10px;}
+    .flight-round-trip-wrapper .d-flex .pr-5{padding-right: 0 !important;}
+    .flight-round-trip-wrapper .d-flex .pl-5{padding-left: 10px !important;}
+    .flight-round-trip-wrapper .flight-details{margin:0 !important;}
+    .flight-round-trip-wrapper .d-flex .border-right-orange{border-right: 0 none;}
+    .flight-round-trip-wrapper .modify-search-btn{margin-top: 10px;}
+    .mobile-flight-logo{height: 26px;width:26px;border:1px solid #d1d1d1;border-radius: 100%;margin:0 auto 5px;}
+    .mobile-flight-logo img{height: 26px;width:26px;object-fit: cover;}
+    .mobile-view-flight-search .flight-arrival-wrapper .d-flex div.dept-time::after{content: '';position: absolute;right: 44px;top:11px;width:9px;border-bottom:2px solid #4d4d4d;}
+
+    .trip-book-req-grid{grid-template-columns: 1fr;}
+    .trip-book-req-grid > div{border-right: 0 none;}
+    .ta-trip-booking-form .form-group.col{flex-basis: auto;}
+    .ta-trip-heading > div{width: 100%;}
+    .ta-trip-heading h2{font-size: 16px;margin-bottom: 10px;}
+
+    .set-spend-limit-form > div{width:100%;margin-bottom: 10px;}
+    .set-spend-limit-form .custom-form .search-button-wrapper,.set-spend-limit-form .custom-form .search-button-wrapper button{display:block;width: 100%;}
+    .set-spend-limit-form .custom-form .append-select.mr-3{margin-right: 0 !important;}
+    .set-spend-limit-form .custom-form .search-button-wrapper button{margin-top: 10px;}
+    .search-button-wrapper button{width:100%;margin-bottom: 10px;font-size:12px;}
+    .set-max-day h3{font-size:14px;margin-bottom: 10px;}
+
+    .append-select input{width:auto !important;}
+
+    .trips-awaiting-approval > div {width:100%;margin-bottom: 10px;}
+    .trips-awaiting-approval .d-flex > div{width:100%;margin-bottom: 10px;}
+
+    .move-to-pages ul li a{padding:10px;}
+
+    .view-all-booking .d-flex > div{width:100%}
+
+    .trip-await-form .form-group.mr-3{margin-right: 0 !important;}
+
+    .view-trip-detail-wrapper .row.align-items-center{margin-bottom: 10px;}
+    h4.detail-title{font-size:14px;}
+    .dashboard-container{padding:90px 15px;}
+    h3.trip-detail-label,h3.trip-content{font-size: 12px;}
+
+    .search-input::after{display: none;}
+
+    .edit-currency-form .custom-form .col{flex-basis: auto;}
+    
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 360px) and (max-width: 575.98px)
+{
+    .dashboard-topbar .navbar-toggler{margin-right: 20px;}
+    .ortharize-logo{background-size: 200px;}
+    .ortharize-logo-area{width:200px;}
+    .sidebar_shift .toggle-sidebar{padding-left: 0;}
+    .navbar-toggler{border:2px solid #e83437 !important;line-height:30px !important;color:#e83437 !important;}
+    .section-bg {background: none;}
+    .grid-container,.trip-detail-grid,.quick-option-grid{grid-template-columns: 1fr;}
+    .grid-container .login-via > div{width:33.3333%;float: left;padding:20px 0;}
+    .box-wrapper{width:100%;}
+    .grid-container .login-via-content{padding:30px 20px 20px 20px;}
+    .grid-container .login-via > div:last-child{border-bottom: 1px solid #d1d1d1;}
+    .grid-container .login-via{border-right: 0 none;}
+    .dashboard-container{padding:90px 20px;}
+    .navbar-toggler-icon::before{content: '\f0c9';font-family: "Font Awesome 5 Free"; font-weight: 900;color: #e83437;}
+    .trip-detail-grid > div{border-right: 0 none;border-bottom:1px dashed #d1d1d1;}
+    .white-wrapper{margin-bottom: 15px;}
+    /* .d-flex > div{width:100%;margin-bottom: 5px;} */
+    .search-input input,.sort-by-form .custom-width input{width: 100%;}
+    .d-flex{flex-wrap: wrap;}
+    /* .d-flex > .mr-2{margin-right: 0 !important;} */
+    .custom-tabs ul.nav-tabs .nav-item{display: block;width:100%;margin-right: 0;margin-bottom: 5px;}
+    .custom-table thead tr th,.custom-table tbody tr td{font-size: 12px;}
+    .inner-wrapper{padding: 100px 0;}
+    .currency-dropdown .d-flex{flex-wrap: nowrap;}
+    .currency-dropdown .d-flex div{margin-right:.5rem!important}
+    .navbar-nav{align-items: flex-start !important;}
+    .country-dropdown-content{position: relative;top:0}
+    .country-dropdown-content .d-flex div{width: auto;}
+    #flight-wrapper-content{margin-left: 0;}
+    .custom-checkbox.position-absolute{left:auto;right:0}
+
+    .register-container .form-group.col{flex-basis: auto;}
+    .register-container{padding:10px 10px;}
+    .custom-form label{font-size: 12px;}
+    .custom-checkbox.position-absolute{right:4px;left:auto;}
+    .other-options{text-align: center;}
+    .other-options .d-inline-block{display: block !important;}
+    .other-options .float-right{float:none !important;}
+    .custom-tooltip{position: relative;display: inline-block;right:0;}
+
+    header.sticky .custom-menu ul li.country-dropdown > a{border:0 none;}
+
+    .custom-menu{background:#fff;border:1px solid #d1d1d1;border-radius: 3px;padding:0;box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important}
+    .custom-menu ul li a{color: #212121;padding:10px !important;border-bottom:1px solid #d1d1d1;display: block;}
+    .custom-menu ul li{padding-right:0;width:100%;}
+
+    .custom-form .form-row .col{flex-basis: auto;}
+    .flighr-result-wrapper{padding: 15px;}
+
+    /* Hotel result media */
+
+    .single-hotel-result .d-flex .first,
+    .single-hotel-result .d-flex .third,
+    .single-hotel-result .d-flex .second
+    {width: 100%;}
+    .single-hotel-result .d-flex .second{padding:0;}
+
+    /* rail search result media */
+    .single-train-wrapper .d-flex .first, 
+    .single-train-wrapper .d-flex .third,
+    .single-train-wrapper .d-flex .second,
+    .single-train-wrapper .d-flex .fourth,
+    .single-train-wrapper .d-flex .fifth
+    {width:100%}
+    .book-now-rail .d-flex > div.border-right{width:100%}
+
+    /* car search result media */
+
+    .car-result-wrapper .d-flex .car-img{width:100%; margin-bottom: 10px;}
+    .car__included__free.border-right{border-right: 0 none !important;}
+
+
+    /* Flight Result Round Trip Media */
+    .flight-round-trip-wrapper .d-flex div{width:100%;}
+    .flight-round-trip-wrapper .d-flex div.border-right-orange{border-bottom: 1px solid #d1d1d1;padding-bottom: 10px;margin-bottom: 10px;}
+    .flight-round-trip-wrapper .d-flex .pr-5{padding-right: 0 !important;}
+    .flight-round-trip-wrapper .d-flex .pl-5{padding-left: 10px !important;}
+    .flight-round-trip-wrapper .flight-details{margin:0 !important;}
+    .flight-round-trip-wrapper .d-flex .border-right-orange{border-right: 0 none;}
+    .flight-round-trip-wrapper .modify-search-btn{margin-top: 10px;}
+    .mobile-flight-logo{height: 26px;width:26px;border:1px solid #d1d1d1;border-radius: 100%;margin:0 auto 5px;}
+    .mobile-flight-logo img{height: 26px;width:26px;object-fit: cover;}
+    .mobile-view-flight-search .flight-arrival-wrapper .d-flex div.dept-time::after{content: '';position: absolute;right: 44px;top:11px;width:9px;border-bottom:2px solid #4d4d4d;}
+    .mobile-view-flight-search{max-height: 200px;overflow-y: scroll; overflow-x: hidden;}
+
+    .trip-book-req-grid{grid-template-columns: 1fr}
+    .trip-book-req-grid > div{border-right: 0 none;}
+    .ta-trip-booking-form .form-group.col{flex-basis: auto;}
+    .ta-trip-heading > div{width: 100%; margin-bottom: 10px;}
+
+    .set-spend-limit-form > div{width:100%;margin-bottom: 10px;}
+    .set-spend-limit-form .custom-form .search-button-wrapper,.set-spend-limit-form .custom-form .search-button-wrapper button{display:block;width: 100%;}
+    .set-spend-limit-form .custom-form .append-select.mr-3{margin-right: 0 !important;}
+    .set-spend-limit-form .custom-form .search-button-wrapper button{margin-top: 10px;}
+    .search-button-wrapper button{width:100%;margin-bottom: 10px;font-size:12px;}
+    .set-max-day h3{font-size:14px;margin-bottom: 10px;}
+
+    .append-select input{width:auto !important;}
+
+    .trips-awaiting-approval > div {width:100%;margin-bottom: 10px;}
+    .trips-awaiting-approval .d-flex > div{width:100%;margin-bottom: 10px;}
+    .trips-awaiting-approval .d-flex > div.mr-2{margin-right: 0 !important;}
+
+    .move-to-pages ul li a{padding:10px;}
+
+    .view-all-booking .d-flex > div{width:100%}
+
+    .trip-await-form .form-group.mr-3{margin-right: 0 !important;}
+
+    .view-trip-detail-wrapper .row.align-items-center{margin-bottom: 10px;}
+    h4.detail-title{font-size:14px;}
+    .dashboard-container{padding:90px 15px;}
+    h3.trip-detail-label,h3.trip-content{font-size: 12px;}
+
+    .search-input::after{display: none;}
+
+    .edit-currency-form .custom-form .col{flex-basis: auto;}
+
+    
+       
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)
+{
+    .dashboard-topbar .navbar-toggler{margin-right: 30px;}
+    .navbar-toggler{border:2px solid #e83437 !important;line-height:30px !important;color:#e83437 !important;}
+    .section-bg {background: none;}
+    .grid-container,.trip-detail-grid{grid-template-columns: 1fr;}
+    .grid-container .login-via > div{width:33.3333%;float: left;padding:20px 0;}
+    .box-wrapper{width:100%;}
+    .grid-container .login-via-content{padding:30px 20px 20px 20px;}
+    .grid-container .login-via > div:last-child{border-bottom: 1px solid #d1d1d1;}
+    .grid-container .login-via{border-right: 0 none;}
+    .dashboard-container{padding:90px 20px;}
+    .navbar-toggler-icon::before{content: '\f0c9';font-family: "Font Awesome 5 Free"; font-weight: 900;color: #e83437;}
+    .trip-detail-grid > div{border-right: 0 none;border-bottom:1px dashed #d1d1d1;}
+    .white-wrapper{margin-bottom: 15px;}
+    .quick-option-grid a.quick-item{padding: 5px;}
+    .quick-option-grid a.quick-item h3{font-size: 10px;}
+    .quick-item .step{right: 0;}
+    .search-input input,.sort-by-form .custom-width input{width: 100%;}
+    .d-flex{flex-wrap: wrap;}
+    /* .d-flex > .mr-2{margin-right: 0 !important;} */
+    .custom-table thead tr th,.custom-table tbody tr td{font-size: 12px;}
+
+    .currency-dropdown .d-flex{flex-wrap: nowrap;}
+    .currency-dropdown .d-flex div{margin-right:.5rem!important}
+    .navbar-nav{align-items: flex-start !important;}
+    .country-dropdown-content{position: relative;top:0}
+    .country-dropdown-content .d-flex div{width: auto;}
+    #flight-wrapper-content{margin-left: 0;}
+    .custom-checkbox.position-absolute{left:auto;right:0}
+
+    .register-container .form-group.col{flex-basis: auto;}
+    .register-container{padding:10px 10px;}
+    .custom-form label{font-size: 12px;}
+    .custom-checkbox.position-absolute{right:4px;left:auto;}
+    .other-options{text-align: center;}
+    .other-options .d-inline-block{display: block !important;}
+    .other-options .float-right{float:none !important;}
+
+    header.sticky .custom-menu ul li.country-dropdown > a{border:0 none;}
+
+    .custom-menu{background:#fff;border:1px solid #d1d1d1;border-radius: 3px;padding:0;box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important}
+    .custom-menu ul li a{color: #212121;padding:10px !important;border-bottom:1px solid #d1d1d1;display: block;}
+    .custom-menu ul li{padding-right:0;width:100%;}
+
+    .custom-form .form-row .col{flex-basis: auto;}
+
+    /* Hotel result media */
+
+    .single-hotel-result .d-flex .first,
+    .single-hotel-result .d-flex .third,
+    .single-hotel-result .d-flex .second
+    {width: 100%;}
+    .single-hotel-result .d-flex .second{padding:0;}
+
+
+    /* rail search result media */
+    .single-train-wrapper .d-flex .first, 
+    .single-train-wrapper .d-flex .third
+    {width:100%}
+
+    /* Flight Result Round Trip Media */
+    .flight-round-trip-wrapper .d-flex div{width:100%;}
+    .flight-round-trip-wrapper .d-flex div.border-right-orange{border-bottom: 1px solid #d1d1d1;padding-bottom: 10px;margin-bottom: 10px;}
+    .flight-round-trip-wrapper .d-flex .pr-5{padding-right: 0 !important;}
+    .flight-round-trip-wrapper .d-flex .pl-5{padding-left: 10px !important;}
+    .flight-round-trip-wrapper .flight-details{margin:0 !important;}
+    .flight-round-trip-wrapper .d-flex .border-right-orange{border-right: 0 none;}
+    .flight-round-trip-wrapper .modify-search-btn{margin-top: 10px;}
+    .mobile-flight-logo{height: 26px;width:26px;border:1px solid #d1d1d1;border-radius: 100%;margin:0 auto 5px;}
+    .mobile-flight-logo img{height: 26px;width:26px;object-fit: cover;}
+    .mobile-view-flight-search .flight-arrival-wrapper .d-flex div.dept-time::after{content: '';position: absolute;right: 44px;top:11px;width:9px;border-bottom:2px solid #4d4d4d;}
+
+    .trip-book-req-grid{grid-template-columns: 1fr;}
+    .ta-trip-booking-form .form-group.col{flex-basis: auto;}
+
+    .trips-awaiting-approval > div {width:100%;margin-bottom: 10px;}
+    .trips-awaiting-approval .d-flex > div{width:100%;margin-bottom: 10px;}
+    .trips-awaiting-approval .d-flex > div.mr-2{margin-right: 0 !important;}
+
+    .move-to-pages ul li a{padding:10px;}
+    
+
+    .view-all-booking .d-flex > div{width:100%}
+
+    .view-trip-detail-wrapper .row.align-items-center{margin-bottom: 10px;}
+    h4.detail-title{font-size:14px;}
+    .dashboard-container{padding:90px 15px;}
+    h3.trip-detail-label,h3.trip-content{font-size: 12px;}
+
+    .search-input::after{display: none;}
+    
+}
+
+/* Custom device width */
+@media (min-width: 577px) and (max-width: 610px)
+{
+    .custom-tabs ul.nav-tabs .nav-item{display: block;width:100%;margin-right: 0;margin-bottom: 5px;}
+}
+
+/* Custom Devie width 667 */
+
+@media only screen and (max-width:667px)
+{
+
+    .sort-by-form .search-input::after{display: none;}
+    .back a{padding:5px 10px;}
+    .trip-detail-grid > div h3,.trip-detail-grid > div span{font-size: 12px;}
+    .trip-detail-grid > div{padding: 5px;border-bottom: 0 none;}
+    .trip-detail-grid .search-button-wrapper button{padding: 10px 4px;font-size:8px;}
+    .trip-header{padding:10px;}
+    .append-select input{width:180px !important;}
+    .edit-currency-form .custom-form .col{flex-basis: auto;}
+}
+
+/* Csutom width */
+
+@media only screen and (max-width:823px)
+{
+    .trip-book-req-grid > div h3{font-size:14px;}
+    .trip-book-req-grid > div span{font-size:12px;}
+}
+
+
+
+/* Custom Devie width 736 */
+
+@media only screen and (max-width:736px)
+{
+    .trip-detail-grid > div h3,.trip-detail-grid > div span{font-size: 12px;}
+    .trip-detail-grid > div{padding: 5px;}
+    .trip-detail-grid .search-button-wrapper button{padding: 10px 2px;font-size: 10px;}
+    .trip-header{padding:10px;}
+}
+
+/* Custom Devie width 812 */
+
+@media only screen and (max-width:812px)
+{
+    .trip-detail-grid > div h3,.trip-detail-grid > div span{font-size: 12px;}
+    .trip-detail-grid > div{padding: 5px;}
+    .trip-detail-grid .search-button-wrapper button{padding: 10px 5px;font-size: 8px;}
+    .trip-header{padding:10px;}
+    .dashboard-topbar .navbar .navbar-nav .nav-link{margin-right: 0;}
+    .custom-tabs ul.nav-tabs li a{font-size: 10px;}
+    .custom-tabs ul.nav-tabs .nav-item{margin-right: 0;}
+}
+
+
+
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)
+{
+    .navbar-toggler{border:2px solid #e83437 !important;line-height:30px !important;color:#e83437 !important;}
+    .section-bg {background: none;}
+    .box-wrapper{width:100%;}
+    .grid-container .login-via > div{padding:20px 0;}
+    .grid-container .login-via-content{padding:20px;}
+    .dashboard-container{padding:90px 20px;}
+    .navbar-toggler-icon::before{content: '\f0c9';font-family: "Font Awesome 5 Free"; font-weight: 900;color: #e83437;}
+    .trip-detail-grid > div{border-right: 0 none;}
+    .white-wrapper{margin-bottom: 15px;}
+    .quick-option-grid a.quick-item{padding: 5px;}
+    .quick-option-grid a.quick-item h3{font-size: 10px;}
+    .custom-table thead tr th,.custom-table tbody tr td{font-size: 12px;}
+    .d-flex{flex-wrap: wrap;}
+    .search-input input{width: 190px;}
+    #flight-wrapper-content{margin-left: 0;}
+    .register-container .form-group.col{flex-basis: auto;}
+    .register-container{padding:10px 10px;}
+    .custom-form label{font-size: 12px;}
+    .custom-checkbox.position-absolute{right:4px;left:auto;}
+    .other-options{text-align: center;}
+    .other-options .d-inline-block{display: block !important;}
+    .other-options .float-right{float:none !important;}
+    .custom-tooltip{position: relative;display: inline-block;right:0;}
+    header.sticky .custom-menu ul li.country-dropdown > a{border:0 none;}
+
+    .custom-menu{background:#fff;border:1px solid #d1d1d1;border-radius: 3px;padding:0;box-shadow:0 .125rem .25rem rgba(0,0,0,.075)!important}
+    .custom-menu ul li a{color: #212121;padding:10px !important;border-bottom:1px solid #d1d1d1;display: block;}
+    .custom-menu ul li{padding-right:0;width:100%;}
+
+    .custom-form .form-row .col{flex-basis: auto;}  
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px)
+{
+    .section-bg {background: none;}
+    .box-wrapper{width:100%;}
+    .custom-tabs ul.nav-tabs li a{font-size: 11px;}
+    .d-flex{flex-wrap: wrap;}
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)  and (max-width:1360px)
+{
+    
+}
+
+/* Galaxy S5 Media */
+
+@media only screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3)
+{
+    .back a{margin-bottom: 10px;}
+    .sort-form-flex > div,.sort-by-form .d-flex > div{width:100%;margin-bottom: 10px;}
+    .sort-by-form .d-flex > div input{width:100%;}
+    .sort-by-form .d-flex > .mr-2{margin-right: 0 !important;}
+    .trip-await-form .form-group select, .trip-await-form .form-group input{width:100%;}
+    .trip-await-form .d-flex > div{width:100%;}
+    .wrapper-title h2{font-size:14px;margin-bottom: 10px;}
+    .form-group.col{flex-basis: auto;}
+}
+
+@media only screen 
+and (device-width: 360px) 
+and (device-height: 640px)
+and (orientation : landscape)
+{
+    .wrapper-title h2{margin-bottom: 0 !important;}
+}
+
+
+
+/* Iphone 5/SE Media  */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) 
+and (-webkit-device-pixel-ratio: 2)
+{
+    .back a{margin-bottom: 10px;}
+    .sort-form-flex > div,.sort-by-form .d-flex > div{width:100%;margin-bottom: 10px;}
+    .sort-by-form .d-flex > div input{width:100%;}
+    .sort-by-form .d-flex > .mr-2{margin-right: 0 !important;}
+    .trip-await-form .form-group select, .trip-await-form .form-group input{width:100%;}
+    .trip-await-form .d-flex > div{width:100%;}
+    .wrapper-title h2{font-size:14px;margin-bottom: 10px;}
+    .form-group.col{flex-basis: auto;}
+}
+
+/* media 6/7/8 plus */
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px)
+and (-webkit-device-pixel-ratio : 3)
+{
+    .sort-form-flex > div,.sort-by-form .d-flex > div{width:100%;margin-bottom: 10px;}
+    .sort-by-form .d-flex > div input{width:100%;}
+    .sort-by-form .d-flex > .mr-2{margin-right: 0 !important;}
+    .trip-await-form .form-group select, .trip-await-form .form-group input{width:100%;}
+    .trip-await-form .d-flex > div{width:100%;}
+    .wrapper-title h2{font-size:14px;}
+    .form-group.col{flex-basis: auto;}
+}
+
+/* Media 6/7/8 Iphone  */
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px)
+{
+    .sort-form-flex > div,.sort-by-form .d-flex > div{width:100%;margin-bottom: 10px;}
+    .sort-by-form .d-flex > div input{width:100%;}
+    .form-group.col{flex-basis: auto;}
+    .trip-await-form .form-group select, .trip-await-form .form-group input{width: 100%;}
+}
+
+
+/* Iphone X Media */
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 2)
+{
+    .back a{margin-bottom: 10px;}
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (orientation : landscape)
+{
+    .back a{margin-bottom: 0;}
+}
+
+
+
+
+/* kapil 22-5-2020 */
+@media(max-width: 1199px) and (min-width:768px){
+    /* .flight-result-wrapper .flight-filter-header .flight-overlay, 
+    .flight-result-wrapper .flight-filter-header .fourth{
+      display: none;
+    } */
+    .flight-result-wrapper .all-flights-wraper .single-flight .d-md-flex{
+      flex-wrap: wrap;
+      margin: 10px 0;
+    }
+    .flight-result-wrapper .all-flights-wraper .single-flight .first{
+        width: 20%;
+    }
+    .flight-result-wrapper .all-flights-wraper .single-flight .second{
+        width: 20%;
+    }
+    .flight-result-wrapper .all-flights-wraper .single-flight .second{
+        width: 20%;
+    }
+    .flight-result-wrapper .all-flights-wraper .single-flight .flight-overlay{
+        width: 20%;
+    }
+    .flight-result-wrapper .all-flights-wraper .single-flight .third{
+        width: 15%;
+    }
+    .flight-result-wrapper .all-flights-wraper .single-flight .fourth{
+        width: 25%;
+    }
+    .flight-result-wrapper .all-flights-wraper .single-flight .fifth{
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 767px){
+    .country-list a {
+        width: 100%;
+        text-align: center;
+        margin: 7px auto;
+        display: block;
+    }
+    .button-alignment{
+        margin-top: 0rem;
+    }
+    /* .review-steps::before{
+        position: static;
+    } */
+    .review-steps .d-flex{
+        flex-wrap: nowrap !important;
+    }
+    .col-check{
+        margin-top: 0px;
+        margin-bottom: 20px;
+    } 
+    .reset-left {
+        padding-left: 15px;
+    }
+    .card-well{
+        text-align: center;
+    }
+    .card-well .d-md-flex > div{
+        padding-bottom: 10px;
+    }
+    .flight-review-header .search-button-wrapper{
+        text-align: center;
+        width: 100%;
+        margin: 10px auto 0;
+    }
+    .flight-review-content{
+        text-align: center;
+    }
+    .flight-review-content span.flight-logo{
+        display: inline-block;
+    }
+    .review-section div:first-child{
+      margin-bottom: 10px;
+    }
+    .review-section div:nth-child(2){
+        margin-bottom: 10px;
+        display: inline-block;
+      }
+      .review-section .fly-flight {
+        margin: 20px auto;
+   
+    }
+    .flight-review-content .last{
+        width: 100%;
+    } 
+    .flight-detail-wrapper{
+        text-align: center;
+    }
+    .flight-detail-wrapper .from-to{
+       justify-content: center;
+    }
+    /* .all-flights-wraper .single-flight .d-flex{
+       justify-content: center;
+       flex-direction: column;
+    } */
+    .all-flights-wraper .single-flight .d-flex .flight-logo{
+      margin-right: 5px !important;
+    }
+   
+    .flight-result-wrapper .all-flights-wraper .second {
+        text-align: center;
+    }
+    .flight-result-wrapper .all-flights-wraper .depart-time{
+        width: 100%;
+        margin:10px 0;
+    }
+    .flight-overlay span.flight-icon::before,
+    .flight-overlay span.flight-icon::after {
+
+        top: 20px;
+    }
+    .flight-result-wrapper .all-flights-wraper .third{
+        margin: 10px 0;
+    }
+    .flight-result-wrapper .all-flights-wraper .third .depart-time h4, 
+    .flight-result-wrapper .all-flights-wraper .third .depart-time,
+    .flight-result-wrapper .all-flights-wraper .third .arrival-time span,
+    .flight-result-wrapper .all-flights-wraper .third  .arrival-time h4,
+    .flight-result-wrapper .all-flights-wraper .third  .arrival-time{
+        text-align: center;
+        width: 100%;
+    }
+    .flight-result-wrapper .all-flights-wraper .single-flight .first,
+    .flight-result-wrapper .all-flights-wraper .single-flight .second,
+    .flight-result-wrapper .all-flights-wraper .single-flight .flight-overlay,
+    .flight-result-wrapper .all-flights-wraper .single-flight .third,
+    .flight-result-wrapper .all-flights-wraper .single-flight .fourth,
+    .flight-result-wrapper .all-flights-wraper .single-flight .fifth
+    {
+        padding: 10px;
+        width: 100%;
+    }
+    .flight-result-wrapper .all-flights-wraper .fifth.inner .mobole-d {
+       width: 100%;
+       text-align: center;
+       margin: 10px 0
+    }
+    .flight-result-wrapper .all-flights-wraper .fifth.inner .mobole-d .total-price{
+        margin: 10px 0 5px;
+    }
+    .flight-result-wrapper .all-flights-wraper .fifth.inner .mobole-d .book-now-btn{
+        margin: 10px 0;
+    }
+    .flight-result-wrapper .all-flights-wraper .fourth.inner{
+        padding: 10px
+    }
+    .flight-result-wrapper .flight-filter-header .first,
+    .flight-result-wrapper .flight-filter-header .second,
+    .flight-result-wrapper .flight-filter-header .third,
+    .flight-result-wrapper .flight-filter-header .fifth{
+        width: 25%;
+        text-align: center !important;
+        padding: 5px 0;
+        }
+    .flight-result-wrapper .flight-filter-header .flight-overlay,
+    .flight-result-wrapper .flight-filter-header .fourth{
+        width: 0;
+        display: none;
+    }
+    .flight-result-wrapper .flight-filter-header .fifth h3{
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
+    .flight-detail-wrapper .flight-details{
+    margin: 10px 0;
+    }
+}
+
+@media(max-width: 574px){
+    .review-steps::before {
+        content: '';
+        position: absolute;
+        top: 15px;
+        width: 70%;
+        height: 4px;
+        background: #4b577d;
+        z-index: -1;
+        left: 50px;
+    }
+
+}

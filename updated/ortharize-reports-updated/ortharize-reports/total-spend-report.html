@@ -1,0 +1,959 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Reports</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <a href="#" class="toggle-sidebar d-block d-sm-block d-md-none">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Flight
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-hotel"></i></span>
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-train"></i></span>
+                                    Rail
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-car"></i></span>
+                                    Car
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Trip
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt font-18"></i>
+                                    <span class="title">Dashboard</span>
+                                </a>
+                              
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <img class="normal-icon" src="img/user-manager.png" />
+                                    <img class="active-icon" src="img/user-manager-active.png" />
+                                    <span class="title">User Manager</span>
+                                </a>
+                              
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/trip.png" />
+                                    <img class="active-icon" src="img/trip-active.png" />
+                                    <span class="title">Trips</span>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/customer.png" />
+                                    <img class="active-icon" src="img/customer-active.png" />
+                                    <span class="title">Customer Notes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/reward.png" />
+                                    <img class="active-icon" src="img/reward-active.png" />
+                                    <span class="title">Manage Rewards</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/travel-policy.png" />
+                                    <img class="active-icon" src="img/travel-policy-active.png" />
+                                    <span class="title">Travel Policy </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/master.png" />
+                                    <img class="active-icon" src="img/master-active.png" />
+                                    <span class="title">Masters</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/content-manager.png" />
+                                    <img class="active-icon" src="img/content-manager-active.png" />
+                                    <span class="title">Content Manager</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-cogs font-18"></i>
+                                    <span class="title">General Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/contact-form.png" />
+                                    <img class="active-icon" src="img/contact-form-active.png" />
+                                    <span class="title">Contact Form</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-file-invoice"></i>
+                                    <span class="title">Reports</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="custom-tabs-wrapper wrapper-shadow br-5 overflow-hidden">
+                            <div class="custom-tabs">
+                                <ul class="nav nav-tabs raleway-font" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="total-spend-tab" data-toggle="tab" href="#total-spend-report" role="tab" aria-controls="total-spend" aria-selected="true">Total Spend Report</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="hotel-spend-tab" data-toggle="tab" href="#hotel-spend-report" role="tab" aria-controls="hotel-spend" aria-selected="true">Hotel Spend Report</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="flight-spend-tab" data-toggle="tab" href="#flight-spend-report" role="tab" aria-controls="flight-spend" aria-selected="true">Flight Spend Report</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="car-hire-spend-tab" data-toggle="tab" href="#car-hire-spend-report" role="tab" aria-controls="car-hire-spend" aria-selected="true">Car Hire Spend Report</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active p_15" id="total-spend-report" role="tabpanel" aria-labelledby="total-spend-report-tab">
+                                            <div class="row align-items-stretch mb_20">
+
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="border br-5 mb_20">
+                                                        <div class="wrapper-heading p_10 bg-white border-bottom">
+                                                            <div class="d-flex justify-content-between align-items-center">
+                                                                <div class="wrapper-title raleway-font">
+                                                                    <h2 class="mb_0">Total Spend Report</h2>
+                                                                </div>
+                                                                <div class="search-button-wrapper position-relative">
+                                                                    <button type="button" class="btn-orange text-uppercase"><i class="fas fa-download mr-1"></i> Export.csv</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="p_15">
+                                                            <form class="roboto-font custom-form">
+                                                                <div class="d-flex align-items-end">
+                                                                    
+                                                                    <div class="form-group flex-grow-1 mr-3" style="width: 120px;">
+                                                                        <label for="">From</label>
+                                                                        <div class="c-icon position-relative">
+                                                                            <input type="text" class="form-control" placeholder="Select">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3" style="width: 120px;">
+                                                                        <label for="">To</label>
+                                                                        <div class="c-icon position-relative">
+                                                                            <input type="text" class="form-control" placeholder="Select">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3" style="width: 150px;">
+                                                                        <label for="">Flight</label>
+                                                                        <div class="custom-select-checkbox position-relative">
+                                                                            <span>Select Flight</span>
+                                                                            <div class="c_s_c_wrapper position-absolute wrapper-shadow" style="display: none;">
+                                                                                <ul class="list-unstyled">
+                                                                                    <li>
+                                                                                       <div>
+                                                                                        <input type="checkbox" id="flight-1">
+                                                                                        <label for="flight-1">All</label>
+                                                                                       </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="flight-2">
+                                                                                         <label for="flight-2">Airline #1</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="flight-3">
+                                                                                         <label for="flight-3">Airline #2</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="flight-4">
+                                                                                         <label for="flight-4">Airline #3</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3" style="width: 140px;">
+                                                                        <label for="">Hotel</label>
+                                                                        <div class="custom-select-checkbox position-relative">
+                                                                            <span>Select Hotel</span>
+                                                                            <div class="c_s_c_wrapper position-absolute wrapper-shadow" style="display: none;">
+                                                                                <ul class="list-unstyled">
+                                                                                    <li>
+                                                                                       <div>
+                                                                                        <input type="checkbox" id="hotel-1">
+                                                                                        <label for="hotel-1">All</label>
+                                                                                       </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="hotel-2">
+                                                                                         <label for="hotel-2">Hotel #1</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="hotel-3">
+                                                                                         <label for="hotel-3">Hotel #2</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="hotel-4">
+                                                                                         <label for="hotel-4">Hotel #3</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3" style="width: 140px;">
+                                                                        <label for="">Rail</label>
+                                                                        <div class="custom-select-checkbox position-relative">
+                                                                            <span>Select Rail</span>
+                                                                            <div class="c_s_c_wrapper position-absolute wrapper-shadow"style="display: none;">
+                                                                                <ul class="list-unstyled">
+                                                                                    <li>
+                                                                                       <div>
+                                                                                        <input type="checkbox" id="rail-1">
+                                                                                        <label for="rail-1">All</label>
+                                                                                       </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="rail-2">
+                                                                                         <label for="rail-2">Rail #1</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="rail-3">
+                                                                                         <label for="rail-3">Rail #2</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="rail-4">
+                                                                                         <label for="rail-4">Rail #3</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3" style="width: 180px;">
+                                                                        <label for="">Car Provider</label>
+                                                                        <div class="custom-select-checkbox position-relative">
+                                                                            <span>Select Car</span>
+                                                                            <div class="c_s_c_wrapper position-absolute wrapper-shadow" style="display: none;">
+                                                                                <ul class="list-unstyled">
+                                                                                    <li>
+                                                                                       <div>
+                                                                                        <input type="checkbox" id="cp-1">
+                                                                                        <label for="cp-1">All</label>
+                                                                                       </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="cp-2">
+                                                                                         <label for="cp-2">Car Provider #1</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="cp-3">
+                                                                                         <label for="cp-3">Car Provider #2</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="cp-4">
+                                                                                         <label for="cp-4">Car Provider #3</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3" style="width: 150px;">
+                                                                        <label for="">Name</label>
+                                                                        <div class="">
+                                                                            <input type="text" class="form-control" placeholder="Search Via Name">
+                                                                        </div>
+                                                                    </div>
+                                                                  
+                                                                    <div class="form-group">
+                                                                        <button type="button" class="btn btn-orange text-uppercase">Search</button>
+                                                                        <button type="button" class="btn btn-blue text-uppercase">Reset</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                            
+                                                    <div class="white-wrapper br-5 mb_20">
+                                                      
+                                                            <div class="table-responsive">
+                                                                <table class="table custom-table table-bordered roboto-font mb_0">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Customer Name</th>
+                                                                            <th>Booked By</th>
+                                                                            <th>Flight Spend</th>
+                                                                            <th>Hotel Spend</th>
+                                                                            <th>Rail Spend</th>
+                                                                            <th>Car Hire Spend</th>
+                                                                            <th>Currency Spend</th>
+                                                                            <th>Points Spend</th>
+                                                                            <th>Offline Booking</th>
+                                                                            <th>Total Spend</th>
+                            
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>Agency #1</td>
+                                                                            <td>Ada Lovelace</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                        </tr>
+                                                                        
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        
+                                                    </div>
+                            
+                            
+                                                </div>
+                            
+                                            </div><!--row ends here-->
+                                            <div class="row">
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="custom-pagination text-center">
+                                                        <div class="d-flex align-items-center justify-content-center">
+                                                            <div class="mr-3">
+                                                                <div class="pagination-back">
+                                                                    <a href="#"><i class="fas fa-angle-double-left"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="move-to-pages wrapper-shadow br-5 overflow-hidden bg-white roboto-font">
+                                                                    <ul class="list-inline mb_0">
+                                                                        <li class="list-inline-item"><a href="#">1</a></li>
+                                                                        <li class="list-inline-item"><a href="#">2</a></li>
+                                                                        <li class="list-inline-item active"><a href="#">3</a></li>
+                                                                        <li class="list-inline-item"><a href="#">4</a></li>
+                                                                        <li class="list-inline-item"><a href="#">5</a></li>
+                                                                        <li class="list-inline-item"><a href="#">6</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-3">
+                                                                <div class="pagination-next">
+                                                                    <a href="#"><i class="fas fa-angle-double-right"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade p_15" id="hotel-spend-report" role="tabpanel" aria-labelledby="hotel-spend-report-tab">
+                                            <div class="row align-items-stretch mb_20">
+
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="border br-5 mb_20">
+                                                        <div class="wrapper-heading p_10 bg-white border-bottom">
+                                                            <div class="d-flex justify-content-between align-items-center">
+                                                                <div class="wrapper-title raleway-font">
+                                                                    <h2 class="mb_0">Total Spend Report</h2>
+                                                                </div>
+                                                                <div class="search-button-wrapper position-relative">
+                                                                    <button type="button" class="btn-orange text-uppercase"><i class="fas fa-download mr-1"></i> Export.csv</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="p_15">
+                                                            <form class="roboto-font custom-form">
+                                                                <div class="d-flex align-items-end">
+                                                                    
+                                                                    <div class="form-group flex-grow-1 mr-3">
+                                                                        <label for="">From</label>
+                                                                        <div class="c-icon position-relative">
+                                                                            <input type="text" class="form-control" placeholder="Select">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3">
+                                                                        <label for="">To</label>
+                                                                        <div class="c-icon position-relative">
+                                                                            <input type="text" class="form-control" placeholder="Select">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3">
+                                                                        <label for="">Hotel</label>
+                                                                        <div class="custom-select-checkbox position-relative">
+                                                                            <span>Select Hotel</span>
+                                                                            <div class="c_s_c_wrapper position-absolute wrapper-shadow" style="display: none;">
+                                                                                <ul class="list-unstyled">
+                                                                                    <li>
+                                                                                       <div>
+                                                                                        <input type="checkbox" id="hotel-1">
+                                                                                        <label for="hotel-1">All</label>
+                                                                                       </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="hotel-2">
+                                                                                         <label for="hotel-2">Hotel #1</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="hotel-3">
+                                                                                         <label for="hotel-3">Hotel #2</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="hotel-4">
+                                                                                         <label for="hotel-4">Hotel #3</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                    <div class="form-group flex-grow-1 mr-3">
+                                                                        <label for="">Name</label>
+                                                                        <div class="">
+                                                                            <input type="text" class="form-control" placeholder="Search Via Name">
+                                                                        </div>
+                                                                    </div>
+                                                                  
+                                                                    <div class="form-group">
+                                                                        <button type="button" class="btn btn-orange text-uppercase">Search</button>
+                                                                        <button type="button" class="btn btn-blue text-uppercase">Reset</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                            
+                                                    <div class="white-wrapper br-5 mb_20">
+                                                      
+                                                            <div class="table-responsive">
+                                                                <table class="table custom-table table-bordered roboto-font mb_0">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Client Name</th>
+                                                                            <th>Booked By</th>
+                                                                            <th>Holton Spend</th>
+                                                                            <th>Mercure Spend</th>
+                                                                            <th>Travellodge Spend</th>
+                                                                            <th>Premier Inn Spend</th>
+                                                                            <th>Independent Spend</th>
+                                                                            <th>Total Spend</th>
+                            
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>Ada Lovelace</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                        </tr>
+                                                                        
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        
+                                                    </div>
+                            
+                            
+                                                </div>
+                            
+                                            </div><!--row ends here-->
+                                            <div class="row">
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="custom-pagination text-center">
+                                                        <div class="d-flex align-items-center justify-content-center">
+                                                            <div class="mr-3">
+                                                                <div class="pagination-back">
+                                                                    <a href="#"><i class="fas fa-angle-double-left"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="move-to-pages wrapper-shadow br-5 overflow-hidden bg-white roboto-font">
+                                                                    <ul class="list-inline mb_0">
+                                                                        <li class="list-inline-item"><a href="#">1</a></li>
+                                                                        <li class="list-inline-item"><a href="#">2</a></li>
+                                                                        <li class="list-inline-item active"><a href="#">3</a></li>
+                                                                        <li class="list-inline-item"><a href="#">4</a></li>
+                                                                        <li class="list-inline-item"><a href="#">5</a></li>
+                                                                        <li class="list-inline-item"><a href="#">6</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-3">
+                                                                <div class="pagination-next">
+                                                                    <a href="#"><i class="fas fa-angle-double-right"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade p_15" id="flight-spend-report" role="tabpanel" aria-labelledby="flight-spend-report-tab">
+                                            <div class="row align-items-stretch mb_20">
+
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="border br-5 mb_20">
+                                                        <div class="wrapper-heading p_10 bg-white border-bottom">
+                                                            <div class="d-flex justify-content-between align-items-center">
+                                                                <div class="wrapper-title raleway-font">
+                                                                    <h2 class="mb_0">Total Spend Report</h2>
+                                                                </div>
+                                                                <div class="search-button-wrapper position-relative">
+                                                                    <button type="button" class="btn-orange text-uppercase"><i class="fas fa-download mr-1"></i> Export.csv</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="p_15">
+                                                            <form class="roboto-font custom-form">
+                                                                <div class="d-flex align-items-end">
+                                                                    
+                                                                    <div class="form-group flex-grow-1 mr-3">
+                                                                        <label for="">From</label>
+                                                                        <div class="c-icon position-relative">
+                                                                            <input type="text" class="form-control" placeholder="Select">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3">
+                                                                        <label for="">To</label>
+                                                                        <div class="c-icon position-relative">
+                                                                            <input type="text" class="form-control" placeholder="Select">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3">
+                                                                        <label for="">Flight</label>
+                                                                        <div class="custom-select-checkbox position-relative">
+                                                                            <span>Select Flight</span>
+                                                                            <div class="c_s_c_wrapper position-absolute wrapper-shadow" style="display: none;">
+                                                                                <ul class="list-unstyled">
+                                                                                    <li>
+                                                                                       <div>
+                                                                                        <input type="checkbox" id="flight-1">
+                                                                                        <label for="flight-1">All</label>
+                                                                                       </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="flight-2">
+                                                                                         <label for="flight-2">Airline #1</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="flight-3">
+                                                                                         <label for="flight-3">Airline #2</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="flight-4">
+                                                                                         <label for="flight-4">Airline #3</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3">
+                                                                        <label for="">Name</label>
+                                                                        <div class="">
+                                                                            <input type="text" class="form-control" placeholder="Search Via Name">
+                                                                        </div>
+                                                                    </div>
+                                                                  
+                                                                    <div class="form-group">
+                                                                        <button type="button" class="btn btn-orange text-uppercase">Search</button>
+                                                                        <button type="button" class="btn btn-blue text-uppercase">Reset</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                            
+                                                    <div class="white-wrapper br-5 mb_20">
+                                                      
+                                                            <div class="table-responsive">
+                                                                <table class="table custom-table table-bordered roboto-font mb_0">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Client Name</th>
+                                                                            <th>Booked By</th>
+                                                                            <th>Brand Name #1</th>
+                                                                            <th>Brand Name #2</th>
+                                                                            <th>Brand Name #3</th>
+                                                                            <th>Brand Name #4</th>
+                                                                            <th>Brand Name #5</th>
+                                                                            <th>Total Spend</th>
+                            
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>Ada Lovelace</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                        </tr>
+                                                                        
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        
+                                                    </div>
+                            
+                            
+                                                </div>
+                            
+                                            </div><!--row ends here-->
+                                            <div class="row">
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="custom-pagination text-center">
+                                                        <div class="d-flex align-items-center justify-content-center">
+                                                            <div class="mr-3">
+                                                                <div class="pagination-back">
+                                                                    <a href="#"><i class="fas fa-angle-double-left"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="move-to-pages wrapper-shadow br-5 overflow-hidden bg-white roboto-font">
+                                                                    <ul class="list-inline mb_0">
+                                                                        <li class="list-inline-item"><a href="#">1</a></li>
+                                                                        <li class="list-inline-item"><a href="#">2</a></li>
+                                                                        <li class="list-inline-item active"><a href="#">3</a></li>
+                                                                        <li class="list-inline-item"><a href="#">4</a></li>
+                                                                        <li class="list-inline-item"><a href="#">5</a></li>
+                                                                        <li class="list-inline-item"><a href="#">6</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-3">
+                                                                <div class="pagination-next">
+                                                                    <a href="#"><i class="fas fa-angle-double-right"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade p_15" id="car-hire-spend-report" role="tabpanel" aria-labelledby="car-hire-spend-report-tab">
+                                            <div class="row align-items-stretch mb_20">
+
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="border br-5 mb_20">
+                                                        <div class="wrapper-heading p_10 bg-white border-bottom">
+                                                            <div class="d-flex justify-content-between align-items-center">
+                                                                <div class="wrapper-title raleway-font">
+                                                                    <h2 class="mb_0">Total Spend Report</h2>
+                                                                </div>
+                                                                <div class="search-button-wrapper position-relative">
+                                                                    <button type="button" class="btn-orange text-uppercase"><i class="fas fa-download mr-1"></i> Export.csv</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="p_15">
+                                                            <form class="roboto-font custom-form">
+                                                                <div class="d-flex align-items-end">
+                                                                    
+                                                                    <div class="form-group flex-grow-1 mr-3">
+                                                                        <label for="">From</label>
+                                                                        <div class="c-icon position-relative">
+                                                                            <input type="text" class="form-control" placeholder="Select">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3">
+                                                                        <label for="">To</label>
+                                                                        <div class="c-icon position-relative">
+                                                                            <input type="text" class="form-control" placeholder="Select">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3">
+                                                                        <label for="">Car Provider</label>
+                                                                        <div class="custom-select-checkbox position-relative">
+                                                                            <span>Select Car</span>
+                                                                            <div class="c_s_c_wrapper position-absolute wrapper-shadow" style="display: none;">
+                                                                                <ul class="list-unstyled">
+                                                                                    <li>
+                                                                                       <div>
+                                                                                        <input type="checkbox" id="cp-1">
+                                                                                        <label for="cp-1">All</label>
+                                                                                       </div>
+                                                                                    </li>
+                                                                                    <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="cp-2">
+                                                                                         <label for="cp-2">Car Provider #1</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="cp-3">
+                                                                                         <label for="cp-3">Car Provider #2</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                     <li>
+                                                                                        <div>
+                                                                                         <input type="checkbox" id="cp-4">
+                                                                                         <label for="cp-4">Car Provider #3</label>
+                                                                                        </div>
+                                                                                     </li>
+                                                                                </ul>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group flex-grow-1 mr-3">
+                                                                        <label for="">Name</label>
+                                                                        <div class="">
+                                                                            <input type="text" class="form-control" placeholder="Search Via Name">
+                                                                        </div>
+                                                                    </div>
+                                                                  
+                                                                    <div class="form-group">
+                                                                        <button type="button" class="btn btn-orange text-uppercase">Search</button>
+                                                                        <button type="button" class="btn btn-blue text-uppercase">Reset</button>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                            
+                                                    <div class="white-wrapper br-5 mb_20">
+                                                      
+                                                            <div class="table-responsive">
+                                                                <table class="table custom-table table-bordered roboto-font mb_0">
+                                                                    <thead>
+                                                                        <tr>
+                                                                            <th>Customer Name</th>
+                                                                            <th>Booked By</th>
+                                                                            <th>Brand Name #1</th>
+                                                                            <th>Brand Name #2</th>
+                                                                            <th>Brand Name #3</th>
+                                                                            <th>Brand Name #4</th>
+                                                                            <th>Brand Name #5</th>
+                                                                            <th>Total Spend</th>
+                            
+                                                                        </tr>
+                                                                    </thead>
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>Ada Lovelace</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                            <td>&nbsp;</td>
+                                                                        </tr>
+                                                                        
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        
+                                                    </div>
+                            
+                            
+                                                </div>
+                            
+                                            </div><!--row ends here-->
+                                            <div class="row">
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="custom-pagination text-center">
+                                                        <div class="d-flex align-items-center justify-content-center">
+                                                            <div class="mr-3">
+                                                                <div class="pagination-back">
+                                                                    <a href="#"><i class="fas fa-angle-double-left"></i></a>
+                                                                </div>
+                                                            </div>
+                                                            <div>
+                                                                <div class="move-to-pages wrapper-shadow br-5 overflow-hidden bg-white roboto-font">
+                                                                    <ul class="list-inline mb_0">
+                                                                        <li class="list-inline-item"><a href="#">1</a></li>
+                                                                        <li class="list-inline-item"><a href="#">2</a></li>
+                                                                        <li class="list-inline-item active"><a href="#">3</a></li>
+                                                                        <li class="list-inline-item"><a href="#">4</a></li>
+                                                                        <li class="list-inline-item"><a href="#">5</a></li>
+                                                                        <li class="list-inline-item"><a href="#">6</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <div class="ml-3">
+                                                                <div class="pagination-next">
+                                                                    <a href="#"><i class="fas fa-angle-double-right"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+                
+
+             
+
+            </div>
+        
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

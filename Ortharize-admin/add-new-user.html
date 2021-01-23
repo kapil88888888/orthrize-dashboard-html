@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--faviocn-->
+    <link rel="shortcut icon" type="image/png" href="img/Favicon.png"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Add New User</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <a href="#" class="toggle-sidebar d-block d-sm-block d-md-none">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt font-18"></i>
+                                    <span class="title">Dashboard</span>
+                                </a>
+                              
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <img class="normal-icon" src="img/user-manager.png">
+                                    <img class="active-icon" src="img/user-manager-active.png">
+                                    <span class="title">User Management</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <img class="normal-icon" src="img/subscription-manager.png">
+                                    <img class="active-icon" src="img/subscription-manager-active.png">
+                                    <span class="title">Subscription Manager</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <img class="normal-icon" src="img/content-manager.png">
+                                    <img class="active-icon" src="img/content-manager-active.png">
+                                    <span class="title">Content Manager</span>
+                                </a>
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-cogs font-18"></i>
+                                    <span class="title">Admin Settings</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                <div class="row align-items-stretch mb_20">
+                    
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        
+                        <div class="custom-tabs-wrapper wrapper-shadow br-5 overflow-hidden">
+                            <div class="custom-tabs">
+                                <ul class="nav nav-tabs raleway-font" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="org-detail-tab" data-toggle="tab" href="#org-detail" role="tab" aria-controls="org-detail" aria-selected="true">Organization Detail</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-detail-tab" data-toggle="tab" href="#contact-detail" role="tab" aria-controls="contact-detail" aria-selected="true">Contact Details</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="credit-card-detail-tab" data-toggle="tab" href="#credit-card-detail" role="tab" aria-controls="credit-card-detail" aria-selected="true">Credit Card Details</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="basic-account-tab" data-toggle="tab" href="#basic-account" role="tab" aria-controls="basic-account" aria-selected="true">Basic Accounts</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                        
+                                        <div class="tab-pane fade show active" id="org-detail" role="tabpanel" aria-labelledby="org-detail-tab">
+                                            <div class="p_15">
+                                                <form class="custom-form">
+                                                    <div class="">
+                                                        <div class="row">
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Organisation Name <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Organisation Name"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Company Number</label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Company Number"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>UK Head Office Address <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter UK Head Office Address"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Domain Name <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Domain Name"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Number of Employees <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Number of employees"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Estimated Annual Number of Transactions <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Estimated Annual Number of Transactions"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Estimated Annual Travel Spend <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Estimated Annual Travel Spend"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="tab-pane fade" id="contact-detail" role="tabpanel" aria-labelledby="contact-detail-tab">
+                                            <div class="p_15">
+                                                <form class="custom-form">
+                                                    <div class="">
+                                                        <div class="row">
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Name of Primary Contact <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Name of Primary Contact"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Telephone Number</label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Telephone Number"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Mobile Number <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Mobile Number"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Email <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Email"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Name of Secondary Contact</label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Name of Secondary Contact"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Telephone Number</label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Telephone Number"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Mobile Number</label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Mobile Number"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Email</label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Email"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Name of First Administrator <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Name of First Administrator"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Telephone Number</label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Telephone Number"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Mobile Number <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Mobile Number"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Email<small>(A free-mail email account. eg. Gmail, yahoo is not acceptable)</small></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Email"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Name of Second Administrator <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Name of Second Administrator"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Telephone Number</label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Telephone Number"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Mobile Number <span class="red">*</span></label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Mobile Number"/>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                                                                <div class="form-group">
+                                                                    <label>Email</label>
+                                                                    <input type="text" class="form-control" placeholder="Enter Email"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="credit-card-detail" role="tabpanel" aria-labelledby="credit-card-detail-tab">
+                                            <div class="p_15">
+                                                <div class="row mb_10">
+                                                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                                <div class="d-flex align-items-center justify-content-between">
+                                                                    <div><h3 class="trip-detail-label">Credit Card First Name</h3></div>
+                                                                    <div><span>:-</span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                                <div class="trip-detail-content">
+                                                                    <h3 class="trip-content">Gaurav</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb_10">
+                                                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                                <div class="d-flex align-items-center justify-content-between">
+                                                                    <div><h3 class="trip-detail-label">Credit Card Last Name</h3></div>
+                                                                    <div><span>:-</span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                                <div class="trip-detail-content">
+                                                                    <h3 class="trip-content">Thakur</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb_10">
+                                                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                                <div class="d-flex align-items-center justify-content-between">
+                                                                    <div><h3 class="trip-detail-label">Credit Card Address/Post Code</h3></div>
+                                                                    <div><span>:-</span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                                <div class="trip-detail-content">
+                                                                    <h3 class="trip-content">97  Henley Road, BOYDEN GATE, CT3 8DH</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb_10">
+                                                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                                <div class="d-flex align-items-center justify-content-between">
+                                                                    <div><h3 class="trip-detail-label">Credit Card Number</h3></div>
+                                                                    <div><span>:-</span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                                <div class="trip-detail-content">
+                                                                    <h3 class="trip-content">351621691268302</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb_10">
+                                                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                                <div class="d-flex align-items-center justify-content-between">
+                                                                    <div><h3 class="trip-detail-label">Credit Card Expiry Date</h3></div>
+                                                                    <div><span>:-</span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                                <div class="trip-detail-content">
+                                                                    <h3 class="trip-content">22/05/2010</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb_10">
+                                                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                                <div class="d-flex align-items-center justify-content-between">
+                                                                    <div><h3 class="trip-detail-label">Credit Card CVV Code</h3></div>
+                                                                    <div><span>:-</span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                                <div class="trip-detail-content">
+                                                                    <h3 class="trip-content">***</h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>  
+                                                <hr>
+                                                <div class="row custom-form align-items-center">
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>Credit Card First Name</label>
+                                                            <input type="text" class="form-control" placeholder="Enter Credit Card First Name"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>Credit Card Last Name</label>
+                                                            <input type="text" class="form-control" placeholder="Enter Credit Card Last Name"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>Credit Card Address/Post Code</label>
+                                                            <textarea class="form-control" placeholder="Enter Credit Card Address/Post Code" style="height: 90px;"></textarea>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>Credit Card Number</label>
+                                                            <input type="text" class="form-control" placeholder="Enter Credit Card Number"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>Credit Card Expiry Date</label>
+                                                            <div class="c-icon position-relative">
+                                                                <input type="text" class="form-control" placeholder="Select Credit Card Expiry Date"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>Credit Card CVV Code</label>
+                                                            <div class="position-relative">
+                                                                <input type="text" class="form-control" placeholder="Enter Credit Card CVV Code"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="add-new-card text-right">
+                                                            <a href="#" class="color-orange"><i class="fas fa-plus-circle"></i> Add A New Card</a>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="tab-pane fade" id="basic-account" role="tabpanel" aria-labelledby="basic-account-tab">
+                                            <div class="p_15">
+                                                <div class="row custom-form align-items-center">
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>User's Primary Email Addresses <span class="red">*</span></label>
+                                                            <input type="text" class="form-control" placeholder="Enter User's Primary Email Addresses"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>User's First Name <span class="red">*</span></label>
+                                                            <input type="text" class="form-control" placeholder="Enter User's First Name"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>User's Surname<span class="red">*</span></label>
+                                                            <input type="text" class="form-control" placeholder="Enter User's Surname"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>User's Employee IDs</label>
+                                                            <input type="text" class="form-control" placeholder="Enter User's Employee IDs"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>User's Cost Centres</label>
+                                                            <input type="text" class="form-control" placeholder="Enter User's Cost Centres"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>User's Department IDs</label>
+                                                            <input type="text" class="form-control" placeholder="Enter User's Department IDs"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>User's Travel Assistant IDs</label>
+                                                            <input type="text" class="form-control" placeholder="Enter User's Travel Assistant IDs"/>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                                                        <div class="form-group">
+                                                            <label>Company Card</label>
+                                                            <input type="text" class="form-control" placeholder="Enter Company Card"/>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!--row ends here-->
+                <div class="row">
+                    <div class="col-12 text-center">
+                       <div class="search-button-wrapper mt_20 mb_20 text-center">
+                          <button type="button" class="btn-orange raleway-font text-uppercase mr-1 ml-1">Save & Next</button>
+                          <button type="button mr-1 ml-1" class="btn-custom-outline raleway-font text-uppercase">cancel</button>
+                       </div>
+                    </div>
+                 </div>
+            </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

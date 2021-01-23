@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Dashboard</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-plane-departure"></i>
+                                    <span class="title">Flight</span>
+                                </a>
+                                <div class="sub-menu position-absolute">
+                                    <div class="sub-menu-list position-relative">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="javascript:void(0)">Search Flight</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-hotel"></i>
+                                    <span class="title">Hotel</span>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-train"></i>
+                                    <span class="title">Rail</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-car"></i>
+                                    <span class="title">Car</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-luggage-cart"></i>
+                                    <span class="title">Trips & Approval</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-award"></i>
+                                    <span class="title">Rewards</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span class="title">Reports</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                <div class="row mb_20">
+                    <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12 col-12">
+                        <div class="wrapper-shadow br-5 overflow-hidden bg-white p_15">
+                            <div class="sort-form-flex d-flex justify-content-between align-items-center">
+                                <div>
+                                    <div class="back">
+                                        <a href="#"><i class="fas fa-arrow-left"></i>Back</a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <form class="sort-by-form">
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-2">Sort By</div>
+                                            <div class="c-icon position-relative mr-2 custom-width">
+                                                <input type="text" id="from" class="form-control" placeholder="From Date">
+                                            </div>
+                                            <div class="c-icon position-relative custom-width mr-2">
+                                                <input type="text" id="to" class="form-control" placeholder="To Date">
+                                            </div>
+                                            <div class="search-input position-relative">
+                                                <input type="text" class="form-control mr-sm-2 booking-search" placeholder="Search via Trip Name">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row mb_20">
+                    
+
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <!-- <div class="white-wrapper wrapper-shadow br-5">
+                            ddffd
+                        </div> -->
+                        <div class="custom-tabs-wrapper wrapper-shadow br-5 overflow-hidden p_15 bg-white">
+                            
+                            <div class="wrapper-title raleway-font">
+                                <h2 class="mb_15">Company Notes</h2>
+                            </div>
+
+                            <div class="border-dashed">
+                                <div class="company-note-content border-bottom-dashed p_15">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <h3 class="company-note-heading">Company Note 1</h3>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex note-timing">
+                                                <div class="mr-3">
+                                                    <span><i class="fas fa-calendar-alt"></i> 7 May 2020</span>
+                                                </div>
+                                                <div>
+                                                    <span><i class="far fa-clock"></i> 11.39 Am</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit.</p>
+                                    <!-- <div class="attachment-preview">
+                                        <div class="d-flex align-items-center">
+                                            <div class="ap-img mb_10">
+                                                <img src="https://via.placeholder.com/100" alt="" title=""/>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <div class="attachment-option mb_10">
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-2 border-right mr-2 pr-2 roboto-font"><h4 class="mb_0"><i class="fas fa-paperclip color-orange"></i> 1 File Attached</h4></div>
+                                            <div class="mr-2"><a href="#">View</a></div>
+                                            <div><a href="#">Download</a></div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="search-button-wrapper read-more raleway-font">
+                                        <button type="button" class="btn-orange text-uppercase">Read More</button>
+                                    </div>
+                                </div>
+
+                                <div class="company-note-content border-bottom-dashed p_15">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <h3 class="company-note-heading">Company Note 2</h3>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex note-timing">
+                                                <div class="mr-3">
+                                                    <span><i class="fas fa-calendar-alt"></i> 7 May 2020</span>
+                                                </div>
+                                                <div>
+                                                    <span><i class="far fa-clock"></i> 11.39 Am</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit.</p>
+                                    <div class="attachment-option mb_10">
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-2 border-right mr-2 pr-2 roboto-font"><h4 class="mb_0"><i class="fas fa-paperclip color-orange"></i> 1 File Attached</h4></div>
+                                            <div class="mr-2"><a href="#">View</a></div>
+                                            <div><a href="#">Download</a></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="search-button-wrapper read-more raleway-font">
+                                        <button type="button" class="btn-orange text-uppercase">Read More</button>
+                                    </div>
+                                </div>
+
+                                <div class="company-note-content p_15">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <div>
+                                            <h3 class="company-note-heading">Company Note 3</h3>
+                                        </div>
+                                        <div>
+                                            <div class="d-flex note-timing">
+                                                <div class="mr-3">
+                                                    <span><i class="fas fa-calendar-alt"></i> 7 May 2020</span>
+                                                </div>
+                                                <div>
+                                                    <span><i class="far fa-clock"></i> 11.39 Am</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit.</p>
+                                    <div class="attachment-option mb_10">
+                                        <div class="d-flex align-items-center">
+                                            <div class="mr-2 border-right mr-2 pr-2 roboto-font"><h4 class="mb_0"><i class="fas fa-paperclip color-orange"></i> 1 File Attached</h4></div>
+                                            <div class="mr-2"><a href="#">View</a></div>
+                                            <div><a href="#">Download</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="search-button-wrapper read-more raleway-font">
+                                        <button type="button" class="btn-orange text-uppercase">Read More</button>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                </div><!--row ends here-->
+
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="custom-pagination text-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="mr-3">
+                                    <div class="pagination-back">
+                                        <a href="#"><i class="fas fa-angle-double-left"></i></a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="move-to-pages wrapper-shadow br-5 overflow-hidden bg-white roboto-font">
+                                        <ul class="list-inline mb_0">
+                                            <li class="list-inline-item"><a href="#">1</a></li>
+                                            <li class="list-inline-item"><a href="#">2</a></li>
+                                            <li class="list-inline-item active"><a href="#">3</a></li>
+                                            <li class="list-inline-item"><a href="#">4</a></li>
+                                            <li class="list-inline-item"><a href="#">5</a></li>
+                                            <li class="list-inline-item"><a href="#">6</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="ml-3">
+                                    <div class="pagination-next">
+                                        <a href="#"><i class="fas fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

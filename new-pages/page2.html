@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | View Trip Detail</title>
+    <style type="text/css">
+        .bg-g-color{
+            background: #f5f5f5;
+            min-width: 110px
+        }
+        .op-2{
+            opacity: 0.5
+        }
+        input.rwad-w-smal{
+            max-width: 80px
+        }
+        .f-normal{
+            font-weight: 400
+        }
+    </style>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Flight
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-hotel"></i></span>
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-train"></i></span>
+                                    Rail
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-car"></i></span>
+                                    Car
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Trip
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt font-18"></i>
+                                    <span class="title">Dashboard</span>
+                                </a>
+                              
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <img class="normal-icon" src="img/user-manager.png" />
+                                    <img class="active-icon" src="img/user-manager-active.png" />
+                                    <span class="title">User Manager</span>
+                                </a>
+                              
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/trip.png" />
+                                    <img class="active-icon" src="img/trip-active.png" />
+                                    <span class="title">Trips</span>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/customer.png" />
+                                    <img class="active-icon" src="img/customer-active.png" />
+                                    <span class="title">Customer Notes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/reward.png" />
+                                    <img class="active-icon" src="img/reward-active.png" />
+                                    <span class="title">Manage Rewards</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/travel-policy.png" />
+                                    <img class="active-icon" src="img/travel-policy-active.png" />
+                                    <span class="title">Travel Policy </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/master.png" />
+                                    <img class="active-icon" src="img/master-active.png" />
+                                    <span class="title">Masters</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/content-manager.png" />
+                                    <img class="active-icon" src="img/content-manager-active.png" />
+                                    <span class="title">Content Manager</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-cogs font-18"></i>
+                                    <span class="title">General Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/contact-form.png" />
+                                    <img class="active-icon" src="img/contact-form-active.png" />
+                                    <span class="title">Contact Form</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                
+                <div class="row align-items-stretch mb_20">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15 view-trip-detail-wrapper">
+                                <div class="row mb_10">
+                                    <div class="col-md-12">
+                                        <div class="wrapper-title raleway-font">
+                                            <h2 class="mb_0">Rewards Settings</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                  <div class="table-responsive collapse show " id="rail">
+                                    <table class="table table-bordered custom-table roboto-font mb_0 mt-3">
+                                       
+                                            <tr class="book-as-option">
+                                              
+                                                <td style="background-color: #f5f5f5;">&nbsp;</td>
+                                                <td style="background-color: #f5f5f5;">
+                                                    <div class="option self">
+                                                        <input type="radio" id="op1" name="radio-group" checked="">
+                                                        <label for="op1">option 1</label>
+                                                    </div>
+                                                </td>
+                                                <td style="background-color: #f5f5f5;">
+                                                    <div class="option self op-2">
+                                                        <input type="radio" id="op2" name="radio-group" checked="">
+                                                        <label for="op2">option 2</label>
+                                                    </div>
+                                                </td>
+                                                <td style="background-color: #f5f5f5;">
+                                                    <div class="option self op-2">
+                                                        <input type="radio" id="op3" name="radio-group" checked="">
+                                                        <label for="op3">option 3</label>
+                                                    </div>
+                                                </td>
+                                               <td style="background-color: #f5f5f5;">
+                                                    <div class="option self op-2">
+                                                        <input type="radio" id="op4" name="radio-group" checked="">
+                                                        <label for="op4">option 4</label>
+                                                    </div>
+                                                </td>
+                                               
+                                                <td rowspan="5" style="background-color: #f5f5f5;">
+                                                    <div class="option self op-2">
+                                                        <input type="radio" id="op5" name="radio-group">
+                                                        <label for="op5">No Points Awarded</label>
+                                                    </div> 
+                                                </td>
+
+                                            </tr>
+                                      
+                                            
+                                            <tr>
+                                                
+                                               <td class="bg-g-color">Flight</td>
+                                                <td>
+                                                    <div class="d-flex align-items-center">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Fixed</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                    <span class="pl-1 m-0">%</span>
+                                                </div>
+                                                </td>
+                                               
+                                                  <td>
+                                                    <div class="d-flex align-items-center">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Points</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                    <span class="pl-1 m-0 f-normal">Points</span>
+                                                </div>
+                                                </td>
+
+                                                 <td>
+                                                    <div class="d-flex">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Fixed</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                </div>
+                                                </td>
+                                                 <td>
+                                                    <div class="d-flex">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Fixed</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                </div>
+                                                </td>
+                                              
+                                               
+                                             
+                                           </tr>
+                                            <tr>
+                                                
+                                               <td class="bg-g-color">Hotel</td>
+                                                  <td>
+                                                    <div class="d-flex align-items-center">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Fixed</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                    <span class="pl-1 m-0">%</span>
+                                                </div>
+                                                </td>
+                                               
+                                                  <td>
+                                                    <div class="d-flex align-items-center">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Points</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                    <span class="pl-1 m-0 f-normal">Points</span>
+                                                </div>
+                                                </td>
+                                                  <td>
+                                                    <div class="d-flex">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Fixed</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                </div>
+                                                </td>
+                                                 <td>
+                                                    <div class="d-flex">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Fixed</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                </div>
+                                                </td>
+                                                
+                                                
+                                              
+                                           </tr>
+                                            <tr>
+                                                
+                                               <td class="bg-g-color">Rail</td>
+                                                  <td>
+                                                    <div class="d-flex align-items-center">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Fixed</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                    <span class="pl-1 m-0">%</span>
+                                                </div>
+                                                </td>
+                                               
+                                                  <td>
+                                                    <div class="d-flex align-items-center">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Points</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                    <span class="pl-1 m-0 f-normal">Points</span>
+                                                </div>
+                                                </td>
+                                                  <td>
+                                                    <div class="d-flex">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Fixed</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                </div>
+                                                </td>
+                                                 <td>
+                                                    <div class="d-flex">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Fixed</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                </div>
+                                                </td>
+                                                 
+                                           </tr>
+                                            <tr>
+                                                
+                                                <td class="bg-g-color">Car Rental</td>
+                                                  <td>
+                                                    <div class="d-flex align-items-center">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Fixed</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                    <span class="pl-1 m-0">%</span>
+                                                </div>
+                                                </td>
+                                               
+                                                  <td>
+                                                    <div class="d-flex align-items-center">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Points</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                    <span class="pl-1 m-0 f-normal">Points</span>
+                                                </div>
+                                                </td>
+                                                  <td>
+                                                    <div class="d-flex">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Fixed</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                </div>
+                                                </td>
+                                                 <td>
+                                                    <div class="d-flex">
+                                                     <select class="form-control form-control-sm rwad-w-smal">
+                                                        <option>Percentage</option>
+                                                        <option>Fixed</option>
+                                                    </select> 
+                                                    <input type="text" class="form-control form-control-sm rwad-w-smal ml-2" name="" placeholder="value">
+                                                </div>
+                                                </td>
+                                               
+                                           </tr>
+                                         
+                                            
+                                            
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                               
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div><!--row ends here-->
+
+                
+            </div>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

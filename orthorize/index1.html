@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize</title>
+    </head>
+    <body>
+        <section class="section-bg height-100">
+            <header>
+                <div class="container">
+                    <nav class="custom-navbar navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.png" alt="Ortharize" title="Ortharize"/>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#customNavBar" aria-controls="customNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse custom-menu" id="customNavBar">
+                            <ul class="navbar-nav ml-auto align-items-center">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
+                                </li>
+                                <li class="nav-item country-dropdown position-relative">
+                                    <a href="#" class="d-flex align-items-center">
+                                        <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""/></div>
+                                        <div class="country-name mr-2">English(UK)</div>
+                                        <div><span class="fas fa-chevron-down"></span></div>
+                                    </a>
+                                    <!--change country drodown content-->
+                                    <div class="c_country_dropdown">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="#" class="d-flex align-items-center">
+                                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""/></div>
+                                                    <div class="country-name">English(UK)</div>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="d-flex align-items-center">
+                                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""/></div>
+                                                    <div class="country-name">English(UK)</div>
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+            <section class="inner-wrapper1 inner-wrapper-height">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="login-detal">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                    <div class="box-wrapper br-5">
+
+                                        
+
+                                        <div class="register-container">
+                                            <form class="custom-form">
+                                                <!-- <h3 class="heading raleway-font">Register</h3>
+                                                <h5 class="sub-heading raleway-font">Company Details</h5> -->
+                                                <div class="form-row">
+                                                    <div class="form-group col">
+                                                        <label for="org_name">Organization's Name</label>
+                                                        <input type="text" id="org_name" class="form-control" placeholder="Enter Organization's Name">
+                                                    </div>
+                                                    <div class="form-group col">
+                                                        <label for="comp_name">Company Number</label>
+                                                        <input type="text" id="comp_name" class="form-control" placeholder="Enter Company Number">
+                                                        <div class="custom-tooltip position-absolute">
+                                                            <i class="fas fa-info-circle"></i>
+                                                            <div class="tooltip-wrapper d-none">
+                                                                <div class="tooltip-content">
+                                                                    <p>Please provide your company registration number. If you are a sole trader, please supply your trading name.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                             
+
+                                                <div class="form-row">
+                                                    <div class="form-group col">
+                                                        <label for="p_email_id">Personal Email Id</label>
+                                                        <input type="text" id="p_email_id" class="form-control" placeholder="Personal Email Id">
+                                                    </div>
+                                                    <div class="form-group col">
+                                                        <label for="j_title">Job Title</label>
+                                                        <input type="text" id="j_title" class="form-control" placeholder="Job Title">
+                                                    </div>
+                                                </div>
+                                                    
+                                               
+                                                
+                                                <div class="form-row">
+                                                    <div class="form-group col mb_0">
+                                                        <label for="set_pass">Set Password</label>
+                                                        <input type="text" id="p_number" class="form-control" placeholder="Set Password">
+                                                    </div>
+                                                    <div class="form-group col mb_0">
+                                                        <label for="confrm_pass">Confirm Password</label>
+                                                        <input type="text" id="confrm_pass" class="form-control" placeholder="Confirm Password">
+                                                    </div>
+                                                </div>
+                                                <div class="form-row">
+                                                    <div class="form-group col mb_0">
+                                                        <small id="emailHelp" class="form-text text-muted help-text">Minimum of eight characters, upper case and lower case with one number.</small>
+                                                    </div>
+                                                </div>
+                                                <hr class="custom-hr">
+                                           
+                                                
+                                                <div class="other-options mb_20">
+                                                    <div class="d-inline-block">
+                                                        <div class="custom-checkbox">
+                                                            <input id="check-2" class="check-custom" name="check-group" type="checkbox">
+                                                            <label for="check-2" class="check-custom-label">I Accept <a href="#">Terms and conditions</a></label>
+                                                        </div>
+                                                    </div>
+                                                    <span href="#" class="float-right">
+                                                        Already signed up? <a href="#">Login</a>
+                                                    </span>
+                                                </div>
+                                                <div class="register-btn">
+                                                    <button type="button" class="btn btn-block btn-orange btn-login text-uppercase raleway-font">Register</button>
+                                                </div>
+                                            </div>
+                                            </form>
+                                        </div>
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+
+
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

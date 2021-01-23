@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | View Trip Detail</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Flight
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-hotel"></i></span>
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-train"></i></span>
+                                    Rail
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-car"></i></span>
+                                    Car
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Trip
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt font-18"></i>
+                                    <span class="title">Dashboard</span>
+                                </a>
+                              
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <img class="normal-icon" src="img/user-manager.png" />
+                                    <img class="active-icon" src="img/user-manager-active.png" />
+                                    <span class="title">User Manager</span>
+                                </a>
+                              
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/trip.png" />
+                                    <img class="active-icon" src="img/trip-active.png" />
+                                    <span class="title">Trips</span>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/customer.png" />
+                                    <img class="active-icon" src="img/customer-active.png" />
+                                    <span class="title">Customer Notes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/reward.png" />
+                                    <img class="active-icon" src="img/reward-active.png" />
+                                    <span class="title">Manage Rewards</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/travel-policy.png" />
+                                    <img class="active-icon" src="img/travel-policy-active.png" />
+                                    <span class="title">Travel Policy </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/master.png" />
+                                    <img class="active-icon" src="img/master-active.png" />
+                                    <span class="title">Masters</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/content-manager.png" />
+                                    <img class="active-icon" src="img/content-manager-active.png" />
+                                    <span class="title">Content Manager</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-cogs font-18"></i>
+                                    <span class="title">General Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/contact-form.png" />
+                                    <img class="active-icon" src="img/contact-form-active.png" />
+                                    <span class="title">Contact Form</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                
+                <div class="row align-items-stretch mb_20">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15 view-trip-detail-wrapper">
+                                <div class="row mb_20">
+                                    <div class="col-md-12">
+                                        <div class="wrapper-title raleway-font">
+                                            <h2 class="mb_0">Detail Page</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb_20">
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 mt-3">
+                                        <div class="trip-detail-content d-flex">
+                                            <div class="trip-icon"><i class="fas fa-suitcase"></i></div>
+                                            <h3 class="trip-content">
+                                                Trip Name
+                                              </h3>
+                                        </div>
+                                        <h3 class="trip-detail-label trip-name pt-1">
+                                            Kapil Varshney
+                                          </h3>
+                                        
+                                    </div>
+
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 mt-3">
+                                        <div class="trip-detail-content d-flex">
+                                            <div class="trip-icon"><i class="fas fa-user-tie"></i></div>
+                                            <h3 class="trip-content">
+                                                
+                      Travel Category
+                    
+                                              </h3>
+                                        </div>
+                                        <h3 class="trip-detail-label trip-name pt-1">
+                                            Business
+                                          </h3>
+                                        
+                                    </div>
+
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 mt-3">
+                                        <div class="trip-detail-content d-flex"><div class="trip-icon"><i class="far fa-id-card"></i></div> <h3 class="trip-content">
+                                            Cost Center
+                                          </h3></div> <h3 class="trip-detail-label trip-name pt-1">
+                                          Cost Center(CS)
+                                        </h3>
+                                        
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 mt-3">
+                                        <div class="trip-detail-content d-flex"><div class="trip-icon"><i class="fas fa-user"></i></div> <h3 class="trip-content">
+                                            Employee Name
+                                          </h3></div> <h3 class="trip-detail-label trip-name pt-1">
+                                          Khushal Pahuja
+                                        </h3>
+                                        
+                                    </div>
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 mt-3"><div class="trip-detail-content d-flex"><div class="trip-icon"><i class="fas fa-envelope"></i></div> <h3 class="trip-content">
+                                        Employee Email
+                                      </h3></div> <h3 class="trip-detail-label trip-name pt-1">
+                                      khushal.pahuja@enukesoftware.com
+                                    </h3></div>
+
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 mt-3"><div class="trip-detail-content d-flex"><div class="trip-icon"><i class="fas fa-mobile-alt"></i></div> <h3 class="trip-content">
+                                        Mobile Number
+                                      </h3></div> <h3 class="trip-detail-label trip-name pt-1">
+                                      91-8900765538
+                                    </h3></div>
+
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 mt-3"><div class="trip-detail-content d-flex"><div class="trip-icon"><i class="fas fa-calendar-alt"></i></div> <h3 class="trip-content">
+                                        Trip Period
+                                      </h3></div> <h3 class="trip-detail-label trip-name pt-1">
+                                      Dec 30th To Dec 30th 2020
+                                    </h3></div>
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-12 mt-3"><div class="trip-detail-content d-flex"><div class="trip-icon"><i class="fas fa-map-pin"></i></div> <h3 class="trip-content">
+                                        Destination
+                                      </h3></div> <h3 class="trip-detail-label trip-name pt-1">
+                                      dubai
+                                    </h3></div>
+
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div><!--row ends here-->
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15">
+                                <div class="wrapper-title toggle-wrapper raleway-font" data-toggle="collapse" data-target="#rail">
+                                    <h2 class="mb-0">Rail Detail</h2>
+                                </div>
+                                <div class="table-responsive collapse show " id="rail">
+                                    <table class="table table-bordered custom-table roboto-font mb_0 mt-3">
+                                        <thead>
+                                            <tr>
+                                              
+                                                <th>AGENCY NAME</th>
+                                                <th>TRANSACTION DATE</th>
+                                                <th>TRIP NAME</th>
+                                                <th>TRIP REFERENCE NUMBER</th>
+                                                
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                
+                                                <td>Enuke Software Pvt Ltd</td>
+                                                <td>22-12-2020</td>
+                                                <td>hotel</td>
+                                                <td class="text-center"> <input class="form-control mx-auto" style="max-width: 100px;" type="text" /></td>
+                                           </tr>
+                                           <tr>
+                                                
+                                            <td>Enuke Software Pvt Ltd</td>
+                                            <td>22-12-2020</td>
+                                            <td>hotel</td>
+                                            <td><span contenteditable="true">1608272613819 <a href="#" class="mr-2 text-success text-tooltip"><i class="fas fa-pencil-alt ml-1"></i></a></span></td>
+                                       </tr>
+                                            
+                                            
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--col ends here-->
+                    <div class="col-md-12">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15">
+                                <div class="wrapper-title toggle-wrapper raleway-font" data-toggle="collapse" data-target="#flight">
+                                    <h2 class="mb-0">Flight Detail</h2>
+                                </div>
+                                <div class="table-responsive collapse show" id="flight">
+                                    <table class="table table-bordered custom-table roboto-font mb_0 mt-3">
+                                        <thead>
+                                            <tr>
+                                              
+                                                <th>AGENCY NAME</th>
+                                                <th>TRANSACTION DATE</th>
+                                                <th>TRIP NAME</th>
+                                                <th>TRIP REFERENCE NUMBER</th>
+                                                
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                
+                                                <td>Enuke Software Pvt Ltd</td>
+                                                <td>22-12-2020</td>
+                                                <td>hotel</td>
+                                                <td>1608272613819</td>
+                                           </tr>
+                                           <tr>
+                                                
+                                            <td>Enuke Software Pvt Ltd</td>
+                                            <td>22-12-2020</td>
+                                            <td>hotel</td>
+                                            <td>1608272613819</td>
+                                       </tr>
+                                            
+                                            
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--col ends here-->
+
+                    <div class="col-md-12">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15">
+                                <div class="wrapper-title toggle-wrapper raleway-font" data-toggle="collapse" data-target="#hotel">
+                                    <h2 class="mb-0">Hotel Detail</h2>
+                                </div>
+                                <div class="table-responsive collapse show" id="hotel">
+                                    <table class="table table-bordered custom-table roboto-font mb_0 mt-3">
+                                        <thead>
+                                            <tr>
+                                              
+                                                <th>AGENCY NAME</th>
+                                                <th>TRANSACTION DATE</th>
+                                                <th>TRIP NAME</th>
+                                                <th>TRIP REFERENCE NUMBER</th>
+                                                
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                
+                                                <td>Enuke Software Pvt Ltd</td>
+                                                <td>22-12-2020</td>
+                                                <td>hotel</td>
+                                                <td>1608272613819</td>
+                                           </tr>
+                                           <tr>
+                                                
+                                            <td>Enuke Software Pvt Ltd</td>
+                                            <td>22-12-2020</td>
+                                            <td>hotel</td>
+                                            <td>1608272613819</td>
+                                       </tr>
+                                            
+                                            
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--col ends here-->
+
+                    <div class="col-md-12">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15">
+                                <div class="wrapper-title toggle-wrapper raleway-font" data-toggle="collapse" data-target="#car">
+                                    <h2 class="mb-0">car Detail</h2>
+                                </div>
+                                <div class="table-responsive collapse show" id="car">
+                                    <table class="table table-bordered custom-table roboto-font mb_0 mt-3">
+                                        <thead>
+                                            <tr>
+                                              
+                                                <th>AGENCY NAME</th>
+                                                <th>TRANSACTION DATE</th>
+                                                <th>TRIP NAME</th>
+                                                <th>TRIP REFERENCE NUMBER</th>
+                                                
+
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                
+                                                <td>Enuke Software Pvt Ltd</td>
+                                                <td>22-12-2020</td>
+                                                <td>hotel</td>
+                                                <td>1608272613819</td>
+                                           </tr>
+                                           <tr>
+                                                
+                                            <td>Enuke Software Pvt Ltd</td>
+                                            <td>22-12-2020</td>
+                                            <td>hotel</td>
+                                            <td>1608272613819</td>
+                                       </tr>
+                                            
+                                            
+                                            
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--col ends here-->
+
+                    
+
+                    
+
+                </div>
+            </div>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

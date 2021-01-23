@@ -1,0 +1,1467 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | View Trip Detail</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Flight
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-hotel"></i></span>
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-train"></i></span>
+                                    Rail
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-car"></i></span>
+                                    Car
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Trip
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt font-18"></i>
+                                    <span class="title">Dashboard</span>
+                                </a>
+                              
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <img class="normal-icon" src="img/user-manager.png" />
+                                    <img class="active-icon" src="img/user-manager-active.png" />
+                                    <span class="title">User Manager</span>
+                                </a>
+                              
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/trip.png" />
+                                    <img class="active-icon" src="img/trip-active.png" />
+                                    <span class="title">Trips</span>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/customer.png" />
+                                    <img class="active-icon" src="img/customer-active.png" />
+                                    <span class="title">Customer Notes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/reward.png" />
+                                    <img class="active-icon" src="img/reward-active.png" />
+                                    <span class="title">Manage Rewards</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/travel-policy.png" />
+                                    <img class="active-icon" src="img/travel-policy-active.png" />
+                                    <span class="title">Travel Policy </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/master.png" />
+                                    <img class="active-icon" src="img/master-active.png" />
+                                    <span class="title">Masters</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/content-manager.png" />
+                                    <img class="active-icon" src="img/content-manager-active.png" />
+                                    <span class="title">Content Manager</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-cogs font-18"></i>
+                                    <span class="title">General Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/contact-form.png" />
+                                    <img class="active-icon" src="img/contact-form-active.png" />
+                                    <span class="title">Contact Form</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                
+                <div class="row align-items-stretch mb_20">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15 view-trip-detail-wrapper">
+                                <div class="row mb_20">
+                                    <div class="col-md-12">
+                                        <div class="wrapper-title raleway-font">
+                                            <h2 class="mb_0">Trip Detail</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb_20">
+                                    <div class="col-md-4">
+                                        <div class="row align-items-center">
+                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div><h3 class="trip-detail-label">Employee Name</h3></div>
+                                                    <div><span>:-</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                <div class="trip-detail-content">
+                                                    <h3 class="trip-content">Gaurav Thakur</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="row align-items-center">
+                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div><h3 class="trip-detail-label">Trip Type</h3></div>
+                                                    <div><span>:-</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                <div class="trip-detail-content">
+                                                    <h3 class="trip-content">Official</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="row align-items-center">
+                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div><h3 class="trip-detail-label">Employee Email</h3></div>
+                                                    <div><span>:-</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                <div class="trip-detail-content">
+                                                    <h3 class="trip-content">gauravthakur@gmail.com</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="row mb_20">
+                                    <div class="col-md-4">
+                                        <div class="row align-items-center">
+                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div><h3 class="trip-detail-label">Destination</h3></div>
+                                                    <div><span>:-</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                <div class="trip-detail-content">
+                                                    <h3 class="trip-content">Bali</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="row align-items-center">
+                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div><h3 class="trip-detail-label">Mobile Number</h3></div>
+                                                    <div><span>:-</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                <div class="trip-detail-content">
+                                                    <h3 class="trip-content">9998882223</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="row align-items-center">
+                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div><h3 class="trip-detail-label">Traveller</h3></div>
+                                                    <div><span>:-</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                <div class="trip-detail-content">
+                                                    <h3 class="trip-content">2</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb_20">
+                                    <div class="col-md-4">
+                                        <div class="row align-items-center">
+                                            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div><h3 class="trip-detail-label">Trip Period</h3></div>
+                                                    <div><span>:-</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+                                                <div class="trip-detail-content">
+                                                    <h3 class="trip-content">28 Jan 2019 To 14 Feb 2019</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="row align-items-center">
+                                            <div class="col-xl-1 col-lg-1 col-md-12 col-sm-12 col-12">
+                                                <div class="d-flex align-items-center justify-content-between">
+                                                    <div><h3 class="trip-detail-label">Remarks</h3></div>
+                                                    <div><span>:-</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-11 col-lg-11 col-md-12 col-sm-12 col-12">
+                                                <div class="trip-detail-content">
+                                                    <h3 class="trip-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non, minima assumenda, cupiditate voluptatem aut architecto in natus officiis amet sequi neque? Provident adipisci in unde, possimus doloremque repudiandae dolorum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque non, minima assumenda, cupiditate voluptatem aut architecto in natus officiis amet sequi neque? Provident adipisci in unde, possimus doloremque repudiandae dolorum.</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--row ends here-->
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15">
+                                <div class="wrapper-title toggle-wrapper raleway-font">
+                                    <h2 class="mb_15">Flight Detail</h2>
+                                </div>
+                                <div class="flight-detail-content border-bottom mb_20">
+                                    <h4 class="detail-title"><i class="fas fa-plane"></i> Mumbai To Delhi</h4>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Flight Number</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">6E-184</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Origin</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">BOM, Mumbai</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Destination</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">DEL, New Delhi</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Depart Time</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">31/12/2018 08:25 PM</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Arrival Date</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">31/12/2019 10:25PM</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Class</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Economy</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flight-detail-content border-bottom mb_20">
+                                    <h4 class="detail-title"><i class="fas fa-user"></i> Passengers</h4>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Name</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Gaurav Thakur(Adult)</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Date of Birth</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">20 March 1991</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Phone</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">9654454556</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Email</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">gauravthakur@gmail.com</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Address</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">#893 Sector 14, Gurgaon, Haryana</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flight-detail-content border-bottom mb_20">
+                                    <h4 class="detail-title"><i class="fas fa-list"></i> Fare Details <a href="#" class="font-12"><i class="fas fa-info-circle"></i> Travel Policy Limits</a></h4>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Adult</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">1101.00</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Tax</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">2434.00</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label color-dark-gray"><strong>Total</strong></h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content color-dark-gray"><strong>3535.00</strong></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--col ends here-->
+                    <div class="col-md-6">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15">
+                                <div class="wrapper-title toggle-wrapper raleway-font">
+                                    <h2 class="mb_15">Hotel Detail</h2>
+                                </div>
+                                <div class="flight-detail-content border-bottom mb_20">
+                                    <h4 class="detail-title"><i class="fas fa-hotel"></i> Mountain View</h4>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center mb_10">
+                                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div>
+                                                            <p class="mb_0">12 Dr APJ Abdul Kalam Road, New Delhi - 110011 , 110011 New
+                                                            Delhi, India</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row align-items-center mb_10">
+                                                <div class="col-md-6">
+                                                    <div class="star-rating-detail">
+                                                        <ul class="list-inline mb_0">
+                                                            <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                                            <li class="list-inline-item"><i class="fas fa-star"></i></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="float-right hotel-price-view">
+                                                        <h4><i class="fas fa-rupee-sign"></i> 2345</h4>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row align-items-center mb_10">
+                                                <div class="col-md-12">
+                                                    <div class="hotel-check-out-grid border-dashed">
+                                                        <div>
+                                                            <h3>Check In</h3>
+                                                            <h4>14 March, 2019</h4>
+                                                        </div>
+                                                        <div>
+                                                            <h3>Check Out</h3>
+                                                            <h4>20 March, 2019</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flight-detail-content border-bottom mb_20">
+                                    <h4 class="detail-title"><i class="fas fa-user"></i> Guests</h4>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Name</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Gaurav Thakur(Adult)</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Date of Birth</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">20 March 1991</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Phone</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">9654454556</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Email</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">gauravthakur@gmail.com</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Address</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">#893 Sector 14, Gurgaon, Haryana</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flight-detail-content border-bottom mb_20">
+                                    <h4 class="detail-title"><i class="fas fa-list"></i> Fare Details <a href="#" class="font-12"><i class="fas fa-info-circle"></i> Travel Policy Limits</a></h4>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Adult</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">1101.00</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Tax</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">2434.00</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label color-dark-gray"><strong>Total</strong></h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content color-dark-gray"><strong>3535.00</strong></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div><!--col ends-->
+
+                    <div class="col-md-6">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15">
+                                <div class="wrapper-title toggle-wrapper raleway-font">
+                                    <h2 class="mb_15">Rail Detail</h2>
+                                </div>
+                                <div class="flight-detail-content border-bottom mb_20">
+                                    <h4 class="detail-title"><i class="fas fa-train"></i> Mumbai To Delhi</h4>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Depart From</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Delhi</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Arrival To</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Mumbai</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Depart</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">14:29 PM</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Dep Platform</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Platform 1</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Arr Platform</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Platform 2</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flight-detail-content border-bottom mb_20">
+                                    <h4 class="detail-title"><i class="fas fa-user"></i> Passengers</h4>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Name</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Gaurav Thakur(Adult)</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Date of Birth</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">20 March 1991</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Phone</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">9654454556</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Email</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">gauravthakur@gmail.com</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Address</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">#893 Sector 14, Gurgaon, Haryana</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flight-detail-content border-bottom mb_20">
+                                    <h4 class="detail-title"><i class="fas fa-list"></i> Fare Details <a href="#" class="font-12"><i class="fas fa-info-circle"></i> Travel Policy Limits</a></h4>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Adult</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">1101.00</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Tax</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">2434.00</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label color-dark-gray"><strong>Total</strong></h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content color-dark-gray"><strong>3535.00</strong></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--col ends here-->
+
+                    <div class="col-md-6">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15">
+                                <div class="wrapper-title toggle-wrapper raleway-font">
+                                    <h2 class="mb_15">Car Hire</h2>
+                                </div>
+                                <div class="car-detail-content border-bottom mb_20">
+                                    <h4 class="detail-title"><i class="fas fa-car"></i> Renault Clio or Similar</h4>
+                                    <ul class="list-inline mb_10">
+                                        <li class="list-inline-item"><i class="fas fa-check color-orange mr-2"></i>Manual Transmission </li>
+                                        <li class="list-inline-item"><i class="fas fa-check color-orange mr-2"></i>Unlimited Mileage </li>
+                                        <li class="list-inline-item"><i class="fas fa-check color-orange mr-2"></i>Fee Cancellation upto 6 hours before pickup </li>
+                                        <li class="list-inline-item"><i class="fas fa-check color-orange mr-2"></i>Earn Expdeia Rewards points</li>
+                                        <li class="list-inline-item"><i class="fas fa-check color-orange mr-2"></i>Insurance Included</li>
+                                    </ul>
+                                    <div class="d-flex fuel-info align-items-center  mb_5">
+                                        <div class="mr-1 font-15 f-w-m color-dark">Fuel Info</div>
+                                        <div class="mr-1 font-15 color-dark">:-</div>
+                                        <div class="font-15 color-light">Full to Full</div>
+                                    </div>
+                                    <div class="d-flex fuel-info align-items-center  mb_5">
+                                        <div class="mr-1 font-15 f-w-m color-dark">Pickup</div>
+                                        <div class="mr-1 font-15 color-dark">:-</div>
+                                        <div class="font-15 color-light">Counter and Car In Terminal</div>
+                                    </div>
+                                </div>
+                                <div class="flight-detail-content border-bottom mb_20">
+                                    <h4 class="detail-title"><i class="fas fa-user"></i> Passengers</h4>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Name</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Gaurav Thakur(Adult)</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Date of Birth</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">20 March 1991</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Phone</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">9654454556</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Email</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">gauravthakur@gmail.com</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Address</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">#893 Sector 14, Gurgaon, Haryana</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flight-detail-content border-bottom mb_20">
+                                    <h4 class="detail-title"><i class="fas fa-list"></i> Fare Details <a href="#" class="font-12"><i class="fas fa-info-circle"></i> Travel Policy Limits</a></h4>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Adult</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">1101.00</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Tax</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">2434.00</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label color-dark-gray"><strong>Total</strong></h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content color-dark-gray"><strong>3535.00</strong></h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div><!--col ends-->
+
+                    <div class="col-md-6">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15">
+                                <div class="wrapper-title toggle-wrapper raleway-font">
+                                    <h2 class="mb_15">Visa Detail</h2>
+                                </div>
+                                <div class="visa-detail-content mb_20">
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Destination</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Delhi</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Type of Visa</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Work Visa</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">No. of Passengers</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">1</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Date of Travel</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">31/12/2018</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Mobile Number</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">9583473777</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Email</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">johndoe@gmail.com</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-start">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Description</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste veniam, obcaecati temporibus possimus aliquid saepe voluptate, ut nulla hic dignissimos est totam voluptatem repudiandae accusantium itaque enim reiciendis ducimus labore?Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ducimus pariatur eum voluptates ratione iusto dicta eos excepturi deleniti aliquam, vel quidem ut, veniam veritatis totam nesciunt, velit natus! Architecto!</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--col ends here-->
+
+                    <div class="col-md-6">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20">
+                            <div class="p_15">
+                                <div class="wrapper-title toggle-wrapper raleway-font">
+                                    <h2 class="mb_15">Advance Currency Details</h2>
+                                </div>
+                                <div class="add-currency-detail-content mb_20">
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Destination</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Delhi</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Date of Travel</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">31/12/2019</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Number of Days</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">2</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Per Diem</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Lorum Ispum</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Amount</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Per Diem</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb_10">
+                                        <div class="col-md-12">
+                                            <div class="row align-items-center">
+                                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                                                    <div class="d-flex align-items-center justify-content-between">
+                                                        <div><h3 class="trip-detail-label">Currency</h3></div>
+                                                        <div><span>:-</span></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+                                                    <div class="trip-detail-content">
+                                                        <h3 class="trip-content">Per Diem</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--col ends here-->
+                    
+
+                </div>
+            </div>
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

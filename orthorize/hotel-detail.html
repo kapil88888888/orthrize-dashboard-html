@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Flight Result</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <nav class="navbar navbar-expand-md">
+                                <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                                    
+                                    <ul class="navbar-nav ml-auto align-items-center">
+                                        <li class="nav-item position-relative currency-dropdown dropdown">
+                                            <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                            <div class="country-dropdown-content shadow">
+                                                <ul class="list-unstyled">
+                                                    <li>
+                                                        <a href="#" class="d-flex align-items-center">
+                                                            <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                            <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="d-flex align-items-center">
+                                                            <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                            <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown position-relative">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                                <span class="rounded-circle profile d-inline-block profile-img">
+                                                    <img class="img-fluid" src="img/profile.jpg" alt="">
+                                                </span>
+                                                John Doe
+                                            </a>
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                                <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="result-container detail-wrapper">
+                
+                <section class="hotel-detail-wrapper">
+                    <div class="container">
+                        <div class="row mb_20">
+                            <div class="col-md-12">
+                                <div class="d-flex justify-content-end">
+                                    <div class="back">
+                                        <a href="#" class="bg-white"><i class="fas fa-arrow-left"></i>Back</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb_20">
+                            <div class="col-md-12">
+                                <div class="white-wrapper wrapper-shadow br-5">
+                                    <div class="p_15">
+                                        <form class="roboto-font custom-form">
+                                            <div class="form-row align-items-end">
+                                                <div class="col">
+                                                    <div class="form-group mb_0">
+                                                        <label for="">Hotel Name</label>
+                                                        <input type="text" id="" class="form-control" placeholder="The Lalit New Delhi" data-original-title="" title="">
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="form-group mb_0">
+                                                        <label for="">Check In</label>
+                                                        <div class="c-icon position-relative">
+                                                            <input type="text" id="" class="form-control" placeholder="14 March 2019" data-original-title="" title="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="form-group mb_0">
+                                                        <label for="">Check Out</label>
+                                                        <div class="c-icon position-relative">
+                                                            <input type="text" id="" class="form-control" placeholder="20 March 2019" data-original-title="" title="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="form-group select-traveller mb_0">
+                                                        <label for="">Guests & Rooms</label>
+                                                        <span class="d-block" id="select-traveller-toggle">3 Guests in 1 Room</span>
+                                                        <div class="traveller-select-menu">
+                                                            <a href="javascript:void(0)" class="close">×</a>
+                                                            <div class="traveller-select-menu-inner">
+                                                                <div class="adult-wrapper mb_10">
+                                                                    <div class="d-flex align-items-center justify-content-between">
+                                                                        <div>
+                                                                            <h4>Guests</h4>
+                                                                        </div>
+                                                                        <div>
+                                                                            <div class="add-minus d-flex align-items-center justify-content-between">
+                                                                                <div class="mr-2">
+                                                                                    <a href="#" class="decrement">
+                                                                                        <i class="fas fa-minus"></i>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="mr-2"><span class="total-traveller">2</span></div>
+                                                                                <div>
+                                                                                    <a href="#" class="increment">
+                                                                                        <i class="fas fa-plus"></i>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                </div><!--adult wrapper ends here-->
+            
+                                                                <div class="child-wrapper mb_10">
+                                                                    <div class="d-flex align-items-center justify-content-between">
+                                                                        <div>
+                                                                            <h4>Rooms</h4>
+                                                                        </div>
+                                                                        <div>
+                                                                            <div class="add-minus d-flex align-items-center justify-content-between">
+                                                                                <div class="mr-2">
+                                                                                    <a href="#" class="decrement">
+                                                                                        <i class="fas fa-minus"></i>
+                                                                                    </a>
+                                                                                </div>
+                                                                                <div class="mr-2"><span class="total-traveller">0</span></div>
+                                                                                <div>
+                                                                                    <a href="#" class="increment">
+                                                                                        <i class="fas fa-plus"></i>
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- <div class="row select-traveller-more">
+                                                                        <div class="col-md-6">
+                                                                            <label>Child 1 Age</label>
+                                                                            <select class="form-control">
+                                                                                <option>Age</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div> -->
+                                                                </div><!--child wrapper ends here-->
+
+                                                                <div class="add-hotel-btn d-flex align-items-center justify-content-center">
+                                                                    <div class="search-button-wrapper">
+                                                                        <button type="button" class="btn-orange text-uppercase">Add</button>
+                                                                    <button type="button" class="custom-outline text-uppercase">Cancel</button>
+                                                                    </div>
+                                                                </div>
+            
+                                                                
+                                                            </div>
+        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div class="form-group mb_0">
+                                                        <div class="search-button-wrapper read-more raleway-font custom-btn-height">
+                                                            <button type="button" class="btn-orange text-uppercase">Modify Search</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb_20">
+                            <div class="col-md-12">
+                                <div class="white-wrapper wrapper-shadow br-5 overflow-hidden">
+                                    <div class="d-flex">
+                                        <div class="hotel-banner">
+                                            <div id="hotelSliderControls" class="carousel slide" data-ride="carousel">
+                                                <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <img src="img/hotel-detail-img.jpg" class="d-block" alt="Hotel Image">
+                                                    </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#hotelSliderControls" role="button" data-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                  </a>
+                                                  <a class="carousel-control-next" href="#hotelSliderControls" role="button" data-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                  </a>
+                                            </div>
+                                        </div>
+                                        <div class="hotel-detail-middle p_20">
+                                            <h3 class="hotel_name mb_10">Roseate House New Delhi</h3>
+                                            <span class="hotel_review d-block mb_10">
+                                                <i class="fas fa-star color-orange"></i>
+                                                <i class="fas fa-star color-orange"></i>
+                                                <i class="fas fa-star color-orange"></i>
+                                                <i class="fas fa-star color-orange"></i>
+                                                <i class="fas fa-star-half color-orange"></i>
+                                            </span>
+                                            <p class="hotel_address mb_10">Plot No 10, GMR Hospitality District, Indira Gandhi International Airport, Aerocity</p>
+                                            <div class="hotel_amenities_list">
+                                                <ul class="list-inline mb_0">
+                                                    <li class="list-inline-item">
+                                                        <span class="mr-1"><i class="fas fa-hotel"></i></span> Breakfast
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <span class="mr-1"><i class="fas fa-hotel"></i></span> Parking
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <span class="mr-1"><i class="fas fa-hotel"></i></span> Wifi
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <span class="mr-1"><i class="fas fa-hotel"></i></span> Swimming Pool
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <span class="mr-1"><i class="fas fa-hotel"></i></span> Room Service
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <span class="mr-1"><i class="fas fa-hotel"></i></span> Spa
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <span class="mr-1"><i class="fas fa-hotel"></i></span> Air Conditioner
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="hotel-check-out-grid border-dashed mb_20">
+                                                <div>
+                                                    <h3>Check In</h3>
+                                                    <h4>14 March, 2019</h4>
+                                                </div>
+                                                <div>
+                                                    <h3>Check Out</h3>
+                                                    <h4>20 March, 2019</h4>
+                                                </div>
+                                            </div>
+                                            <div class="hotel-price-deatail">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="selected-hotel-price">
+                                                        <h2 style="margin-bottom: 0;"><span class=""><i class="fas fa-rupee-sign color-orange"></i></span>12520</h2>
+                                                        <p class="total_days">1 Room Price For 1 Night</p>
+                                                    </div>
+                                                    <div class="search-button-wrapper text-center">
+                                                        <button type="button" class="btn-orange raleway-font text-uppercase">Book Now</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb_20">
+                            <div class="col-md-12">
+                                <div class="white-wrapper wrapper-shadow br-5 overflow-hidden">
+                                    <div class="about-hotel-wrapper p_20">
+                                        <h3 class="title">About the Hotel</h3>
+                                        <p>The BEST WESTERN Delhi Inn is conveniently located near Civil War Park, beautifully preserved antebellum homes and Poverty Point Lake. Hotel guests will also have easy access to riverboat casinos and the Black Bear Golf Course. Each spacious, well-appointed room at this Delhi hotel comes equipped with cable satellite television with HBO, coffee/tea maker, iron/ironing board and hairdryer. The hotel also offers an outdoor swimming pool, high-speed Internet access and a complimentary continental breakfast. Pets are welcome. A friendly anad knowledgeable staff is ready to ensure a comfortable and memorable stay. Make an online reservation today at the BEST WESTERN Delhi Inn!The BEST WESTERN DELHI INN is a Tourist hotel. Located in City Centre area. The nightlife/restaurants are located in the hotel. 
+                                        </p>
+                                        <p>The hotel also offers an outdoor swimming pool, high-speed Internet access and a complimentary continental breakfast. Pets are welcome. A friendly and knowledgeable staff is ready to ensure a comfortable and memorable stay. Make an online reservation today at the BEST WESTERN Delhi Inn!The BEST WESTERN DELHI INN is a Tourist hotel. Located in City Centre area. The nightlife/restaurants are located in the hotel. 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb_20">
+                            <div class="col-md-12">
+                                <div class="white-wrapper wrapper-shadow br-5 overflow-hidden">
+                                    <div class="select-hotel-wrapper p_20">
+                                        <h3 class="title">Select Hotel</h3>
+                                        <div class="border-dashed p_15 mb_20">
+                                            <div class="d-flex">
+                                                <div class="s_h_i mr-3">
+                                                    <img src="img/selected-hotel-img.png" alt="" title=""/>
+                                                </div>
+                                                <div class="s_h_c flex-grow-1">
+                                                    <h3>Budget Room with Air Condition</h3>
+                                                    <div class="d-inline">
+                                                        <span class="border-right pr-3 mr-2">Room Size : 306 Sq.ft.</span>
+                                                        <span class="ml-2">Accommodates 3 Adults</span>
+                                                    </div>
+
+                                                    <div class="s_h_a mt_20">
+                                                        <ul class="list-inline mb_0">
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Breakfast
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Parking
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Wifi
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Spa
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Swimming Pool
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Room Service
+                                                            </li>
+
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Power Backup
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="selected-hotel-price text-center">
+                                                    <h2><span class=""><i class="fas fa-rupee-sign color-orange"></i></span>12520</h2>
+                                                    <p class="total_days">1 Room Price For 1 Night</p>
+                                                    <div class="search-button-wrapper text-center">
+                                                        <button type="button" class="btn-orange raleway-font text-uppercase">Select Room</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="border-dashed p_15 mb_20">
+                                            <div class="d-flex">
+                                                <div class="s_h_i mr-3">
+                                                    <img src="img/selected-hotel-img.png" alt="" title=""/>
+                                                </div>
+                                                <div class="s_h_c flex-grow-1">
+                                                    <h3>Budget Room with Air Condition</h3>
+                                                    <div class="d-inline">
+                                                        <span class="border-right pr-3 mr-2">Room Size : 306 Sq.ft.</span>
+                                                        <span class="ml-2">Accommodates 3 Adults</span>
+                                                    </div>
+
+                                                    <div class="s_h_a mt_20">
+                                                        <ul class="list-inline mb_0">
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Breakfast
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Parking
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Wifi
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Spa
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Swimming Pool
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Room Service
+                                                            </li>
+
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Power Backup
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="selected-hotel-price text-center">
+                                                    <h2><span class=""><i class="fas fa-rupee-sign color-orange"></i></span>12520</h2>
+                                                    <p class="total_days">1 Room Price For 1 Night</p>
+                                                    <div class="search-button-wrapper text-center">
+                                                        <button type="button" class="btn-orange raleway-font text-uppercase">Select Room</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="border-dashed p_15 mb_20">
+                                            <div class="d-flex">
+                                                <div class="s_h_i mr-3">
+                                                    <img src="img/selected-hotel-img.png" alt="" title=""/>
+                                                </div>
+                                                <div class="s_h_c flex-grow-1">
+                                                    <h3>Budget Room with Air Condition</h3>
+                                                    <div class="d-inline">
+                                                        <span class="border-right pr-3 mr-2">Room Size : 306 Sq.ft.</span>
+                                                        <span class="ml-2">Accommodates 3 Adults</span>
+                                                    </div>
+
+                                                    <div class="s_h_a mt_20">
+                                                        <ul class="list-inline mb_0">
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Breakfast
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Parking
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Wifi
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Spa
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Swimming Pool
+                                                            </li>
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Room Service
+                                                            </li>
+
+                                                            <li class="list-inline-item">
+                                                                <span class="fas fa-check-circle mr-2"></span> Power Backup
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="selected-hotel-price text-center">
+                                                    <h2><span class=""><i class="fas fa-rupee-sign color-orange"></i></span>12520</h2>
+                                                    <p class="total_days">1 Room Price For 1 Night</p>
+                                                    <div class="search-button-wrapper text-center">
+                                                        <button type="button" class="btn-orange raleway-font text-uppercase">Select Room</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb_20">
+                            <div class="col-md-12">
+                                <div class="white-wrapper wrapper-shadow br-5 overflow-hidden">
+                                    <div class="hotel-map" style="height: 380px;">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mb_20">
+                            <div class="col-md-12">
+                                <div class="white-wrapper wrapper-shadow br-5 overflow-hidden">
+                                    <div class="hotel-review p_20">
+                                        <h3 class="title">Guest Reviews & Rating</h3>
+                                        <div class="border-dashed p_15 mb_20">
+                                            <div class="d-flex align-items-center">
+                                                <div class="user-img mr-3"></div>
+                                                <div class="flex-grow-1">
+                                                    <h3 class="guests-name">Sunil Goel <small>(7 Sep, 2019)</small></h3>
+                                                    <span class="rate-by-guest"><i class="fas fa-star color-orange mr-2"></i>4.5</span>
+                                                </div>
+                                            </div>
+                                            <div class="guest-say">
+                                                <p>Very nice stay at hotel daanish residency.. my stay was very peaceful and we will liked all things as per my expectation.. hotel location is very close to metro and karol bagh market and room was spacious and neat n clean.. staff was helpfull and cooperative.. good hotel for family stay in the center of karol bagh market Good..Safe and Secure stay at Daanish Residency</p>
+                                            </div>
+                                        </div>
+                                        <div class="border-dashed p_15 mb_20">
+                                            <div class="d-flex align-items-center">
+                                                <div class="user-img mr-3"></div>
+                                                <div class="flex-grow-1">
+                                                    <h3 class="guests-name">Sunil Goel <small>(7 Sep, 2019)</small></h3>
+                                                    <span class="rate-by-guest"><i class="fas fa-star color-orange mr-2"></i>4.5</span>
+                                                </div>
+                                            </div>
+                                            <div class="guest-say">
+                                                <p>Very nice stay at hotel daanish residency.. my stay was very peaceful and we will liked all things as per my expectation.. hotel location is very close to metro and karol bagh market and room was spacious and neat n clean.. staff was helpfull and cooperative.. good hotel for family stay in the center of karol bagh market Good..Safe and Secure stay at Daanish Residency</p>
+                                            </div>
+                                        </div>
+                                        <div class="border-dashed p_15 mb_20">
+                                            <div class="d-flex align-items-center">
+                                                <div class="user-img mr-3"></div>
+                                                <div class="flex-grow-1">
+                                                    <h3 class="guests-name">Sunil Goel <small>(7 Sep, 2019)</small></h3>
+                                                    <span class="rate-by-guest"><i class="fas fa-star color-orange mr-2"></i>4.5</span>
+                                                </div>
+                                            </div>
+                                            <div class="guest-say">
+                                                <p>Very nice stay at hotel daanish residency.. my stay was very peaceful and we will liked all things as per my expectation.. hotel location is very close to metro and karol bagh market and room was spacious and neat n clean.. staff was helpfull and cooperative.. good hotel for family stay in the center of karol bagh market Good..Safe and Secure stay at Daanish Residency</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                
+                
+            </div>
+
+            
+        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

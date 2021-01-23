@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Reports</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <a href="#" class="toggle-sidebar d-block d-sm-block d-md-none">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Flight
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-hotel"></i></span>
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-train"></i></span>
+                                    Rail
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-car"></i></span>
+                                    Car
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Trip
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt font-18"></i>
+                                    <span class="title">Dashboard</span>
+                                </a>
+                              
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <img class="normal-icon" src="img/user-manager.png" />
+                                    <img class="active-icon" src="img/user-manager-active.png" />
+                                    <span class="title">User Manager</span>
+                                </a>
+                              
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/trip.png" />
+                                    <img class="active-icon" src="img/trip-active.png" />
+                                    <span class="title">Trips</span>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/customer.png" />
+                                    <img class="active-icon" src="img/customer-active.png" />
+                                    <span class="title">Customer Notes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/reward.png" />
+                                    <img class="active-icon" src="img/reward-active.png" />
+                                    <span class="title">Manage Rewards</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/travel-policy.png" />
+                                    <img class="active-icon" src="img/travel-policy-active.png" />
+                                    <span class="title">Travel Policy </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/master.png" />
+                                    <img class="active-icon" src="img/master-active.png" />
+                                    <span class="title">Masters</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/content-manager.png" />
+                                    <img class="active-icon" src="img/content-manager-active.png" />
+                                    <span class="title">Content Manager</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-cogs font-18"></i>
+                                    <span class="title">General Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/contact-form.png" />
+                                    <img class="active-icon" src="img/contact-form-active.png" />
+                                    <span class="title">Contact Form</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-file-invoice"></i>
+                                    <span class="title">Reports</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                <div class="row align-items-stretch mb_20">
+
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="white-wrapper wrapper-shadow br-5  mb_20">
+                            <div class="wrapper-heading p_15 bg-white border-bottom">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="wrapper-title raleway-font">
+                                        <h2 class="mb_0">Web Terms Edited</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p_15">
+                                <p>Please read these terms and conditions carefully. By accessing, browsing, reviewing and in any other way using the Ortharize platform, you acknowledge that you have read, understood and agree to be bound by these terms and conditions without limitation or qualification that you shall comply with all applicable laws, rules and regulations. If you do not agree to be bound by these terms and conditions, you should stop using the Ortharize platform.</p>
+                                <p>Any mention of The Client, refers to your organisation and any users of the Ortharize platform from within your organisation.</p>
+                                <p>These Terms and Conditions are applicable to an organisation that is using the Platform with a Professional or Premier account.</p>
+                                <p>Ortharize is a business travel agent which operates a technology platform that enables users to search for transport and accommodation bookings for business travellers. The Client wishes Ortharize to provide business travel booking Services as defined in this Agreement; and; The Client qualifies as either a Professional or Premier subscription holder entitled to those Services and benefits and other commercial terms as set out in this Agreement (which differ from the terms applicable to Enterprise clients);
+                                    </p>
+                                    <p>The Services are to be supplied for both domestic and overseas travel services in the United Kingdom under the terms of this Ortharize Travel Service Agreement or any revisions or changes advised in writing by Ortharize from time to time ; and</p>
+                                    <p>The Parties have agreed that the Services supplied by Ortharize to the Client shall be on an exclusive basis for the Term unless this Agreement is terminated under clause 9 or expires without renewal.</p>
+                                    <p>The Parties agree that payment for the "Services" shall be paid by the Client on a "Transaction Fee" basis, by which the Client pays Subscriptions or charges to Ortharize and will provide all payments to Travel Suppliers for Bookings at the point of sale by Card to enable Ortharize to provide the Services, and Ortharize shall be remunerated by the Subscriptions and payment of Transaction Fees and other charges as set out at Schedule 3 of this Agreement.</p>
+                                    <p>The Parties agree that the Services provided under this Agreement (or any combination of them) are supplied by Ortharize as agent for the supplier concerned by way of business travel and are not to be construed as forming a package holiday or tour, or linked travel arrangement such that either party is required to comply with the Package Travel and Linked Travel Arrangements Regulations 2018. </p>
+                                    <h5>Definitions</h5>
+                                    <p>The following words and expressions have the following meanings, unless they are inconsistent with the context:</p>
+                                    <ul class="web-term-list">
+                                        <li><b>"Agency Debit Memo" </b> means any additional charges or adjustments to the cost of an airline ticket imposed by the airline and paid by Ortharize.</li>
+                                        <li><b>"Agreement" </b>means this Ortharize Travel Service Agreement</li>
+                                        <li><b>"Ortharize Prices" </b>means the pricing schedule relating to the provision of the Services and set out at Schedule 3.</li>
+                                        <li><b>“Bookings” </b>means the reservation of airline and ferry tickets, hotel and other accommodation and car hire.</li>
+                                        <li><b>“Card” </b>means any credit or debit Card presented or advised to Ortharize for payment in full at the point of sale or earlier to be used for the purchase of the Services including airline and rail tickets, hotel reservations and car hire, the purchase of foreign exchange and for payments to Travel Suppliers (including any amendment or cancellation charges) and the charges of Ortharize for the provision of the Services and not for any other purpose.</li>
+                                        <li><b>"Commencement Date" </b>means the date that the order form is signed by The Client.</li>
+                                        <li><b>"Confidential Information"</b> means any information relating to either Party or any Affiliate which is commercially sensitive, proprietary or otherwise confidential in whatever form that comes into the other Party's possession directly or indirectly, including Traveller itineraries and profiles, pricing and financial information and software.</li>
+                                        <li><b>"Covid 19" </b>means the coronavirus pandemic, (including any subsequent disease or pandemic) and associated Government intervention affecting the operation ,performance or cancellation of the Services, any mandatory or preferred steps affecting transport and travel (including lockdowns, quarantine, travel bans, travel insurance exclusions, passenger and traveller restrictions and advices of the Foreign and Commonwealth Office or any other domestic or overseas regulator recommending changes, deferral or cancellation of the Services including advice against travel or other consequences of the pandemic.</li>
+                                        <li><b>“CPI” </b>” means the Consumer Price Index published in the United Kingdom from time to time.</li>
+                                        <li><b>"Eligible Traveller" </b>means a Traveller who is authorised by the Client to receive the Services. </li>
+                                        <li><b>"Exit Charges" </b>means those charges to be paid by the Client to Ortharize as set out at Schedule 3 arising from the early termination by the Client of this Agreement.</li>
+                                        <li><b>“Force Majeure Event” </b>is defined in clause 52 and shall include any event arising from or associated with Covid 19</li>
+                                        <li><b>"GDPR" </b> means the General Data Protection Regulation (EU) 2016/679 governing the control and processing of personal data.</li>
+                                        <li><b>"Hardship" </b> means a substantial change in business, technical or commercial market conditions, or a substantial change in governmental or other regulations affecting the performance of this Agreement. </li>
+                                        <li><b>“Key Performance Indicators” </b> means those service level indices set out at Schedule B.</li>
+                                        <li><b>“Implementation Costs” </b> means any cost of the implementation, installation and use of any new technology or other systems and other set up costs and charges that the Parties agree have been incurred by Ortharize to provide the Services.</li>
+                                        <li><b>"Party" and "Parties</b> means either Ortharize or the Client or both as the context provides. </li>
+                                        <li><b>“Regulations” </b>means the Package Travel and Linked Travel Arrangements Regulations 2018, the Civil Aviation (Air Travel Organisers’ Licensing) Amendment Regulations 2018, the General Data Protection Act Regulation ('GDPR'), all relevant IATA Resolutions and Rules, and all local rules, regulations laws and statutes applicable to the booking of the Services by Ortharize with a Travel Supplier.</li>
+                                        <li><b>“Services” </b> means those travel management services, foreign currency exchange services and Bookings set out in Schedule 1 agreed to be procured by Ortharize.</li>
+                                        <li><b>“Service Level Agreement” </b> means the agreement concerning the quality of the Services Ortharize is to provide and set out at Schedule 2.</li>
+                                        <li><b>"Subscriptions" </b> means an agreed sum payable monthly for the provision of the Services, and any associated merchant fees terminable on 30 days-notice as set out at Schedule 3.</li>
+                                        <li><b>"Term" </b>means the term of this Agreement and any renewal under clause 8.</li>
+                                        <li><b>"Territory" </b>means the United Kingdom.</li>
+                                        <li><b>"Transaction Fees" </b>means the price per Transaction charged by Ortharize and detailed in Schedule 3.</li>
+                                        <li><b>"Travel Supplier" </b> means any third party supplier providing travel services such as airline carriers, railways, hotels and car rental companies which Ortharize may book (or fulfil a booking for such services) on behalf of an Eligible Traveller.</li>
+                                        <li><b>"Traveller" </b>means an employee, consultant or other authorised individual of the Client ("Eligible Traveller") who, at the request of the Client, travels on a booking made or fulfilled by Ortharize or the Travel Supplier pursuant to this Agreement.</li>
+                                      
+                                    </ul>
+                                    <h5 class="pb-2">Appointment, Services and Quality </h5>
+                                    <ol class="web-term-list">
+                                        <li>The Client hereby appoints Ortharize as its exclusive Supplier of the Services in the United Kingdom to the extent that during the Term the Client shall not seek to place orders for the Services with a competing travel management company </li>
+                                        <li>Ortharize shall act within specific instructions of the Client's senior authorized management team (or others nominated by them) and will perform the Services competently and to the standard of an experienced travel management company for the Term.</li>
+                                        <li>The Client shall be entitled to the level of service and benefits of either a Professional or Premier subscription (depending on what has been chosen by The Client) under this Agreement for the Term, subject to these terms and conditions.</li>
+                                        <li>Ortharize reserves the right to revise these terms and conditions during the Term. Such revisions shall be notified to the Client in writing and shall be deemed to be accepted if the Client does not object within 14 days of receipt of the change.</li>
+                                        <li>To the extent that Ortharize subcontracts any part of the Services, this shall take place on the understanding that Ortharize remains fully responsible and liable to the Client as set out in this Agreement, including for the acts and omissions of any sub-contractor.</li>
+                                        <li>Ortharize shall provide the Services in accordance with the Service Level Agreement ('SLA') and the Key Performance Indicators set out at Schedule 2</li>
+                                    </ol>
+                                    <h5 class="pb-2">AMaking Bookings and Managing Transactions </h5>
+                                    <ol class="web-term-list">
+                                        <li>Subject to meeting the financial criteria of Ortharize, including the payment of Subscriptions, bookings may be made for the services of Travel Suppliers which may be placed with the Supplier by the use of the Ortharize platform or by online booking or by telephone.</li>
+                                        <li>Following any booking Ortharize will forward tickets electronically as soon as these become available.</li>
+                                        <li>Ortharize will manage cancellations or alterations to tickets and bookings at the request of the Client subject to the Supplier’s booking conditions and where permitted or possible will refund the Client the sums paid less any applicable charges. Refunds may not apply to cancellations or changes that are not permitted by the Travel Supplier or which arise due to Covid 19.</li>
+                                    </ol>
+                                    <h5 class="pb-2">Financial Arrangements and Subscriptions </h5>
+                                    <ol class="web-term-list">
+                                        <li>Ortharize shall be paid for the Services provided by Travel Suppliers (including sums due for any foreign currency exchange) and for the charges of Ortharize at the time of Booking by Card as set out at in Schedule 3 and under clause 3 together with VAT, where applicable and shall further pay any price adjustments required by any Travel Supplier such as for taxes, surcharges, ADM's and price increases or other miscellaneous payments.</li>
+                                        <li>Ortharize shall be entitled to charge Subscriptions in advance to the Client for using the Services which are more particularly set out at Schedule 3. Such Subscriptions shall be terminated by the Client upon 30 days-notice to Ortharize. The Client agrees to pay any outstanding fees including any Exit Charges (45% of the remaining subscription fees) that may apply.</li>
+                                        <li>Ortharize shall be entitled to Transaction Fees and any other charges or costs as set out at Schedule 3 for all Transactions and Bookings, which shall be paid at the time of booking by the use of the Card submitted to the Client for payment at the point of booking.</li>
+                                        <li>In addition to Transaction Fees and payment for Travel Supplies, Ortharize shall be entitled to charge the Client for card charges, admin fees, self-booking tools and other technology solutions and under-utilisation charges. </li>
+                                        <li>Ortharize shall be entitled to be paid an annual cost of living adjustment to any fees payable under this clause by the annual addition of CPI, calculated from March annually during the Term. </li>
+                                        <li>In the event of a significant change to the UK economy or the costs associated with providing the Services increase for any other reason, Ortharize shall have the right to amend the Transaction Fees at any time. In the event that no agreement can be reached between the Parties relating to revised Transaction Fees then Ortharize shall have the right to terminate this Agreement upon 1 month’s written notice to the Client.</li>
+                                        <li>Ortharize reserves the right to review the prices set out in the Ortharize Prices annually. Amendments may be introduced in this way following each anniversary of the Commercial Date. </li>
+                                        <li>Fees for payment by Card:
+                                            <ul class="mt-2">
+                                                <li class="pb-1">For any payment to Ortharize by Card Ortharize may charge an additional fee (for an administration fee or service fee) </li>
+                                                <li class="pb-1">Any Third Party fees will be submitted to the Client for payment when incurred.</li>
+                                               
+                                            </ul>
+                                        </li>
+                                        <li>Ortharize Implementation Costs for implementing the Services include set up costs and implementation and training costs. In the event that the Client terminates the Agreement for convenience within 12 months of the Commencement Date then the Client shall reimburse Ortharize for any agreed implementation Costs. These fees do not include any managed implementation fees for additional services that the Client may have taken up</li>
+                                        <li>In the event that the Client defaults in making payment to Ortharize under this clause, Ortharize reserves the right to cancel services and withhold tickets and Bookings and other services, including platform access, until payment is received in full from the Client.</li>
+                                    </ol>
+                                    <h5 class="pb-2">Hotel Payments and Bill Backs  </h5>
+                                    <p>For hotel bookings where payment has not been made under Clause 4.1 full payment will be made for all hotel Bookings (including any sums due for any extras, food or beverage or other items due to the hotel) in one of the following ways</p>
+                                    <ol class="web-term-list">
+                                        <li>By payment using the Client's Card;</li>
+                                        <li>By payment in full by the Client to the hotel directly;</li>
+                                        <li>By Ortharize's use of the Card;</li>
+                                        <li>Following receipt of a bill back from the hotel concerned by applying a charge against the Card.</li>
+                                        <li>By direct debit payments direct to Ortharize, where this has been authorised for the client’s account by Ortharize.</li>
+                                        </ol>
+                                    <h5 class="pb-2">Billing and Payment Terms  </h5>
+                                    <ol class="web-term-list">
+                                        <li>The Client shall nominate at least one Card to which Ortharize shall charge all the Client's travel related purchases including the payment of Travel Suppliers made under clause 4.1.</li>
+                                        <li>Ortharize shall submit invoices to the Client for all agreed transactions where the Parties agree that the Card is not to be used with full and adequate supporting documentation and such charges shall be paid by the Client within seven days of receipt of invoice. </li>
+                                    </ol>
+                                    <h5 class="pb-2">Miscellaneous Payments </h5>
+                                    <p>The Client shall within 14 days of demand by Ortharize pay all applicable taxes and miscellaneous charges including but not limited to, non-standard IT services or online implementation, sales and use taxes, prepaid ticket charges, cancellation charges, airline service fees, penalty fares, Agency Debit Memos and under- utilisation penalties incurred by the Client. </p>
+
+                                    <h5 class="pb-2">Term </h5>
+                                    <ol class="web-term-list">
+                                        <li>Unless expressly agreed between the parties in writing on the Ortharize account application, the term of this Travel Service Agreement shall commence on the Effective Date and shall continue for three (3) years from the Commencement Date ('the Initial Term');</li>
+                                        <li>This Agreement shall automatically renew for additional periods of 12 months upon expiry of the Initial Term, unless the Client terminates the Initial Term (or any subsequent renewal) pursuant to clause 9.1 by giving notice in writing prior to 3 months before the expiry of the Initial Term or any further Term.</li>
+                                    </ol>
+
+                                    <h5 class="pb-2">Termination and Parties Rights </h5>
+                                    <ol class="web-term-list">
+                                        <li>Subject to the terms of this Clause 9, this Agreement may be terminated by either Party without cause at any time upon three 3 months’ prior written notice to the other party. In the case of termination by the Client under this clause, termination must be made in writing to <a href="mailto:support@ortharize.com"> support@ortharize.com</a> with termination to take effect three months thereafter.</li>
+                                        <li>Either Party may terminate this Agreement in the event of a material or significant breach by the other Party of its obligations specified in this Agreement. The non-defaulting Party shall give written notice to the other party, specifying the nature of the breach and, if such breach is not remedied within thirty (30) days from date of such notice, then the non-defaulting party shall have the right, at its option, to terminate this Agreement. Such Termination shall not relieve or release either Party from any accrued rights, liabilities or obligations and shall be in addition to all other rights and remedies available to the non-defaulting Party.</li>
+                                        <li>This Agreement may be terminated forthwith by notice in writing to the other party (“Defaulting Party”), if on the occurrence of an Insolvency Event in relation to the Defaulting Party. "Insolvency Event" means any of the following: (I) a meeting of creditors of Defaulting Party being held or an arrangement or composition with or for the benefit of its creditors being proposed by or in relation to the Defaulting Party; (ii) a charge holder, receiver, administrative receiver or similar person taking possession of or being appointed over or any distress, execution or other process being levied or enforced (and not being discharged within seven (7) days) on the whole or a material part of the assets of the Defaulting Party; (iii) the Defaulting Party ceasing to carry on business or being unable to pay its debts; (iv)  Defaulting Party or its directors or the holder of a qualifying floating charge giving notice of their intention to appoint, or making an application to the court for the appointment of, an administrator; (v) a petition being presented (and not being discharged within twenty eight (28) days) or a resolution  being passed or an order being made for the administration or the winding-up, bankruptcy or dissolution of the Defaulting Party.</li>
+                                        <li>In the event of termination of this Agreement by either Party, Ortharize shall:
+                                            <ul class="mt-2">
+                                                <li class="pb-1">Provide the Services to the Client in accordance with the terms of this Agreement until the effective date of termination and return to the Client any advance payment for Services that are not to be provided, minus any deductions that are non-refundable.  </li>
+                                                <li class="pb-1">Co-operate with the Client to enable transition of the Services to another travel management service provider selected by the Client.</li>
+                                                <li class="pb-1">Complete all necessary documents prior to the effective date of termination required by Ortharize or other suppliers of systems and equipment for the transfer or removal of reservations system equipment from the site (if applicable).  A reasonable charge may be applied to cover the cost of any incremental work that this requires. </li>
+                                                <li class="pb-1">Return all proprietary and confidential information in accordance with this Agreement</li>
+                                                <li class="pb-1">Return all assets belonging to the Client together with all proprietary and confidential information of the Client and allow the Client access to Booking and travel information for a period of up to 12 months following termination to allow the Client to complete its records and to finalise queries. A subscription shall be payable if full access to the Ortharize platform is required during this period. </li>
+                                            </ul>
+                                        </li>
+                                        <li>Upon the expiry of the Term, the Parties shall hold over under the terms of this Agreement until a further Ortharize Travel Service Agreement is entered into, and the period of notice to be given by either Party to the other shall be three months’ written notice.</li>
+                                        <li>In the event that the Client terminates this Agreement under clause 9.1 by serving a 3 month notice without cause and when such notice is served within 12 months from the Commencement Date, then the Client shall repay to Ortharize any Implementation Costs incurred and which may have been agreed between the parties.  </li>
+                                    </ol>
+
+                                    <h5 class="pb-2">TUPE  </h5>
+                                    <ol class="web-term-list">
+                                        <li>The Client and Ortharize acknowledge that if any of the Services begin to be carried out by the Client or a new supplier of travel services (“New Supplier”) upon termination or expiry of this Agreement, on such termination or expiry of the Services the Transfer of Undertakings (Protection of Employment) Regulations 2006 (as amended) (“TUPE”) may apply so as to transfer the contracts of employment of Ortharize's employees who perform part or all the Services (“the Relevant Employees”) to the Client or New Supplier as the case may be. </li>
+                                        <li>In the event TUPE does apply so as to transfer the contracts of employment of any or all of the Relevant Employees to the Client or New Supplier Ortharize will indemnify the Client and/or the New Supplier against any costs claims demands liabilities expenses damages or losses (including penalties and legal expenses) (“Relevant Claims”) arising out of or in connection with the employment or termination of employment of any Relevant Employee during the period before the date of transfer to the Client or any New Supplier. Save for any conduct, act or omission attributable to Ortharize for any period prior to the date of transfer, the Client shall indemnify Ortharize for all Relevant Claims arising after the date of transfer. Ortharize shall comply with the relevant TUPE consultation provisions in relation to any transfer as contemplated by this clause and shall indemnify the Client and the New Supplier against any failure by them to so comply except where such failure is occasioned by the default of the Client or the New Supplier. In the event TUPE does not apply so as to effect a transfer as envisaged by this clause Ortharize shall indemnify the Client in respect of any statutory or contractual redundancy payment which shall be payable to any such Relevant Employee where all or part of the Services cease to be provided by the Agent pursuant to this Agreement.</li>
+                                        <li>Subject to receiving an appropriate written request for information from the Client, Ortharize shall, not later than three months prior to the expiry of this Agreement (or if the Agreement is terminated, as soon as possible after notice of termination has been served)  (save to the extent it is prohibited by law) provide the Client with a list of those persons engaged by Ortharize in the supply of Services and in respect of each person shall provide material details of each person’s principle terms and conditions of employment. Such information provided by Ortharize shall be accurate in all material respects. </li>
+                                        <li>Ortharize shall not, other than in the ordinary course of business, make any material changes during the three months prior to the expiry of this Agreement or if earlier at any time after notice has been served to terminate this Agreement to the Relevant Employees principle terms and conditions of employment without the prior written consent of the Client who will not unreasonably withhold or delay such consent.</li>
+                                    </ol>
+                                    <h5 class="pb-2">Use of Technology  </h5>
+                                    <p>The Parties acknowledge that in connection with the Services, Ortharize may provide the Client with access to and use of proprietary software and other technology.  Ortharize hereby grants to the Client a limited non-exclusive license to use such technology for the Term.  </p>
+                                    <h5 class="pb-2">Records and Audits </h5>
+                                    <ol class="web-term-list">
+                                        <li>Ortharize shall maintain complete and accurate accounting records in a form that complies with standard accounting practices, to substantiate any credits, payment for Bookings, receipt of Corporate Commissions and the incurrence of other charges under this Agreement. Ortharize shall retain such records for at least twelve months from the date of termination of this Agreement. </li>
+                                        <li>Ortharize shall hold Central Reservation System electronic data relating to all Bookings on site for a period of 6 months.</li>
+                                        <li>The Client shall upon giving reasonable notice in writing to Ortharize be given access to such records, documentation, files and inventory as they pertain to the Client for the purpose of audit during the Term of this Agreement and for one year thereafter.  Such audits shall be performed by the Client or its designee and there shall be no charge to the Client from Ortharize in that regard.  </li>
+                                    </ol>
+                                    <h5 class="pb-2">Indemnity </h5>
+                                    <ol class="web-term-list">
+                                        <li>Ortharize is a self-service booking platform and is not responsible for the accuracy of Bookings made by the Client under this Agreement. It is the Client’s responsibility to ensure that any Bookings are in line with their expectations and meet their needs. Responsibility for all fees associated with a Booking rests wholly with the Client. Any errors must be reported in a timely manner and within 24 hours of the Booking being made and may not even then warrant a full refund. </li>
+                                        <li>Ortharize shall indemnify and hold the Client and its employees, directors, sub-contractors, agents and/or customers harmless from and against any costs, losses, liabilities and expenses, including reasonable legal costs arising from, relating to or resulting directly or indirectly from any breach by Ortharize of this Agreement; or by reason of any negligent act or wilful misconduct of Ortharize, its agents, servants or employees performing Services under this Agreement. </li>
+                                        <li>The Client shall indemnify and hold Ortharize and its directors, employees, sub contractor's and Affiliates harmless from and against all claims, losses, liabilities and expenses including reasonable legal costs arising from any proven negligent act or wilful misconduct of the Client, its servants, agents or their respective employees. In particular, such indemnity shall apply for such claims arising from the use of travel related services not recommended or endorsed by Ortharize.</li>
+                                        <li>4.	In making Bookings and providing Services under this Agreement Ortharize acts as agent only for those Travel Suppliers named in the itinerary with whom the Client has its own legal arrangements. Ortharize does not guarantee or ensure the performance of those Travel Suppliers with whom the Client may have booked arrangements as part of the Services provided. Ortharize shall not be responsible for any direct or indirect damages resulting or losses arising from the acts or omissions of any Travel Supplier unless such damages arise or are contributed to by the negligence or default of Ortharize and which do not arise by any error or mistake made by the Client or its employees servants or agents in making any booking themselves on the Ortharize platform.</li>
+                                        <li>Ortharize shall have no liability regarding additional costs or claims arising from changes or cancellation of any Supplier Services (whether in the UK or in any destination country) or the other services under this Agreement arising from Covid 19 or any other conditions applied to travellers (whether directly or indirectly) arising from the pandemic. Ortharize where possible, will assist the Client in making any claims against Travel Suppliers. Both parties shall be entitled to terminate upon 30 days written notice where the Agreement becomes impossible to perform due to the effects and consequences of Covid 19</li>
+                                        <li>In no event shall either Party be liable to the other for any loss of profits, any incidental, special, exemplary or consequential damages or any claims or demands brought against the other Party, even if the claiming Party has been advised of the possibility of such claims or demands.</li>
+                                        <li>During the Term, Ortharize shall maintain in force with a reputable insurance company professional indemnity insurance and shall, on the request of the Client, produce both the insurance certificate giving details of cover and the receipt for the current year's premium. Such cover may exclude any insurance indemnity relating to claims arising from Covid 19.</li>
+                                    </ol>
+                                    <h5 class="pb-2">Relationship of Parties and Traveller Benefits </h5>
+                                    <ol class="web-term-list">
+                                        <li>The Client and Ortharize are independent contractors for the purpose of performance of the Services and shall not be joint venturers, or partners.  Neither one shall be construed as the other's agent and neither one is authorized to commit the other to any obligations to third parties except as may be otherwise expressly agreed or in the ordinary course of Ortharize providing services to the Client.</li>
+                                        <li>Ortharize operate a system of ex-gratia traveller benefits including reward points and possible charitable donations for the benefit of the Traveller using the Services and to reward customer loyalty. These traveller benefits and reward points have no commercial value, and the Client should obtain its own tax advice concerning the status of these points. For the avoidance of doubt, unused reward points and other ex gratia benefits shall be cancelled at the expiry or earlier termination of this Agreement.</li>
+                                        <li>The Client hereby agrees to use Ortharize and its Services and to receive reward points because it believes Ortharize offers the best mechanism for booking travel and encouraging costs savings within their business, as well as warranting that it is not using the platform to launder money or avoid taxable benefits.</li>
+                                    </ol>
+                                    <h5 class="pb-2">Compliance with Laws </h5>
+                                    <p>In each jurisdiction where the Services are provided, Ortharize shall at all times maintain its trading licences and shall comply with all laws and regulations applicable to the Services including the Regulations.</p>
+                                    <h5 class="pb-2">Anti-Slavery </h5>
+                                    <ol class="web-term-list">
+                                        <li>In performing its obligations under the Agreement, the Client and Ortharize shall:
+                                            <ul class="mt-2">
+                                                <li class="pb-1">comply with all applicable anti-slavery and human trafficking laws, statutes, regulations from time to time in force including but not limited to the Modern Slavery Act 2015; and </li>
+                                                <li class="pb-1">comply with any anti-slavery policy of the Client or Ortharize; and.</li>
+                                                <li class="pb-1">not engage in any activity or practice that would constitute an offence under the Modern Slavery Act 2015 if such activity, practice or conduct were carried out in the UK; and</li>
+                                                <li class="pb-1">ensure that contracts with affiliates, subcontractors and suppliers include anti-slavery and human trafficking provisions that are at least as onerous as those set out in this clause 17.</li>
+                                            </ul>
+                                        </li>
+                                        <li>Ortharize shall implement a system of training for its employees, suppliers and Affiliates to ensure compliance with anti-slavery policy.</li>
+                                        <li>Breach of this clause 17 shall be deemed to be a significant breach under clause 9.</li>
+                                    </ol>
+                                    <h5 class="pb-2">Compliance with Anti-Bribery Laws and Policies </h5>
+                                    <ol class="web-term-list">
+                                        <li>In performing its obligations under the Agreement, the Client and Ortharize shall:</li>
+                                        <ul class="mt-2">
+                                            <li class="pb-1">comply with all applicable laws, statutes and regulations relating to anti-bribery and anti-corruption including but not limited to the Bribery Act 2010.</li>
+                                            <li class="pb-1">not engage in any activity, practice or conduct which would constitute an offence under the Bribery Act had such activity, practice or conduct been carried out in the UK.</li>
+                                            <li class="pb-1">have in place throughout the term of this Agreement their own policies and procedures to ensure compliance with the requirements of this clause and will enforce them where appropriate.</li>
+                                            <li>promptly report to the other Party any request or demand for any undue financial or other advantage received by either Party, or any sub-contractor, supplier or Affiliate in connection with the performance of this Agreement</li>
+                                        </ul>
+                                        <li>Breach of this clause 18 shall be deemed to be a significant breach under clause 9. </li>
+                                    </ol>
+                                    <h5 class="pb-2">Data Protection and Confidentiality</h5>
+                                    <ol class="web-term-list">
+                                        <li>The Parties agree to comply with all applicable laws and regulation (including GDPR) regarding the processing and storage of Travellers’ personal data.</li>
+                                        <li>The Parties agree that the Client shall act as data controller and Ortharize shall act as data processor of the personal travel data of Travellers under the terms and conditions set forth in Schedule 4. </li>
+                                        <li>Ortharize will perform the Agreement in compliance with its Privacy Policy set forth at Schedule 4.  </li>
+                                        <li>Each Party shall procure that each of its Affiliates, employees, officers, directors and contractors shall, keep confidential and not disclose any and all Confidential Information and shall not use, copy, or disclose such Confidential Information except as necessary to perform its obligations or exercise its rights hereunder or with the written consent of the other Party. However, a Party is entitled to disclose Confidential Information:
+                                            <ul class="mt-2">
+                                                <li class="pb-1">to any of its Affiliates, officers, directors, employees, agents, advisers, representatives or to Travel Suppliers, to the extent that such disclosure is reasonably necessary for performance of a Party’s obligations or the provision of Services under or pursuant to this Agreement; or</li>
+                                                <li class="pb-1">if such Party can demonstrate that such Confidential Information was to have been in the public domain at the date it was disclosed to a third party, other than as a result of a breach of this clause by the disclosing Party; or</li>
+                                                <li class="pb-1">lawfully or properly obtained by the receiving Party from a third party who is entitled to divulge such information and who is not under any obligation of confidentiality in respect of such information to; or</li>
+                                                <li class="pb-1">independently developed by such Party without reference to the Confidential Information; or</li>
+                                                <li class="pb-1">disclosed to obtain or maintain any listing on any recognised stock exchange; or</li>
+                                                <li class="pb-1">is requested to be disclosed by any applicable statutory obligation, a court, regulator or a body having similar authority over the receiving Party, provided that, where permitted by such body, the disclosing Party is given prompt notice thereof so as to be able to contest any such subpoena or order; or</li>
+                                                <li class="pb-1">in connection with any dispute, legal or arbitration proceeding arising in connection with this Agreement; or</li>
+                                                <li class="pb-1">to any applicable tax authority either to the extent required by a legal obligation or to the extent reasonably required to assist the settlement of the disclosing Party’s tax affairs.</li>
+                                            </ul>
+                                        </li>
+                                    </ol>
+                                    <h5 class="pb-2">Waiver</h5>
+                                    <p>Either party’s failure to require the other party to comply with any provision of this Travel Service Agreement shall not be deemed a waiver of such provision or any other provision of this Agreement.</p>
+                                    <h5 class="pb-2">Limit of Liability  </h5>
+                                    <ol class="web-term-list">
+                                        <li>(i) Neither Party shall be liable to the other Party for any indirect, consequential incidental or special loss or damage arising out of or related to this Agreement whether based on contract, tort (including negligence), breach of statutory duty, misrepresentation or otherwise including but not limited to (i) loss of profits; (ii) loss of goodwill; (iii) loss of anticipated savings (in each case whether direct or indirect) whether or not such losses and/or damages were in the reasonable contemplation or reasonably foreseeable of the Parties not.</li>
+                                        <li>(ii) Subject to this clause 21, the total liability of either Party to the other Party in the aggregate (whether in contract, tort or otherwise) for any clause or series of claims relating to any direct losses suffered by either Party arising from or in connection with this Agreement, shall be limited to one hundred thousand pounds £100,000.</li>
+                                    </ol>
+                                    <h5>Insurance</h5>
+                                    <p>Ortharize shall ensure commencing from the Commencement Date and shall maintain for the duration of this Agreement and for one (1) year thereafter at its expense indemnity insurance, and to provide the Client on demand a certificate of insurance</p>
+                                    <h5>Force Majeure </h5>
+                                    <p>Neither party shall be liable for any default, loss, damage, delay, non-performance or other irregularities, or any indirect or consequential damages resulting, due to any act of God, weather, or other phenomenon of nature, war, civil disobedience or an act of governmental authority that are beyond its control and that are not due to its acts or omissions.</p>
+                                    <h5>Entire Agreement </h5>
+                                    <p>This Travel Service Agreement is the complete agreement of the parties concerning the subject matter hereof and supersedes any prior or contemporaneous agreements or understandings, written or oral, concerning the subject matter herein. This Agreement may be modified only by written instrument signed by an authorized representative of each Party.</p>
+                                    <h5>Severability </h5>
+                                    <p>In case any one or more of the provisions contained in this Travel Service Agreement shall, for any reason, be held to be invalid, illegal, or unenforceable in any respect, such invalidity, illegality or unenforceability shall not affect any other provision of this Agreement.</p>
+                                    <h5>Assignment </h5> 
+                                    <p>The Client shall be entitled, at any time, to assign this Travel Service Agreement to an Affiliate of the Client provided such successor or assign of the Client shall undertake all of the obligations of the Client hereunder. </p>
+                                    <h5>No Third Party Rights </h5> 
+                                    <p>Neither the term of this Agreement nor any performance hereunder shall be construed to create any rights in any person other than the parties to this Agreement.    </p>
+                                    <h5 class="pb-2">Applicable Law and Dispute Resolution</h5>
+                                    <ol class="web-term-list">
+                                        <li>Ortharize and the Client shall perform this Agreement in compliance with all applicable rules and regulations and this Agreement will be governed by and construed in accordance with the laws of England and the Courts of England and Wales shall have exclusive jurisdiction. </li>
+                                        <li>In the event of any disagreement between the Parties relating to this Agreement, the parties shall meet within 7 days and attempt to reconcile such differences in good faith.  If following a meeting between the Parties’ management, such dispute remains unresolved, then the dispute shall be referred to a Director of each party and if such escalation fails to resolve the dispute within a further 14 days, then either party may refer the dispute to mediation with each party sharing the mediators costs.  If such mediation fails or one party fails to co-operate then the dispute shall be referred to the Courts of England and Wales. </li>
+                                    </ol>
+                                    <h5>Notices </h5> 
+                                    <p>All notices required hereunder shall be deemed received (i) within three (3) business days after being sent by registered or certified mail, postage prepaid, return receipt requested; (ii) within one (1) business day after being sent by a nationally recognized overnight courier; (iii) or the same business day when delivered personally or when sent by confirmed facsimile transmission to the following addresses (unless a Party has provided notice of a change of address in accordance herewith): if to Ortharize at support@ortharize.com and if to the Client (the address provided on the signed account application, or a subsequent, updated address).</p>
+                                    <h5>SERVICES  </h5> 
+                                    <p>All Bookings made with Ortharize are subject to these terms and conditions and the category of Service requested (Professional, Premier or Enterprise) and with the contract terms of each travel supplier (including airlines and hotels) The most recent version of the Ortharize terms and conditions may be found on any customer admin account in the Information section under “Settings”.</p>
+                                    <p>Ortharize reserves the right to amend its terms and conditions which will be advised to you when any change arises. If the Client wishes to object, then they should do so within 14 days or will be deemed to accept the revised terms on any future bookings. </p>
+                                    <p>A list of the services and features can be found on any company admin account under company details, and then by navigating to the subscription tab.</p>
+                                    <h5>SERVICE LEVEL AGREEMENT  </h5>
+                                    <p>The Ortharize website and platform will be available 99.5% of each calendar month, excluding updates to the platform and scheduled maintenance. </p>
+                                    <p>Prices are dependent upon the type of flight and cabin class or quality selected for each booking. Search results will only display fares relevant to the Client’s travel policy (unless overridden in company settings). As standard, only customer admin users from the Client’s staff will be able to override booking fares outside Client travel policy restrictions.</p>
+                                    <p>Lowest Viable Price (LVP) results will be the lowest fare/booking type available on the date of booking that is consistent with the policy. </p>
+                                    <p>Platform updates and maintenance will only be carried out where possible on weekends and overnight (7pm-7am GMT/BST), and Clients will be provided with as much notice as possible of system maintenance.</p>
+                                    <p>Our escalation process is in place for unresolved complaints or service issues and clients should contact <a href="mailto:support@ortharize.com"> support@ortharize.com </a>for details.</p>
+                                    <p>Service credits for downtime or faults / system errors shall only be due to Enterprise customers. Users must report any fault to Ortharize via <a href="mailto:support@ortharize.com"> support@ortharize.com </a>, promptly, within 24 hours of the fault occurring. </p>
+                                    <p>For each full hour the platform is down in excess of permitted downtime, one day of subscription costs shall be awarded. When calculating fractions or part-hours, these shall be rounded up to a full hour. The maximum award per quarter is 15 hours, or the equivalent of 15 days of The Client’s subscription costs. </p>
+                                    <p>Payments for service level breaches will be made available as discounts from the next bill. Claims must be made within 28 days of an incident occurring with details including customer name, date, time and reason for the claim. Platform downtime (in excess of permitted downtime) of greater than 20% in any two consecutive quarters shall constitute a material or significant breach and shall entitle the Client to terminate without penalty. This does not include outages/service suspension where:</p>
+                                    <ul class="mt-2">
+                                        <li class="pb-1">Faults or internet outage on Client equipment;</li>
+                                        <li>Outage as a result of suspension of service for non-payment or another reason;</li>
+                                        
+                                    </ul>
+                                    <p>Booking services are available 24/7 by email, or by telephone during business hours. Booking records and reporting are available to download at any time via the platform or through Account Management where this has been previously agreed. </p>
+                                    <p>Optional extra services available by separate negotiation including:</p>
+                                    <ul class="web-term-list">
+                                        <li class="pb-1">Account Management.</li>
+                                        <li class="pb-1">Assistance with travel policy and negotiating rates with suppliers.</li>
+                                        <li class="pb-1">Event management.</li>
+                                        <li class="pb-1">Foreign travel bookings.</li>
+                                        <li class="pb-1">SAFI and other insurance.</li>
+                                        <li class="pb-1">Medical and immigration advice for Travellers and Covid19 precautions advice.</li>
+                                        <li class="pb-1">Management of 24/7 contact services for overseas Travellers.</li>
+                                        <li class="pb-1">Assistance with all cancellations refunds and amended bookings.</li>
+                                        <li class="pb-1">Carbon Emission Monitoring.</li>
+                                        <li class="pb-1">Travel Expense Management.</li>
+                                        <li class="pb-1">Car Mileage Reporting.</li>
+                                        <li class="pb-1">Assistance with analysis of travel bookings and the provision of analysis on a 6 monthly basis when requested and at a negotiated rate.</li>
+                                    </ul>
+                                    <h5>FEES AND CHARGES  </h5> 
+                                    <p>Ortharize recognises that some Clients will wish to contact us and book services via telephone. Up-To-Date fees and changes can be found on any customer admin account by navigating to the “Information” section of the website under “Settings”.</p>
+                                    <p>We reserve the right to update these fees and charges from time to time. </p>
+                                    <h5>DATA PROCESSING AGREEMENT</h5> 
+                                    <p>	Ortharize is providing travel Services to the Client under a Travel Service Agreement ('Agreement') and both parties acknowledge that in the performance of the Services, Ortharize may be required to process Personal Data, under the GDPR as defined below.</p>
+                                    <p>	The Parties intend to acknowledge their duties and obligations as Data Controller and Data Processor under GDPR on the basis that these terms reflect the Parties rights and obligations under GDPR. </p>
+                                    <h5>	Definitions  </h5>
+                                    <ul class="web-term-list">
+                                        <li><b>	“Data Controller” </b>has the same meaning as in the EU Directive 95/46/EC;</li>
+                                        <li><b>	“Data Processor” </b>has the same meaning as in the EU Directive 95/46/EC;</li>
+                                        <li><b>	“Data Protection Authority” </b> means the applicable regulatory authority in the relevant jurisdiction that is responsible for the enforcement and monitoring of compliance with Privacy Laws;</li>
+                                        <li><b>	“Data Protection and Privacy Laws” </b> means all of the laws, rules and regulations implementing the EU Directive 95/46/EC (and all applicable laws which replace it, including the General Data Protection Regulation (“GDPR”)), and all other applicable local, state, federal, and international privacy laws, rules and regulations, whether in effect now or in the future, governing the protection, handling and security of Personal Data and that are applicable to the Parties; and</li>
+                                        <li><b>	“Personal Data” </b> means as defined in EU Directive 95/46/EC </li>
+                                        <li><b>	"Standard Contractual Clauses" </b> (Data Controller to Data Processor) mean those approved terms applicable to the export of Personal Data outside of the EU.</li>
+                                        <li><b>	"Travellers" </b> means individual travellers of the Client including its employees, and consultants receiving Services under this Agreement.</li>
+                                       
+                                    </ul>
+                                    <p>	Data Processing activities relating to individuals are carried out by Ortharize for the purpose of fulfilling travel bookings with suppliers, and this agreement is intended to supplement the Agreement and to reflect the parties intention to comply with the GDPR and to safeguard the Personal Data controlled and processed for the purpose of making and managing the Bookings and travel services under this Agreement. </p>
+                                    <p>	Role of the Parties. Ortharize acknowledges that the Client has to comply with applicable Data Protection and Privacy Laws in their Data Controller capacity. and Ortharize acts as Data Processor of the Clients’ Personal Data relating to their Travellers. </p>
+                                    <p>	Data Processor Obligations. Accordingly, Ortharize represents and warrants that at all times during and after the Term of the Agreement between the Parties it shall:</p>
+                                    <ul class="web-term-list">
+                                        <li>comply with its obligations as a Data Processor under the GDPR and applicable Data Protection and Privacy Laws</li>
+                                        <li>process the Client's data including Personal Data solely as permitted under the Agreement in accordance with the Client's instructions on behalf of its Travellers, and in accordance with GDPR and applicable Data Protection and Privacy Laws and shall not process the Personal data for any other purpose. For the purposes of the Standard Contractual Clauses relating to the export of data to third countries (including outside of the EEA) this is deemed an instruction by the Client to process Personal Data;</li>
+                                        <li>maintain and enforce administrative, technical, and physical security procedures designed to ensure the confidentiality, integrity, and availability of Personal Data that are at least equal to those required by GDPR and all relevant Data Protection and Privacy Laws, and, in accordance with industry best practices for Services of this kind; </li>
+                                        <li>Ortharize shall keep a record of any processing of Personal Data that is carried out for the Client.</li>
+                                        <li>Ortharize shall notify the Client of any actual or suspected accidental or unauthorized access, disclosure, loss or use of Personal Data processed by it in connection with the Agreement and shall consult and cooperate with the Client and its Travellers with respect to any request, investigation, remedial measure, or action required including any notice, notification or other filing or communication to any regulatory authority, data subject, third party or other person; </li>
+                                        <li>unless prohibited by law, notify the Client if it receives a request from a data subject or a regulator in relation to that person's Traveller Personal Data and provide the Client and its Travellers with full cooperation and assistance in relation to any such request. Where permitted by relevant laws, an administrative charge will usually be applied for processing requests of this type;</li>
+                                        <li>permit the Client on behalf of Travellers, and any applicable law enforcement authority or regulator to conduct audits of Ortharize's data processing procedures as provided under the Standard Contractual Clauses; and </li>
+                                        <li>treat Travellers’ and the Client's Personal Data as being part of the Client's confidential information; </li>
+                                        <li>promptly report if any Personal Data is lost or destroyed or becomes damaged or unusable. </li>
+                                    </ul>
+                                    <p><b>Standard Contractual Clauses.</b> To address European Privacy Law data transfer restrictions relating to the export of Personal Data outside of the United Kingdom and/or the EU, both Parties agree (where necessary) to enter into Controller-to-Processor Standard Contractual Clauses (in the form adopted by decision 2010/87/EU of 5 February 2010) with any supplier outside of the EU on behalf and under the name of the Client's Travellers and/or rely on other legal basis including individuals' consent where permitted. </p>
+                                    <p><b>Sub-processing.</b> The Agent and its suppliers shall provide copies of any Sub-processor agreements to the Client or it's Travellers upon reasonable request by the Client or it's Travellers.  The parties recognise that in respect of small Travel Suppliers such as hotels, Ortharize may not be able to procure written sub-processor agreements. </p>
+                                    <p>Variations to this Data Processing Agreement the Parties acknowledge that this Schedule 4 may be varied or amended by written agreement of the Parties as required by applicable Data Protection and Privacy Laws or to reflect the recommendations of any regulator authority.</p>
+                                    <p><b>Corporate related processing activities.</b> Personal Data of Ortharize contacts (e.g. Ortharize employees) such as name and business contact details ("Ortharize Data"), which is provided as part of Ortharize's relationship with the Client, may be processed and stored globally outside of the EU with affiliates or third party providers (for instance, in the execution of travel services for The Client). Other data held by Ortharize shall;</p>
+                                    <ol class="web-term-list">
+                                        <li>use Ortharize Data to (i) perform its contractual obligations (including but not limited to the administration of client relations and of payment transactions), (ii) customize, analyse and improve its products and services, (iii) prevent fraud and other prohibited or illegal activities, and/or (iv) send the Client management information on the services and travel bookings made and to be made, and other products, services and events which may be of interest to the Client; and</li>
+                                        <li>keep Ortharize Data secure and confidentially for a sufficient period to manage the Clients bookings and other services set out in the Agreement.</li>
+                                    </ol>
+                                    <p>Data Protection Authority regulatory filings. Where applicable, Ortharize and the Client shall determine who will be responsible for submitting and obtaining all necessary consents, approvals and authorizations of applicable Data Protection Authorities required to be obtained for the performance of this Agreement</p>
+                                    <p>Return or Destruction of Personal Data after Termination. The Client and Ortharize agree that on the termination of the Agreement, Ortharize and any relevant sub Agent shall, at the choice of the Client on behalf of its Travellers, return all the Personal Data transferred and the copies thereof to the Client or its Travellers or shall securely destroy all the Personal Data and certify to the Client that they have done so, unless legislation imposed upon Ortharize (or its sub Agent) prevents it from returning or destroying all or part of the Personal Data transferred. </p>
+                                    <ol class="web-term-list">
+                                        <li>Agreed Activities: Ortharize and the Client recognise and agree that for the purposes of performing the Services under this Agreement it is necessary for Travellers Personal Data to be used to generate bookings with travel suppliers such as flights, hotel bookings, car hire, the provision of advance passenger information to Government security organisations and to other third parties such as airline Global Distribution Systems and other organisations agreed between the parties. Accordingly the following activities by Ortharize shall not be in breach of this Agreement:-
+                                            <ul class="mt-2">
+                                                <li class="pb-1">The use of Personal Data to make reservations with global distribution systems and passenger information to create and maintain Passenger Name Records required for airline and other bookings and for certain immigration requirements of destination countries;</li>
+                                                <li class="pb-1">The creation and updating of Traveller profiles;</li>
+                                                <li class="pb-1">The making of Bookings as part of the Services Ortharize is to provide;</li>
+                                               
+                                            </ul>
+                                        </li>
+                                        <li>Ortharize shall as soon as reasonably practical and in any event within 48 hours notify the Client of any Personal Data breach and provide the Client with reasonable assistance in accordance with GDPR.  </li>
+                                        <li>Ortharize shall ensure access to Personal data is limited to those employees who need access to it and that they are informed of the confidential nature of that data and have been trained in connection with their duties in managing that data.  </li>
+                                        <li>Ortharize shall notify the Client within 5 working days of any data subject access request and provide the Client with such assistance as may be required. </li>
+                                        <li>The Client shall on giving reasonable notice to Ortharize be entitled to inspect all facilities, equipment and documents used by Ortharize to manage the data.  </li>
+                                    </ol>
+                            </div>
+                        </div>
+
+                      
+
+
+                    </div>
+
+                </div><!--row ends here-->
+
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="custom-pagination text-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="mr-3">
+                                    <div class="pagination-back">
+                                        <a href="#"><i class="fas fa-angle-double-left"></i></a>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="move-to-pages wrapper-shadow br-5 overflow-hidden bg-white roboto-font">
+                                        <ul class="list-inline mb_0">
+                                            <li class="list-inline-item"><a href="#">1</a></li>
+                                            <li class="list-inline-item"><a href="#">2</a></li>
+                                            <li class="list-inline-item active"><a href="#">3</a></li>
+                                            <li class="list-inline-item"><a href="#">4</a></li>
+                                            <li class="list-inline-item"><a href="#">5</a></li>
+                                            <li class="list-inline-item"><a href="#">6</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="ml-3">
+                                    <div class="pagination-next">
+                                        <a href="#"><i class="fas fa-angle-double-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+             
+
+            </div>
+        
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

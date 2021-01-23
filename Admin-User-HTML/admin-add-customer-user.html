@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!--common css-->
+    <link rel="stylesheet" href="css/common.css"/>
+
+    <!--style css-->
+    <link rel="stylesheet" href="css/style.css"/>
+
+    <!--media css-->
+    <link rel="stylesheet" href="css/media.css"/>
+
+    <title>Ortharize | Admin | Add A Standard User</title>
+    </head>
+    <body>
+
+            
+            <div class="dashboard-topbar raleway-font sidebar_shift">
+                <nav class="navbar navbar-expand-md">
+                    <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+                    <a href="#" class="toggle-sidebar d-block d-sm-block d-md-none">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <a href="#" class="toggle-sidebar d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Flight
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-hotel"></i></span>
+                                    Hotels
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-train"></i></span>
+                                    Rail
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-car"></i></span>
+                                    Car
+                                </a>
+                            </li>
+                            <li class="nav-item text-center admin-menu">
+                                <a href="#" class="nav-link">
+                                    <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                                    Trip
+                                </a>
+                            </li>
+                            <li class="nav-item position-relative currency-dropdown dropdown">
+                                <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                                    <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                    <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                </a>
+                                <div class="country-dropdown-content shadow">
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="d-flex align-items-center">
+                                                <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                                <div class="country-name mr-2">Indian Rupee(INR)</div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown position-relative">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    <span class="rounded-circle profile d-inline-block profile-img">
+                                        <img class="img-fluid" src="img/profile.jpg" alt="">
+                                    </span>
+                                    John Doe
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+                <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+                    <div class="wraplist">
+                        <ul class="list-unstyled">
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <i class="fas fa-tachometer-alt font-18"></i>
+                                    <span class="title">Dashboard</span>
+                                </a>
+                              
+                            </li>
+                            <li class="sidebar-list position-relative">
+                                <a href="#">
+                                    <img class="normal-icon" src="img/user-manager.png" />
+                                    <img class="active-icon" src="img/user-manager-active.png" />
+                                    <span class="title">User Manager</span>
+                                </a>
+                              
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/trip.png" />
+                                    <img class="active-icon" src="img/trip-active.png" />
+                                    <span class="title">Trips</span>
+                                </a>
+                                
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/customer.png" />
+                                    <img class="active-icon" src="img/customer-active.png" />
+                                    <span class="title">Customer Notes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/reward.png" />
+                                    <img class="active-icon" src="img/reward-active.png" />
+                                    <span class="title">Manage Rewards</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/travel-policy.png" />
+                                    <img class="active-icon" src="img/travel-policy-active.png" />
+                                    <span class="title">Travel Policy </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/master.png" />
+                                    <img class="active-icon" src="img/master-active.png" />
+                                    <span class="title">Masters</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/content-manager.png" />
+                                    <img class="active-icon" src="img/content-manager-active.png" />
+                                    <span class="title">Content Manager</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-cogs font-18"></i>
+                                    <span class="title">General Settings</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img class="normal-icon" src="img/contact-form.png" />
+                                    <img class="active-icon" src="img/contact-form-active.png" />
+                                    <span class="title">Contact Form</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-container sidebar_shift" id="main-content">
+
+                <div class="row mb_20">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-end">
+                            <div class="back">
+                                <a href="#" class="bg-white"><i class="fas fa-arrow-left"></i>Back</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row align-items-stretch mb_20">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20 custom-form">
+                            <div class="p_15">
+                                <div class="row mb_20">
+                                    <div class="col-md-12">
+                                        <div class="wrapper-title raleway-font">
+                                            <h2 class="mb_0">Add A Standard User</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-12 text-center">
+                                        <div class="profile-upload">
+                                            <a href="" class="position-relative">  
+                                                <img src="img/profile.png" class="prfl-img radius5">
+                                                <img src="img/photo.png" class="photo position-absolute">
+                                            </a>
+                                            <p class="text-center p-1 font-w500">Change Picture</p>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Title</label>
+                                            <select class="form-control">
+                                                <option>select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">First Name <span class="start font-15">*</span></label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter First Name" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Middle Name <span class="start font-15">*</span></label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Middle Name" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="custom-checkbox col-check">
+                                            <div class="show-direct-flight ">
+                                                <input type="checkbox" id="middleName" name="Send to traveller arranger" checked="">
+                                                <label  for="middleName">No Middle Name</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Nickname</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Middle Name" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Last Name</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Last Name" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h5 class="head-main mb-3">Company Information</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Employee ID</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Employee ID" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Approval Manager</label>
+                                            <select class="form-control">
+                                                <option>Select Approval Manager</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Org. Unit/Division</label>
+                                            <select class="form-control">
+                                                <option>Enter Org. Unit/Division</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Job Title</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Nickname" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                  
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h5 class="head-main mb-3">Work Address</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Company Name</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Company Name" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Assigned Location</label>
+                                            <select class="form-control">
+                                                <option>Choose Company Location</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="">Street</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Street" data-original-title="" title="">
+                                            <div class="custom-checkbox">
+                                                <div class="show-direct-flight ">
+                                                    <input type="checkbox" id="Address" name="Send to traveller arranger" checked="">
+                                                    
+                                                    <label class="mt_10" for="Address">Address same as assigned location</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">City</label>
+                                            <select class="form-control">
+                                                <option>Select City</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">State</label>
+                                            <select class="form-control">
+                                                <option>Select State</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Postal Code</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Postal Code" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Country/Region</label>
+                                            <select class="form-control">
+                                                <option>Select Country/Region</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h5 class="head-main mb-3">Home Address</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="">Street</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Street" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">City</label>
+                                            <select class="form-control">
+                                                <option>Select City</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">State</label>
+                                            <select class="form-control">
+                                                <option>Select State</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Postal Code</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Postal Code" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Country/Region</label>
+                                            <select class="form-control">
+                                                <option>Select Country/Region</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h5 class="head-main mb-3">Contact Information</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Work Phone <span class="start font-15">*</span></label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Work Phone" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Work Extension</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Extension" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Work Fax</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Work Fax" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">2nd Work Phone/Remote Office</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter value" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Home Phone <span class="start font-15">*</span></label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Home Phone" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Pager</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Pager" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Other Phone</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Other Phone" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Mobile Phone Country/Region</label>
+                                            <select class="form-control">
+                                                <option>Select</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Mobile Phone <span class="start font-15">*</span></label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Mobile Phone" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h5 class="head-main mb-3">Email Address</h5>
+                                        <p class="font-w500 op7 mb-1">Please add at Least one Email Address </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <a href="#" class="theme_anchor"><i class="fas fa-caret-right mr-1"></i> How Do I add an email address?</a>
+                                    </div>
+                                    <div class="col-md-6 text-md-right">
+                                        <a href="#" class="theme_anchor"><i class="fas fa-plus-circle mr-1"></i> Add Email Address</a>
+                                    </div>
+                                    </div>
+                             
+                                <div class="row mt-2">
+                                    <div class="col-md-12">
+                                        <div class="table-responsive">
+                                            <table class="table custom-table roboto-font mb_0">
+                                                <thead>
+                                                    <tr>
+                                                        <th>S.NO.</th>
+                                                        <th>Email Address</th>
+                                                        <th>Verify</th>
+                                                        <th>Contact</th>
+                                                        <th>Actions</th>
+        
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>1</td>
+                                                        <td>kapilvarshney@enukesoftware.com</td>
+                                                        <td>yes</td>
+                                                        <td>yes</td>
+                                                        <td>
+                                                            <div class="d-flex justify-content-center">
+                                                                <a href="#">
+                                                                    <i class="fas fa-edit font-16 green"></i></a>
+                                                                
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>2</td>
+                                                        <td>kapilvarshney@enukesoftware.com</td>
+                                                        <td>yes</td>
+                                                        <td>yes</td>
+                                                        <td>
+                                                            <div class="d-flex justify-content-center">
+                                                                <a href="#">
+                                                                    <i class="fas fa-edit font-16 green"></i></a>
+                                                                
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                   
+                                                   
+                                                  
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h5 class="head-main mb-3">Emergency Contact</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Name</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Name" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Relationship</label>
+                                            <select class="form-control">
+                                                <option>Select Relationship</option>
+                                                <option selected>Other</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">&nbsp;</label>
+                                            <input type="text" class="form-control" placeholder="Enter Relationship">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="">Street</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Street" data-original-title="" title="">
+                                            <div class="custom-checkbox">
+                                                <div class="show-direct-flight ">
+                                                    <input type="checkbox" id="Address" name="Send to traveller arranger" checked="">
+                                                    
+                                                    <label class="mt_10" for="Address">Address same as employee</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">City</label>
+                                            <select class="form-control">
+                                                <option>Select City</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">State</label>
+                                            <select class="form-control">
+                                                <option>Select State</option>
+                                            </select>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Postal Code</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Postal Code" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Country/Region</label>
+                                            <select class="form-control">
+                                                <option>Select Country/Region</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Phone</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Phone" data-original-title="" title="">
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Alternate Phone</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Alternate Phone" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr/>
+                                <div class="row">
+                                    <div class="col-sm-12">
+                                        <h5 class="head-main mb-3">Corporate User Visa Details</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">Number</label>
+                                            <input type="text" id="" class="form-control" placeholder="Enter Number" data-original-title="" title="">
+                                        </div>
+                                    </div>
+                                 
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="">Country Code</label>
+                                            <select class="form-control">
+                                                <option>Select Country Code</option>
+                                            </select>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="d_date">Validity Start Date</label>
+                                            <div class="c-icon position-relative">
+                                                <input type="text" id="to" class="form-control" placeholder="Select Date" data-original-title="" title="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3 reset-left">
+                                        <div class="form-group">
+                                            <label for="d_date">Validity End Date</label>
+                                            <div class="c-icon position-relative">
+                                                <input type="text" id="to" class="form-control" placeholder="Select Date" data-original-title="" title="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+                              
+                             
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <div class="search-button-wrapper mt_20 mb_20 text-center">
+                                    <button type="button" class="btn-orange raleway-font text-uppercase mr-1 ml-1">Save</button>
+                                   
+                                    <button type="button mr-1 ml-1" class="btn-custom-outline raleway-font text-uppercase">Cancel</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--row ends here-->
+
+             
+
+            </div>
+        
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    </body>
+</html>

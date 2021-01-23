@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <!--font awesome cdn-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+      <!--common css-->
+      <link rel="stylesheet" href="css/common.css"/>
+      <!--style css-->
+      <link rel="stylesheet" href="css/style.css"/>
+      <!--media css-->
+      <link rel="stylesheet" href="css/media.css"/>
+      <title>Ortharize | Admin Dashboard</title>
+   </head>
+   <body>
+      <div class="dashboard-topbar raleway-font sidebar_shift">
+         <nav class="navbar navbar-expand-md">
+            <a class="ortharize-logo ortharize-bg ortharize-logo-area" href="#"></a>
+            <a href="#" class="toggle-sidebar d-block d-sm-block d-md-none">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+               <a href="#" class="toggle-sidebar d-xl-block d-lg-block d-md-block d-sm-none d-none">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+               </a>
+               <ul class="navbar-nav ml-auto align-items-center">
+                  <li class="nav-item text-center admin-menu">
+                     <a href="#" class="nav-link">
+                     <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                     Flight
+                     </a>
+                  </li>
+                  <li class="nav-item text-center admin-menu">
+                     <a href="#" class="nav-link">
+                     <span class="menu-ico d-block"><i class="fas fa-hotel"></i></span>
+                     Hotels
+                     </a>
+                  </li>
+                  <li class="nav-item text-center admin-menu">
+                     <a href="#" class="nav-link">
+                     <span class="menu-ico d-block"><i class="fas fa-train"></i></span>
+                     Rail
+                     </a>
+                  </li>
+                  <li class="nav-item text-center admin-menu">
+                     <a href="#" class="nav-link">
+                     <span class="menu-ico d-block"><i class="fas fa-car"></i></span>
+                     Car
+                     </a>
+                  </li>
+                  <li class="nav-item text-center admin-menu">
+                     <a href="#" class="nav-link">
+                     <span class="menu-ico d-block"><i class="fas fa-plane"></i></span>
+                     Trip
+                     </a>
+                  </li>
+                  <li class="nav-item position-relative currency-dropdown dropdown">
+                     <a href="#" class="nav-link d-flex align-items-center justify-content-between dropdown-toggle">
+                        <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                        <div class="country-name mr-2">Indian Rupee(INR)</div>
+                     </a>
+                     <div class="country-dropdown-content shadow">
+                        <ul class="list-unstyled">
+                           <li>
+                              <a href="#" class="d-flex align-items-center">
+                                 <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                 <div class="country-name mr-2">Indian Rupee(INR)</div>
+                              </a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex align-items-center">
+                                 <div class="country-img mr-2"><img src="img/flag.png" alt="" title=""></div>
+                                 <div class="country-name mr-2">Indian Rupee(INR)</div>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+                  <li class="nav-item dropdown position-relative">
+                     <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                     <span class="rounded-circle profile d-inline-block profile-img">
+                     <img class="img-fluid" src="img/profile.jpg" alt="">
+                     </span>
+                     John Doe
+                     </a>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Settings</a>
+                        <a class="dropdown-item" href="#"><i class="fas fa-sign-in-alt pr-2"></i> Logout</a>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+      <div class="dashboard-sidebar raleway-font sidebar_shift collapseit">
+         <div class="page-sidebar-wrapper" id="main-menu-wrapper">
+            <div class="wraplist">
+               <ul class="list-unstyled">
+                  <li class="sidebar-list position-relative">
+                     <a href="#">
+                     <i class="fas fa-tachometer-alt font-18"></i>
+                     <span class="title">Dashboard</span>
+                     </a>
+                  </li>
+                  <li class="sidebar-list position-relative">
+                     <a href="#">
+                     <img class="normal-icon" src="img/user-manager.png" />
+                     <img class="active-icon" src="img/user-manager-active.png" />
+                     <span class="title">User Manager</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                     <img class="normal-icon" src="img/trip.png" />
+                     <img class="active-icon" src="img/trip-active.png" />
+                     <span class="title">Trips</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                     <img class="normal-icon" src="img/customer.png" />
+                     <img class="active-icon" src="img/customer-active.png" />
+                     <span class="title">Customer Notes</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                     <img class="normal-icon" src="img/reward.png" />
+                     <img class="active-icon" src="img/reward-active.png" />
+                     <span class="title">Manage Rewards</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                     <img class="normal-icon" src="img/travel-policy.png" />
+                     <img class="active-icon" src="img/travel-policy-active.png" />
+                     <span class="title">Travel Policy </span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                     <img class="normal-icon" src="img/master.png" />
+                     <img class="active-icon" src="img/master-active.png" />
+                     <span class="title">Masters</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                     <img class="normal-icon" src="img/content-manager.png" />
+                     <img class="active-icon" src="img/content-manager-active.png" />
+                     <span class="title">Content Manager</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                     <i class="fas fa-cogs font-18"></i>
+                     <span class="title">General Settings</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                     <img class="normal-icon" src="img/contact-form.png" />
+                     <img class="active-icon" src="img/contact-form-active.png" />
+                     <span class="title">Contact Form</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="dashboard-container sidebar_shift" id="main-content">
+
+         <div class="row mb_20">
+            <div class="col-md-12">
+                <div class="d-flex justify-content-end">
+                    <div class="back">
+                        <a href="#" class="bg-white"><i class="fas fa-arrow-left"></i>Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+         <div class="row align-items-stretch mb_20">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+               <div class="white-wrapper wrapper-shadow br-5 overflow-hidden mb_20 custom-form">
+                  <div class="p_15">
+                     <div class="row mb_20">
+                        <div class="col-md-12">
+                           <div class="wrapper-title raleway-font">
+                              <h2 class="mb_0">Travel Policy Setting Incentive Accounts</h2>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-sm-12">
+                           <h5 class="head-main mb-2">Travel Policy/Lowest Viable Price <i class="fas fa-info-circle ml-1 theme-text"></i></h5>
+                           <p class="font-w500 op7 mb-1 mt-3">Would you like to set up a Lowest Viable Price Search when a user attempts to make a booking</p>
+                           <div class="book-as-option d-flex align-items-center mt-2 mb-3">
+                              <div class="option self">
+                                 <input type="radio" id="yes" name="radio-group" checked="">
+                                 <label for="yes">Yes</label>
+                              </div>
+                              <div class="option other_user">
+                                 <input type="radio" id="no" name="radio-group">
+                                 <label for="no">No</label>
+                              </div>
+                           </div>
+                           <p class="font-w500 op7 mb-1 mt-4">If yes, please select on which types of booking</p>
+                           <div class="book-as-option mt-2 mb-1">
+                              <div class="custom-checkbox mt-3">
+                                 <div class="show-direct-flight ">
+                                    <input type="checkbox" id="Flight" name="" checked="">
+                                    <label for="Flight">Flight</label>
+                                 </div>
+                              </div>
+                              <div class="custom-checkbox mt-3">
+                                 <div class="show-direct-flight ">
+                                    <input type="checkbox" id="Hotel" name="">
+                                    <label for="Hotel">Hotel</label>
+                                 </div>
+                              </div>
+                              <div class="custom-checkbox mt-3">
+                                 <div class="show-direct-flight ">
+                                    <input type="checkbox" id="CarHire" name="">
+                                    <label for="CarHire">Car Hire</label>
+                                 </div>
+                              </div>
+                              <div class="custom-checkbox mt-3">
+                                 <div class="show-direct-flight">
+                                    <input type="checkbox" id="Rail" name="">
+                                    <label for="Rail">Rail</label>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <hr/>
+                     <div class="row ">
+                        <div class="col-sm-12">
+                           <h5 class="head-main mb-2">Travel policy/Lowest Viable Price Margin_Flights <i class="fas fa-info-circle ml-1 theme-text"></i></h5>
+                           <p class="font-w500 op7 mb-1 mt-3">If flights are selected above. Please select how much more a flight must be than the Lowest viable price before it triggers action.</p>
+                           <div class="row mt-3">
+                              <div class="col-md-3">
+                                 <div class="form-group mb-2">
+                                    <select class="form-control">
+                                       <option>Select Lowest Viable Price Margin</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <hr/>
+                     <div class="row ">
+                        <div class="col-sm-12">
+                           <h5 class="head-main mb-2">Travel policy/Set Lowest Viable Price Hours_Flights <i class="fas fa-info-circle ml-1 theme-text"></i></h5>
+                           <p class="font-w500 op7 mb-1 mt-3">How many hours longer flight time should be considered acceptable, in order for a Lowest Viable Price to be proposed?</p>
+                           <div class="row mt-3">
+                              <div class="col-md-3">
+                                 <div class="form-group mb-2">
+                                    <select class="form-control">
+                                       <option>Select Lowest Viable Price Hours</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <hr/>
+                     <div class="row ">
+                        <div class="col-sm-12">
+                           <h5 class="head-main mb-2">Travel policy/Lowest Viable Price Duration_Flights <i class="fas fa-info-circle ml-1 theme-text"></i></h5>
+                           <p class="font-w500 op7 mb-1 mt-3">How many hours either side of a flight booking departure time should the system search for a Lowest Viable Price?</p>
+                           <div class="row mt-3">
+                              <div class="col-md-3">
+                                 <div class="form-group mb-2">
+                                    <select class="form-control">
+                                       <option>Select Lowest Viable Price Duration</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <hr/>
+                     <div class="row ">
+                        <div class="col-sm-12">
+                           <h5 class="head-main mb-2">Travel policy/Lowest Viable Price Actions_Flights <i class="fas fa-info-circle ml-1 theme-text"></i></h5>
+                           <p class="font-w500 op7 mb-1 mt-3">What actions should be triggered by a Lowest Viable Price Flight exceeding the stated margin?</p>
+                           <div class="book-as-option mt-2 mb-1">
+                              <div class="custom-checkbox mt-3">
+                                 <div class="show-direct-flight ">
+                                    <input type="checkbox" id="action_flight1" name="Send to traveller arranger" checked="">
+                                    <label for="action_flight1">Send a note to the user’s manager in the notification or approval request (if applicable)</label>
+                                 </div>
+                              </div>
+                              <div class="custom-checkbox mt-3">
+                                 <div class="show-direct-flight ">
+                                    <input type="checkbox" id="action_flight2" name="Send to traveller arranger" checked="">
+                                    <label for="action_flight2">Prompt the user with Lowest Viable Price fares when they attempt to make a booking</label>
+                                 </div>
+                              </div>
+                              <div class="custom-checkbox mt-3">
+                                 <div class="show-direct-flight ">
+                                    <input type="checkbox" id="action_flight3" name="Send to traveller arranger" checked="">
+                                    <label for="action_flight3">Prevent the Booking</label>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="row">
+                  <div class="col-12 text-center">
+                     <div class="search-button-wrapper mt_20 mb_20 text-center">
+                        <button type="button" class="btn-orange raleway-font text-uppercase mr-1 ml-1">Save</button>
+                        <button type="button mr-1 ml-1" class="btn-custom-outline raleway-font text-uppercase">cancel</button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--row ends here-->
+      </div>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
